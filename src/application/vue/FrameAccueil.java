@@ -1,6 +1,7 @@
 package application.vue;
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 /** Frame d'accueil
   * @author : Plein de gens
@@ -14,15 +15,24 @@ public class FrameAccueil extends JFrame
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
   
-	
+	private PanelParametre panelParametre;
   
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 	
-	public FrameAccueil()
+	public FrameAccueil ( )
 	{
-		
+		/* Paramètres de la frame */ 
+		this.setTitle("Application");
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		/* Ajout du panel de paramètrage */
+		this.panelParametre = new PanelParametre ( this );
+		this.add(panelParametre);
+
+		/* Afficher la frame */
+		this.dispose();
 	}
 	
 	/* ------------------------------------------------------------------------------------------------------ */
