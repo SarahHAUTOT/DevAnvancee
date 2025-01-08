@@ -1,5 +1,8 @@
 package s6.DevAnvancee.src.application.vue;
 
+
+//import main.Controleur;
+
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.Color;
@@ -10,6 +13,7 @@ import javax.swing.JButton;
 import javax.swing.JColorChooser;
 import javax.swing.JComboBox;
 import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.JSlider;
 import javax.swing.JToolBar;
 
@@ -35,11 +39,11 @@ public class BarreNav extends JToolBar implements ActionListener{
 
 		this.btnPageArriere = new JButton(new ImageIcon("/undo.png"));
 		this.btnPageArriere.setToolTipText("Défaire");
-		this.btnPageArriere.setActionCommand("Undo");
+		this.btnPageArriere.setActionCommand("pageArriere");
 		
 		this.btnPageAvant = new JButton(new ImageIcon("/redo.png"));
 		this.btnPageAvant.setToolTipText("Refaire");
-		this.btnPageAvant.setActionCommand("Redo");
+		this.btnPageAvant.setActionCommand("pageAvant");
 
 
 		/*-------------------------------*/
@@ -55,14 +59,24 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.add(panel, BorderLayout.CENTER);
 
 
-
-
 		/*-------------------------------*/
 		/* Activation des composants     */
 		/*-------------------------------*/
 		this.btnPageArriere	.addActionListener(this);
 		this.btnPageAvant	.addActionListener(this);
 		
+	}
+
+
+	@Override
+	public void actionPerformed ( ActionEvent e)
+	{
+			
+		switch (e.getActionCommand()) {
+			case "pageArriere"	-> { }
+			case "pageAvant"	-> { }
+		}
+		this.updateUI();
 	}
     
 }
