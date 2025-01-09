@@ -54,19 +54,19 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.btnPageAvant.setToolTipText("Page Avant");
 		this.btnPageAvant.setActionCommand("pageAvant");
 
-		this.btnTexte1 = new JButton(new ImageIcon("/Logo.png"));
+		this.btnTexte1 = new JButton(new ImageIcon("/texte.png"));
 		this.btnTexte1.setToolTipText("Nouveau texte");
 		this.btnTexte1.setActionCommand("compare");
 
-		this.btnTexte2 = new JButton(new ImageIcon("/undo.png"));
+		this.btnTexte2 = new JButton(new ImageIcon("/textes.png"));
 		this.btnTexte2.setToolTipText("Texte comparant");
 		this.btnTexte2.setActionCommand("comaprants");
 		
-		this.btnParametreAnalyse = new JButton(new ImageIcon("/redo.png"));
+		this.btnParametreAnalyse = new JButton(new ImageIcon("/parametre.png"));
 		this.btnParametreAnalyse.setToolTipText("Paramêtre de l'analyse");
 		this.btnParametreAnalyse.setActionCommand("parametreAna");
 
-		this.btnAnalyse = new JButton(new ImageIcon("/redo.png"));
+		this.btnAnalyse = new JButton(new ImageIcon("/analyse.png"));
 		this.btnAnalyse.setToolTipText("Analyse");
 		this.btnAnalyse.setActionCommand("analyse");
 
@@ -104,7 +104,7 @@ public class BarreNav extends JToolBar implements ActionListener{
 	{
 			
 		switch (e.getActionCommand()) {
-			case "Logo"	-> { }
+			case "logo"	-> { }
 			case "pageArriere"	-> { }
 			case "pageAvant"	-> { }
 			case "compare"	-> { }
