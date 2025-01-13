@@ -1,6 +1,10 @@
 package application.vue;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 /** Frame d'accueil
@@ -25,14 +29,16 @@ public class FrameAccueil extends JFrame
 	{
 		/* Paramètres de la frame */ 
 		this.setTitle("Application");
-		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+		
 		/* Ajout du panel de paramètrage */
 		this.panelParametre = new PanelParametre ( this );
 		this.add(panelParametre);
-
+		
 		/* Afficher la frame */
-		this.dispose();
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+		this.setLocation(200,200);
+		this.pack();
 	}
 	
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -46,4 +52,13 @@ public class FrameAccueil extends JFrame
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                                Méthode                                                 */
 	/* ------------------------------------------------------------------------------------------------------ */
+	public List<String> getLstText()
+	{
+		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES COMAPRE
+	}	
+
+	public List<String> getLstPlagiatDetecte()
+	{
+		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
+	}	
 }
