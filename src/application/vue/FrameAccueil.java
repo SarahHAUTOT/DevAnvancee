@@ -18,13 +18,14 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
-import java.awt.Frame;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.List;
 
 /** Frame d'accueil
   * @author : Plein de gens
@@ -47,6 +48,8 @@ public class FrameAccueil extends JFrame implements ActionListener
 	public static final Color COULEUR_PRIMAIRE   = Color.decode("#B0E3E6");
 	public static final Color COULEUR_SECONDAIRE = Color.decode("#0E8088");
 	public static final Color COULEUR_FOND       = Color.decode("#FBFBFB");
+
+	private PanelParametre panelParametre;
   
 	private File      fichierSelect;
 	private JButton   btnSuivant;
@@ -56,6 +59,7 @@ public class FrameAccueil extends JFrame implements ActionListener
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
+	
 	public FrameAccueil()
 	{
 		/* Création des composants */
@@ -63,6 +67,7 @@ public class FrameAccueil extends JFrame implements ActionListener
         this.saisieTexte = new JTextArea("Saisir un texte...");
         this.btnImporter = new JButton  ("Importer un .txt");
         this.btnSuivant  = new JButton  ("Suivant");
+		this.panelParametre = new PanelParametre ( this );
 
 		/* Configuration des composants */
 		// Bouton Importer
@@ -85,13 +90,13 @@ public class FrameAccueil extends JFrame implements ActionListener
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
 		/* Placements des composants */
+		// Bande supérieure
+		this.add(panelParametre, BorderLayout.NORTH);
+
 		// Panel Principale
         JPanel panelPrincipale = new JPanel();
 		panelPrincipale.setBackground(FrameAccueil.COULEUR_FOND);
 		panelPrincipale.setLayout(new BorderLayout());
-
-		// Bande supérieure
-		// TODO : this.setJMenuBar(menuBar)
 
 		// Panel Titre
 		panelPrincipale.add(this.panelTitre("Texte suspecté de plagiat"), BorderLayout.NORTH);
@@ -116,19 +121,13 @@ public class FrameAccueil extends JFrame implements ActionListener
 		this.btnSuivant .addActionListener(this);
 
 		this.setVisible(true);
+		// this.pack();
 	}
-	
+
 	/* ------------------------------------------------------------------------------------------------------ */
-	/*                                               Accesseur                                                */
+	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
-	
-	/* ------------------------------------------------------------------------------------------------------ */
-	/*                                              Modificateur                                              */
-	/* ------------------------------------------------------------------------------------------------------ */
-	
-	/* ------------------------------------------------------------------------------------------------------ */
-	/*                                                Méthode                                                 */
-	/* ------------------------------------------------------------------------------------------------------ */
+
 	/**
 	 * Création du panel qui décrit l'étape
 	 * @param titre affiché sur le panel
@@ -253,8 +252,22 @@ public class FrameAccueil extends JFrame implements ActionListener
 		}
 	}
 
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                   Méthode liaison controleur                                           */
+	/* ------------------------------------------------------------------------------------------------------ */
+
+	public List<String> getLstText()
+	{
+		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES COMAPRE
+	}	
+
+	public List<String> getLstPlagiatDetecte()
+	{
+		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
+	}
+	
 	public static void main(String[] args)
 	{
-		FrameAccueil fa = new FrameAccueil();
+		new FrameAccueil();
 	}
 }
