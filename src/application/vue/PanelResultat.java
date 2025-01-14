@@ -19,24 +19,24 @@ import java.awt.event.*;
 import java.util.List;
 
 /** Frame d'accueil
-  * @author : Plein de gens
-  * @version : 1.0.0 - 06/01/2025
-  * @since : 06/01/2025
-  */
+ * @author : Plein de gens
+* @version : 1.0.0 - 06/01/2025
+* @since : 06/01/2025
+*/
 
 public class PanelResultat extends JPanel implements ActionListener
 {
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
-  
+
 	private FrameAccueil frameAccueil;
 	private JButton      btnRetour;
 
 	private List<String> lstText;
 	private String       comaprant;
 	private List<String> lstPlagiatDetecte;
-  
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -142,14 +142,9 @@ public class PanelResultat extends JPanel implements ActionListener
 		if (e.getSource() == this.btnRetour) 
 			// TODO : Changer pour retourner au panel principal
 	}
-	
 
-
-
-
-	
-
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		JFrame frame = new JFrame();
 		frame.add(new PanelResultat(new FrameAccueil()));
 		frame.pack();
