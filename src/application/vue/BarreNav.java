@@ -1,7 +1,7 @@
-package s6.DevAnvancee.src.application.vue;
+package src.application.vue;
 
 
-import s6.DevAnvancee.src.application.Controleur;
+import src.application.Controleur;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -11,11 +11,7 @@ import java.awt.event.ActionEvent;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
-import javax.swing.JColorChooser;
-import javax.swing.JComboBox;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JSlider;
 import javax.swing.JToolBar;
 
 

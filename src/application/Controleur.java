@@ -1,6 +1,6 @@
-package application;
+package src.application;
 
-import application.vue.FrameAccueil;
+import src.application.vue.FrameAccueil;
 
 /** Classe Controleur
   * @author : Plein de gens

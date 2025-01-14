@@ -1,4 +1,4 @@
-package application.vue;
+package src.application.vue;
 
 import java.io.File;
 
