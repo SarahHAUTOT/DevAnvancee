@@ -40,31 +40,31 @@ public class BarreNav extends JToolBar implements ActionListener{
 		/* Création des composants       */
 		/*-------------------------------*/
 
-		this.btnLogo = new JButton(new ImageIcon("/Logo.png"));
+		this.btnLogo = new JButton(new ImageIcon("../images/Logo.png"));
 		this.btnLogo.setToolTipText("Ecureuil");
 		this.btnLogo.setActionCommand("logo");
 
-		this.btnPageArriere = new JButton(new ImageIcon("/undo.png"));
+		this.btnPageArriere = new JButton(new ImageIcon("../../images/undo.png"));
 		this.btnPageArriere.setToolTipText("Page arrière");
 		this.btnPageArriere.setActionCommand("pageArriere");
 		
-		this.btnPageAvant = new JButton(new ImageIcon("/redo.png"));
+		this.btnPageAvant = new JButton(new ImageIcon("../../images/redo.png"));
 		this.btnPageAvant.setToolTipText("Page Avant");
 		this.btnPageAvant.setActionCommand("pageAvant");
 
-		this.btnTexte1 = new JButton(new ImageIcon("/texte.png"));
+		this.btnTexte1 = new JButton(new ImageIcon("../images/texte.png"));
 		this.btnTexte1.setToolTipText("Nouveau texte");
 		this.btnTexte1.setActionCommand("compare");
 
-		this.btnTexte2 = new JButton(new ImageIcon("/textes.png"));
+		this.btnTexte2 = new JButton(new ImageIcon("../images/textes.png"));
 		this.btnTexte2.setToolTipText("Texte comparant");
 		this.btnTexte2.setActionCommand("comaprants");
 		
-		this.btnParametreAnalyse = new JButton(new ImageIcon("/parametre.png"));
+		this.btnParametreAnalyse = new JButton(new ImageIcon("/application/images/parametre.png"));
 		this.btnParametreAnalyse.setToolTipText("Paramêtre de l'analyse");
 		this.btnParametreAnalyse.setActionCommand("parametreAna");
 
-		this.btnAnalyse = new JButton(new ImageIcon("/analyse.png"));
+		this.btnAnalyse = new JButton(new ImageIcon("../images/analyse.png"));
 		this.btnAnalyse.setToolTipText("Analyse");
 		this.btnAnalyse.setActionCommand("analyse");
 
