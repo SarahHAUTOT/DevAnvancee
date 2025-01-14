@@ -33,6 +33,7 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.ctrl = ctrl;
 		this.setBackground(new Color(200, 200, 200));
 		this.setFocusable(false);
+		//this.setBackground(this.ctrl.getFrameAccueil().COULEUR_PRIMAIRE);
 		this.setLayout(new BorderLayout());
 		
 		/*-------------------------------*/
@@ -82,6 +83,7 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.panel.add( this.btnAnalyse );
 
 		this.add(panel, BorderLayout.CENTER);
+
 
 		/*-------------------------------*/
 		/* Activation des composants     */

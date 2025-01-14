@@ -147,7 +147,7 @@ public class PanelResultat extends JPanel implements ActionListener
 	public static void main(String[] args)
 	{
 		JFrame frame = new JFrame();
-		frame.add(new PanelResultat(new FrameAccueil()));
+		//frame.add(new PanelResultat(new FrameAccueil()));
 		frame.pack();
 		frame.setVisible(true);
 	}
