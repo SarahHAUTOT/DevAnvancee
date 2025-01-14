@@ -1,12 +1,13 @@
 package s6.DevAnvancee.src.application.vue;
 
 
-//import main.Controleur;
+import s6.DevAnvancee.src.application.Controleur;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.Color;
 import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -89,6 +90,7 @@ public class BarreNav extends JToolBar implements ActionListener{
 		/*-------------------------------*/
 		/* Activation des composants     */
 		/*-------------------------------*/
+		
 		this.btnLogo				.addActionListener(this);
 		this.btnPageArriere			.addActionListener(this);
 		this.btnPageAvant			.addActionListener(this);
@@ -98,11 +100,9 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.btnAnalyse				.addActionListener(this);
 	}
 
-
 	@Override
 	public void actionPerformed ( ActionEvent e)
 	{
-			
 		switch (e.getActionCommand()) {
 			case "logo"	-> { }
 			case "pageArriere"	-> { }
@@ -114,5 +114,4 @@ public class BarreNav extends JToolBar implements ActionListener{
 		}
 		this.updateUI();
 	}
-    
 }
