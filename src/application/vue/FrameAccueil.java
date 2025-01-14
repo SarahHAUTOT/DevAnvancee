@@ -1,4 +1,4 @@
-package application.vue;
+package src.application.vue;
 
 import java.io.File;
 
@@ -9,6 +9,8 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
+
+import src.application.Controleur;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -43,19 +45,26 @@ public class FrameAccueil extends JFrame
 
 	private ArrayList<File> fichiers;
 
+	private BarreNav	barreNav;
+	private Controleur		ctrl;
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
+
 	
-	public FrameAccueil()
+
+	public FrameAccueil(Controleur ctrl)
 	{
 		/* Création des composants */
+		this.ctrl = ctrl;
 		this.panelParametre = new PanelParametre( this );
 		this.panelAccueil   = new PanelSuspect  ( this );
 		this.fichiers       = new ArrayList<File>();
 
 		/* Configuration de la frame */
-		// TODO MeunBar : this.setJMenuBar(...);
+		
+		this.barreNav = new BarreNav(this.ctrl);
 		this.setLayout(new BorderLayout());
 		this.setSize(FrameAccueil.DEFAULT_WIDTH, FrameAccueil.DEFAULT_HEIGHT);
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -65,6 +74,7 @@ public class FrameAccueil extends JFrame
 		JPanel panelBordure = new JPanel();
 		panelBordure.setBackground(COULEUR_SECONDAIRE);
 
+		this.add(this.barreNav, BorderLayout.NORTH);
 		this.add(this.panelAccueil, BorderLayout.CENTER);
 		this.add(panelBordure, BorderLayout.WEST);
 
@@ -128,10 +138,7 @@ public class FrameAccueil extends JFrame
 		{
 			return selectionFichier.getSelectedFile();
 		}
-		else
-		{
-			return null;
-		}
+		else { return null; }
 	}
 
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -148,8 +155,4 @@ public class FrameAccueil extends JFrame
 		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
 	}
 	
-	public static void main(String[] args)
-	{
-		new FrameAccueil();
-	}
 }

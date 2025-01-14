@@ -1,4 +1,4 @@
-package application.vue;
+package src.application.vue;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -139,14 +139,15 @@ public class PanelResultat extends JPanel implements ActionListener
 
 	public void actionPerformed(ActionEvent e) 
 	{
-		if (e.getSource() == this.btnRetour) 
+		if (e.getSource() == this.btnRetour) {
 			// TODO : Changer pour retourner au panel principal
+		}
 	}
 
 	public static void main(String[] args)
 	{
 		JFrame frame = new JFrame();
-		frame.add(new PanelResultat(new FrameAccueil()));
+		//frame.add(new PanelResultat(new FrameAccueil()));
 		frame.pack();
 		frame.setVisible(true);
 	}
