@@ -13,7 +13,7 @@ public class Metier {
 	// Texte entrez par l'utilisateur
 	TextCompare compare;
 	List<TextComparant> lstComparant;
-	int minGram = 1;
+	int minGram = 5;
 
 	// Analyse des textes comparants
 
@@ -33,57 +33,61 @@ public class Metier {
 	/*------------------------------------------------Méthode-----------------------------------------------*/
 	/*------------------------------------------------------------------------------------------------------*/
 
-	public void compare() {
-		List<Correspondance> correspondance = new ArrayList<Correspondance>();
-		for (int index = 0; index < lstComparant.size(); index++) {
-			correspondance = detecterPlagiat( lstComparant.get(index));
-
-			// Affichage des résultats
-			System.out.println("Résultats pour le texte comparant #" + (index + 1) + ":");
-			if (correspondance.isEmpty()) {
-				System.out.println("Aucune correspondance trouvée.");
-			} else {
-				for (Correspondance match : correspondance) {
-					System.out.println(match);
-				}
-			}
-			System.out.println("--------------------------------------------------");
+	public List<Correspondance> compare() {
+		List<Correspondance> correspondances = new ArrayList<Correspondance>();
+		for (TextComparant comparant : lstComparant) {
+			System.out.println("comparaison d'un fichier");
+			correspondances.addAll(detecterPlagiat(comparant));
 		}
+
+		for (Correspondance correspondance : correspondances) {
+			System.out.println(correspondance);
+		}
+
+		return correspondances;
 	}
 
 	// Détection de plagiat avec positions
-	public List<Correspondance> detecterPlagiat(TextComparant comparant) {
-		List<Correspondance> correspondance = new ArrayList<Correspondance>();
-		int n = comparant.getMotsNormalises().size();
-		int i = 0;
+public List<Correspondance> detecterPlagiat(TextComparant comparant) {
+    List<Correspondance> correspondances = new ArrayList<>();
+    int n = comparant.getMotsNormalises().size();
+    int i = 0;
 
-		while (i < n) {
-			boolean correspondanceTrouvee = false;
+    while (i < n) {
+        boolean correspondanceTrouvee = false;
+        StringBuilder nGramBuilder = new StringBuilder();
 
-			for (int taille = this.compare.getMotsNormalises().size(); taille >= 1; taille--) {
-				if (i + taille <= n) {
-					String nGramCandidate = String.join(" ",
-							comparant.getMotsNormalises().subList(i, i + taille).stream().map(w -> w.word).toList());
-					if (this.compare.getNGrams().containsKey(nGramCandidate)) {
-						PlageDeMots comparedRange = new PlageDeMots(
-								comparant.getMotsNormalises().get(i).start,
-								comparant.getMotsNormalises().get(i + taille - 1).end);
-						PlageDeMots referenceRange = this.compare.getNGrams().get(nGramCandidate);
+        // Construire dynamiquement les n-grammes en partant de `i`
+        for (int taille = 1; taille <= this.compare.getMotsNormalises().size() && i + taille <= n; taille++) {
+            if (taille > 1) {
+                nGramBuilder.append(" ");
+            }
+            nGramBuilder.append(comparant.getMotsNormalises().get(i + taille - 1).word);
 
-						correspondance.add(new Correspondance(nGramCandidate, comparedRange, referenceRange, comparant));
-						i += taille;
-						correspondanceTrouvee = true;
-						break;
-					}
-				}
-			}
+            String nGramCandidate = nGramBuilder.toString();
 
-			if (!correspondanceTrouvee) {
-				i++;
-			}
-		}
-		return correspondance;
-	}
+            if (this.compare.getNGrams().containsKey(nGramCandidate)) {
+                // Correspondance trouvée
+                PlageDeMots comparedRange = new PlageDeMots(
+                        comparant.getMotsNormalises().get(i).start,
+                        comparant.getMotsNormalises().get(i + taille - 1).end);
+                PlageDeMots referenceRange = this.compare.getNGrams().get(nGramCandidate);
+
+                correspondances.add(new Correspondance(nGramCandidate, comparedRange, referenceRange, comparant));
+                i += taille; // Sauter les mots inclus dans ce n-gramme
+                correspondanceTrouvee = true;
+                break;
+            }
+        }
+
+        if (!correspondanceTrouvee) {
+            i++; // Passer au mot suivant
+        }
+    }
+
+    return correspondances;
+}
+
 
 	/**
 	 * Ajoute un texte a la liste des textes a comparer
@@ -147,13 +151,13 @@ public class Metier {
 	/*------------------------------------------------------------------------------------------------------*/
 	public static void main(String[] args) {
 		Metier m = new Metier();
-		m.ajouterFichier("src/application/metier/fichier1.txt");
-		m.ajouterFichier("src/application/metier/fichier2.txt");
-		m.ajouterTexte("Bonjour je suis un texte");
-		m.setCompareFic("src/application/metier/fichier3.txt");
-		// m.setCompareTexte("Bonjour je suis un texte");
-
-		System.out.println("Texte a comparer : \n\t" + m.compare);
-		System.out.println("Texte a comparer : ");
+		int nbFic = 4;
+		for (int i = 1; i < nbFic + 1; i++) {
+			m.ajouterFichier("src/application/metier/fichier" + i + ".txt");
+			System.out.println("fichier lu");
+		}
+		m.setCompareFic("src/application/metier/fichierCompa.txt");
+		System.out.println("fichier compar lu");
+		m.compare();
 	}
 }
