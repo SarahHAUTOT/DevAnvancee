@@ -2,6 +2,7 @@ package application.metier;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
@@ -13,7 +14,8 @@ public class Metier {
 	// Texte entrez par l'utilisateur
 	TextCompare compare;
 	List<TextComparant> lstComparant;
-	int minGram = 5;
+	int minGram;
+	int maxGram;
 
 	// Analyse des textes comparants
 
@@ -21,7 +23,14 @@ public class Metier {
 	/*-----------------------------------------------Constructeur-------------------------------------------*/
 	/*------------------------------------------------------------------------------------------------------*/
 
-	public Metier() {
+	public Metier(int minGram, int maxGram) {
+		if (minGram < maxGram) {
+			this.minGram = minGram;
+			this.maxGram = maxGram;
+		} else {
+			this.minGram = 1;
+			this.maxGram = 51;
+		}
 		this.lstComparant = new ArrayList<TextComparant>();
 	}
 
@@ -36,7 +45,7 @@ public class Metier {
 	public List<Correspondance> compare() {
 		List<Correspondance> correspondances = new ArrayList<Correspondance>();
 		for (TextComparant comparant : lstComparant) {
-			System.out.println("comparaison d'un fichier");
+			System.out.println("comparaison de " + comparant.nom);
 			correspondances.addAll(detecterPlagiat(comparant));
 		}
 
@@ -47,55 +56,122 @@ public class Metier {
 		return correspondances;
 	}
 
-	// Détection de plagiat avec positions
-public List<Correspondance> detecterPlagiat(TextComparant comparant) {
-    List<Correspondance> correspondances = new ArrayList<>();
-    int n = comparant.getMotsNormalises().size();
-    int i = 0;
+	// Détection de plagiat avec ajustement après un n-gram trouvé
+	public List<Correspondance> detecterPlagiat(TextComparant comparant) {
+		List<Correspondance> correspondances = new ArrayList<>();
+		int n = comparant.getMotsNormalises().size();
+		int i = 0;
 
-    while (i < n) {
-        boolean correspondanceTrouvee = false;
-        StringBuilder nGramBuilder = new StringBuilder();
+		while (i < n) {
+			boolean correspondanceTrouvee = false;
 
-        // Construire dynamiquement les n-grammes en partant de `i`
-        for (int taille = 1; taille <= this.compare.getMotsNormalises().size() && i + taille <= n; taille++) {
-            if (taille > 1) {
-                nGramBuilder.append(" ");
-            }
-            nGramBuilder.append(comparant.getMotsNormalises().get(i + taille - 1).word);
+			// Rechercher le plus grand n-gramme correspondant
+			for (int taille = maxGram; taille >= minGram; taille--) {
+				if (i + taille <= n) {
+					String nGramCandidate = String.join(" ",
+							comparant.getMotsNormalises().subList(i, i + taille).stream().map(w -> w.word).toList());
 
-            String nGramCandidate = nGramBuilder.toString();
+					if (this.compare.getNGrams().containsKey(nGramCandidate)) {
+						// Correspondance trouvée
+						PlageDeMots comparedRange = new PlageDeMots(
+								comparant.getMotsNormalises().get(i).start,
+								comparant.getMotsNormalises().get(i + taille - 1).end);
+						PlageDeMots referenceRange = this.compare.getNGrams().get(nGramCandidate);
 
-            if (this.compare.getNGrams().containsKey(nGramCandidate)) {
-                // Correspondance trouvée
-                PlageDeMots comparedRange = new PlageDeMots(
-                        comparant.getMotsNormalises().get(i).start,
-                        comparant.getMotsNormalises().get(i + taille - 1).end);
-                PlageDeMots referenceRange = this.compare.getNGrams().get(nGramCandidate);
+						correspondances
+								.add(new Correspondance(nGramCandidate, comparedRange, referenceRange, comparant));
 
-                correspondances.add(new Correspondance(nGramCandidate, comparedRange, referenceRange, comparant));
-                i += taille; // Sauter les mots inclus dans ce n-gramme
-                correspondanceTrouvee = true;
-                break;
-            }
-        }
+						// Si un n-gramme de taille maxGram est trouvé, vérifier après lui avec minGram
+						if (taille == maxGram && i + taille < n) {
+							i += taille - (minGram - 1); // Avancer juste avant la fin pour permettre d'autres
+															// détections
+						} else {
+							i += taille; // Sauter les mots inclus dans ce n-gramme
+						}
 
-        if (!correspondanceTrouvee) {
-            i++; // Passer au mot suivant
-        }
-    }
+						correspondanceTrouvee = true;
+						break;
+					}
+				}
+			}
 
-    return correspondances;
-}
+			// Passer au mot suivant si aucune correspondance n'a été trouvée
+			if (!correspondanceTrouvee) {
+				i++;
+			}
+		}
 
+		return this.fusionnerCorrespondances(correspondances);
+	}
+
+	// Fusionner les correspondances superposées ou adjacentes
+	public List<Correspondance> fusionnerCorrespondances(List<Correspondance> correspondances) {
+		if (correspondances.isEmpty()) {
+			return correspondances;
+		}
+
+		// Trier les correspondances par plage de mots comparée (début croissant)
+		correspondances.sort(Comparator.comparingInt(c -> c.getComparedRange().debut));
+
+		List<Correspondance> fusionnees = new ArrayList<>();
+		Correspondance actuelle = correspondances.get(0);
+
+		for (int i = 1; i < correspondances.size(); i++) {
+			Correspondance suivante = correspondances.get(i);
+
+			// Vérifier si les plages de mots se chevauchent ou se touchent
+			if (actuelle.getComparedRange().fin >= suivante.getComparedRange().debut - 1) {
+				// Fusionner les plages
+				PlageDeMots plageCompareeFusionnee = new PlageDeMots(
+						actuelle.getComparedRange().debut,
+						Math.max(actuelle.getComparedRange().fin, suivante.getComparedRange().fin));
+
+				PlageDeMots plageReferenceFusionnee = new PlageDeMots(
+						actuelle.getReferenceRange().debut,
+						Math.max(actuelle.getReferenceRange().fin, suivante.getReferenceRange().fin));
+
+				// Fusionner le texte (ajouter un espace entre deux n-grammes)
+				String texteFusionne = actuelle.getTexte() + " " + suivante.getTexte();
+
+				// Créer une nouvelle correspondance fusionnée
+				actuelle = new Correspondance(texteFusionne, plageCompareeFusionnee, plageReferenceFusionnee,
+						actuelle.getTexteComparant());
+			} else {
+				// Ajouter la correspondance actuelle à la liste et passer à la suivante
+				fusionnees.add(actuelle);
+				actuelle = suivante;
+			}
+		}
+
+		// Ajouter la dernière correspondance
+		fusionnees.add(actuelle);
+
+		return fusionnees;
+	}
+
+	public boolean setMinGram(int min) {
+		if (min < maxGram) {
+			this.minGram = min;
+			return true;
+		}
+		return false;
+	}
+
+	public boolean setMaxGram(int max) {
+		if (this.minGram < max) {
+			this.maxGram = max;
+			return true;
+		}
+		return false;
+	}
 
 	/**
 	 * Ajoute un texte a la liste des textes a comparer
 	 * 
 	 * @param nomFic
 	 */
-	public void ajouterFichier(String nomFic) {
-		this.lstComparant.add(new TextComparant(Metier.recupTexteFichier(nomFic)));
+	public void ajouterFichier(String nomFic, String nom) {
+		this.lstComparant.add(new TextComparant(Metier.recupTexteFichier(nomFic), nom));
 	}
 
 	/**
@@ -103,8 +179,8 @@ public List<Correspondance> detecterPlagiat(TextComparant comparant) {
 	 * 
 	 * @param texte
 	 */
-	public void ajouterTexte(String texte) {
-		this.lstComparant.add(new TextComparant(texte));
+	public void ajouterTexte(String texte, String nom) {
+		this.lstComparant.add(new TextComparant(texte, nom));
 	}
 
 	/**
@@ -113,7 +189,7 @@ public List<Correspondance> detecterPlagiat(TextComparant comparant) {
 	 * @param texte
 	 */
 	public void setCompareTexte(String texte) {
-		this.compare = new TextCompare(texte, minGram);
+		this.compare = new TextCompare(texte, minGram, maxGram);
 		;
 	}
 
@@ -123,7 +199,7 @@ public List<Correspondance> detecterPlagiat(TextComparant comparant) {
 	 * @param nomFic
 	 */
 	public void setCompareFic(String nomFic) {
-		this.compare = new TextCompare(Metier.recupTexteFichier(nomFic), minGram);
+		this.compare = new TextCompare(Metier.recupTexteFichier(nomFic), minGram, maxGram);
 	}
 
 	/**
@@ -150,10 +226,10 @@ public List<Correspondance> detecterPlagiat(TextComparant comparant) {
 	/*-----------------------------------------------MAIN---------------------------------------------------*/
 	/*------------------------------------------------------------------------------------------------------*/
 	public static void main(String[] args) {
-		Metier m = new Metier();
-		int nbFic = 4;
+		Metier m = new Metier(10, 60);
+		int nbFic = 5;
 		for (int i = 1; i < nbFic + 1; i++) {
-			m.ajouterFichier("src/application/metier/fichier" + i + ".txt");
+			m.ajouterFichier("src/application/metier/fichier" + i + ".txt", "texte" + i);
 			System.out.println("fichier lu");
 		}
 		m.setCompareFic("src/application/metier/fichierCompa.txt");

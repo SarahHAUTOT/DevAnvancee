@@ -7,9 +7,9 @@ import java.util.Map;
 public class TextCompare extends TextComparant {
     private Map<String, PlageDeMots> nGrams;
 
-    public TextCompare(String text, int minGram) {
-        super(text);
-        this.nGrams = genererNGrammes(normalizedWords, minGram, this.normalizedWords.size());
+    public TextCompare(String text, int minGram, int maxGram) {
+        super(text, "comparé");
+        this.nGrams = genererNGrammes(normalizedWords, minGram, maxGram);
     }
 
     public Map<String, PlageDeMots> getNGrams() {
@@ -29,6 +29,7 @@ public class TextCompare extends TextComparant {
                 int start = words.get(i).start;
                 int end = words.get(i + size - 1).end;
                 nGrams.put(nGram, new PlageDeMots(start, end));
+                //System.out.print(nGram + "|");
             }
         }
         return nGrams;

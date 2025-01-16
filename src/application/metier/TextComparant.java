@@ -6,10 +6,12 @@ import java.util.List;
 public class TextComparant {
     protected String originalText;
     protected List<PositionMot> normalizedWords;
+    public String nom;
     
-    public TextComparant(String text) {
+    public TextComparant(String text, String nom) {
         this.originalText = text;
         this.normalizedWords = normaliser(text);
+        this.nom = nom;
     }
 
     public String getTextOriginal() {
