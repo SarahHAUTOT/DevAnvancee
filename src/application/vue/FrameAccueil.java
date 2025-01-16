@@ -34,12 +34,16 @@ public class FrameAccueil extends JFrame
 	
 	public static final String POLICE_TEXTE = "Montserrat";
 
-	public static final Color COULEUR_PRIMAIRE   = Color.decode("#B0E3E6");
 	public static final Color COULEUR_SECONDAIRE = Color.decode("#0E8088");
+	public static final Color COULEUR_PRIMAIRE   = Color.decode("#B0E3E6");
 	public static final Color COULEUR_FOND       = Color.decode("#FBFBFB");
 
 	private PanelParametre panelParametre;
-	private PanelSuspect panelAccueil;
+	private PanelSuspect   panelSuspect;
+	private PanelResultat  panelResultat;
+
+	private JPanel[] panels;
+	private int      idPanel;
 
 	private ArrayList<File> fichiers;
 
@@ -51,8 +55,15 @@ public class FrameAccueil extends JFrame
 	{
 		/* Création des composants */
 		this.panelParametre = new PanelParametre( this );
-		this.panelAccueil   = new PanelSuspect  ( this );
+		this.panelSuspect   = new PanelSuspect  ( this );
+		this.panelResultat  = new PanelResultat ( this );
 		this.fichiers       = new ArrayList<File>();
+		this.panels         = new JPanel[3];
+
+		this.panels[0] = this.panelSuspect;
+		this.panels[1] = this.panelResultat;
+		this.panels[2] = new JPanel(); // TODO : this.panelComparaison
+		this.idPanel = 0;
 
 		/* Configuration de la frame */
 		// TODO MeunBar : this.setJMenuBar(...);
@@ -65,7 +76,7 @@ public class FrameAccueil extends JFrame
 		JPanel panelBordure = new JPanel();
 		panelBordure.setBackground(COULEUR_SECONDAIRE);
 
-		this.add(this.panelAccueil, BorderLayout.CENTER);
+		this.add(this.panels[0], BorderLayout.CENTER);
 		this.add(panelBordure, BorderLayout.WEST);
 
 		this.setVisible(true);
@@ -85,15 +96,38 @@ public class FrameAccueil extends JFrame
 	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
 
+	public void pageSuivante()
+	{
+		this.remove(this.panels[this.idPanel]);
+		this.idPanel = (this.panels.length > this.idPanel) ? this.idPanel +1 : this.idPanel;
+		this.majPanel();
+	}
+
+	public void pagePrecedente()
+	{
+		this.remove(this.panels[this.idPanel]);
+		this.idPanel = (this.idPanel > 0) ? this.idPanel -1 : this.idPanel;
+		this.majPanel();
+	}
+
+	private void majPanel()
+	{
+		System.out.println(this.idPanel);
+		System.out.println(this.panels[this.idPanel]);
+		this.add(this.panels[this.idPanel], BorderLayout.CENTER);
+		this.validate();
+		this.repaint();
+	}
+
 	void styliserBouton(JButton btn)
 	{
 		btn.setBorder(BorderFactory.createLineBorder(FrameAccueil.COULEUR_SECONDAIRE, 2));
 		btn.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
 	}
 
-	public void ouvrirFichier()
+	public void ouvrirFichier(File repertoire)
 	{
-		File fichier = this.selectionnerFichier("Sélectionner un texte à ouvrir", null);
+		File fichier = this.selectionnerFichier("Sélectionner un texte à ouvrir", repertoire);
 
 		if (fichier != null)
 		{
@@ -101,7 +135,7 @@ public class FrameAccueil extends JFrame
 			if (!fichier.getName().endsWith(".txt"))
 			{
 				JOptionPane.showMessageDialog(this, "Uniquement les fichier .txt sont pris en charge.");
-				this.ouvrirFichier();
+				this.ouvrirFichier(fichier);
 				return;
 			}
 
