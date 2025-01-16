@@ -72,8 +72,8 @@ public class FrameAccueil extends JFrame
 		this.panels         = new JPanel[3];
 
 		this.panels[0] = this.panelSuspect;
-		this.panels[1] = this.panelResultat;
-		this.panels[2] = new JPanel(); // TODO : this.panelComparaison
+		this.panels[1] = new JPanel(); // TODO : this.panelComparaison
+		this.panels[2] = this.panelResultat;
 		this.idPanel = 0;
 
 		/* Configuration de la frame */
