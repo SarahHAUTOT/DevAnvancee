@@ -2,47 +2,37 @@ package application.vue;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-import javax.swing.JTextPane;
 import javax.swing.border.Border;
-import javax.swing.border.EmptyBorder;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.FlowLayout;
-import java.awt.Frame;
 import java.awt.GridLayout;
 import java.awt.event.*;
 import java.util.List;
 
 /** Frame d'accueil
-  * @author : Plein de gens
-  * @version : 1.0.0 - 06/01/2025
-  * @since : 06/01/2025
-  */
+ * @author : Plein de gens
+* @version : 1.0.0 - 06/01/2025
+* @since : 06/01/2025
+*/
 
 public class PanelResultat extends JPanel implements ActionListener
 {
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
-  
+
 	private FrameAccueil frameAccueil;
 	private JButton      btnRetour;
 
 	private List<String> lstText;
 	private String       comparant;
 	private List<String> lstPlagiatDetecte;
-  
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -72,6 +62,7 @@ public class PanelResultat extends JPanel implements ActionListener
 		/*     PANEL CENTRE     */
 
 		JScrollPane sp = new JScrollPane();
+		this.configureScrollPaneSensitivity(sp);
 
 		if (nbPlag == 0)
 		{
