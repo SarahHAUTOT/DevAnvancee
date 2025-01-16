@@ -6,12 +6,17 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
+import application.Controleur;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.Toolkit;
 import java.util.ArrayList;
 import java.util.List;
@@ -47,13 +52,19 @@ public class FrameAccueil extends JFrame
 
 	private ArrayList<File> fichiers;
 
+	private BarreNav	barreNav;
+	private Controleur		ctrl;
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
+
 	
-	public FrameAccueil()
+
+	public FrameAccueil(Controleur ctrl)
 	{
 		/* Création des composants */
+		this.ctrl = ctrl;
 		this.panelParametre = new PanelParametre( this );
 		this.panelSuspect   = new PanelSuspect  ( this );
 		this.panelResultat  = new PanelResultat ( this );
@@ -66,7 +77,8 @@ public class FrameAccueil extends JFrame
 		this.idPanel = 0;
 
 		/* Configuration de la frame */
-		// TODO MeunBar : this.setJMenuBar(...);
+		
+		this.barreNav = new BarreNav(this.ctrl);
 		this.setLayout(new BorderLayout());
 		this.setSize(FrameAccueil.DEFAULT_WIDTH, FrameAccueil.DEFAULT_HEIGHT);
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -76,6 +88,7 @@ public class FrameAccueil extends JFrame
 		JPanel panelBordure = new JPanel();
 		panelBordure.setBackground(COULEUR_SECONDAIRE);
 
+		this.add(this.barreNav, BorderLayout.NORTH);
 		this.add(this.panels[0], BorderLayout.CENTER);
 		this.add(panelBordure, BorderLayout.WEST);
 
@@ -142,6 +155,44 @@ public class FrameAccueil extends JFrame
 			this.fichiers.add(fichier);
 		}
 	}
+
+	/**
+	 * Création du panel qui décrit l'étape
+	 * @param titre affiché sur le panel
+	 * @return un panel
+	 */
+	JPanel panelTitre(String titre)
+	{
+		JPanel panelTitre = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		JLabel titreLbl = new JLabel(titre);
+		titreLbl.setFont(new Font(FrameAccueil.POLICE_TEXTE, Font.BOLD, 24));
+
+		titreLbl  .setForeground(FrameAccueil.COULEUR_SECONDAIRE);	// Couleur du texte
+		panelTitre.setBackground(FrameAccueil.COULEUR_FOND);		// Couleur du fond
+
+		panelTitre.add(titreLbl);
+		
+		return panelTitre;
+	}
+
+	/**
+	 * Création du panel qui décrit l'étape
+	 * @param titre affiché sur le panel
+	 * @return un panel
+	 */
+	JPanel panelTexte(String titre)
+	{
+		JPanel panelTitre = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		JLabel titreLbl = new JLabel(titre);
+		titreLbl.setFont(new Font(FrameAccueil.POLICE_TEXTE, Font.BOLD, 12));
+
+		titreLbl  .setForeground(FrameAccueil.COULEUR_SECONDAIRE);	// Couleur du texte
+		panelTitre.setBackground(FrameAccueil.COULEUR_FOND);		// Couleur du fond
+
+		panelTitre.add(titreLbl);
+		
+		return panelTitre;
+	}
 	
 	private File selectionnerFichier(String dialogue, File cheminOrigine)
 	{
@@ -162,10 +213,7 @@ public class FrameAccueil extends JFrame
 		{
 			return selectionFichier.getSelectedFile();
 		}
-		else
-		{
-			return null;
-		}
+		else { return null; }
 	}
 
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -181,9 +229,9 @@ public class FrameAccueil extends JFrame
 	{
 		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
 	}
-	
-	public static void main(String[] args)
+
+	public String getComparant()
 	{
-		new FrameAccueil();
+		return "Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort, which could only be broken by Love's first kiss. She was locked away in a castle guarded by a terrible fire breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but none prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. Like that's ever going to happen. What a loony. Shrek Beware Stay out I think he's in here. All right. Lets get it! Hold on. Do you know what that thing can do to you? Yeah. He'll groan into your bones for his brains. Well actually that would be a giant. Now Ogres, huh, they are much worse. They'll make a soup from your freshly peeled skin. They'll chew your livers, squeeze the jelly from your eyes. Actually, it's quite good on toast. Back, back beast, back! I warned you! Right. This is the part, where you run away. Yeah! And stay out. Wanted. Fairytale creatures. Right, this one is full. Take it away. Give me that. Your fine days are over. -25 pieces of silver for the witch. Next. -Come on. Sit down there! And be quiet! This cage is so small.";
 	}
 }

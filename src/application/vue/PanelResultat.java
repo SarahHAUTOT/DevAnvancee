@@ -1,18 +1,14 @@
 package application.vue;
 
+import javax.swing.BorderFactory;
 import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
-import javax.swing.JTextPane;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
+import javax.swing.JTextArea;
+import javax.swing.border.Border;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.*;
@@ -34,7 +30,7 @@ public class PanelResultat extends JPanel implements ActionListener
 	private JButton      btnRetour;
 
 	private List<String> lstText;
-	private String       comaprant;
+	private String       comparant;
 	private List<String> lstPlagiatDetecte;
 
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -44,80 +40,53 @@ public class PanelResultat extends JPanel implements ActionListener
 	public PanelResultat ( FrameAccueil frame )
 	{
 		this.frameAccueil = frame;
+		this.lstText           = this.frameAccueil.getLstText();
+		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
+		this.comparant         = this.frameAccueil.getComparant();
 
 
 
 		/*     PANEL NORD     */
-		JPanel panelNorth = new JPanel(new GridLayout(2, 1,0,50));
-		panelNorth.add(new JLabel("Aucune similitude détecté "));
-		panelNorth.add(new JLabel("Nous n'avons pas réussi à détecter de similarité selon les données fournis. "));
+		JPanel panelNorth = new JPanel(new GridLayout(2, 1,0,10));
+		panelNorth.add(frame.panelTitre("Aucune similitude détecté "));
+
+
+		int nbPlag = this.lstPlagiatDetecte.size();
+		if (nbPlag > 0)
+			panelNorth.add(frame.panelTexte("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 0 ? "s " : " ") + "de similitude, correspondant à calculer % du text."));
+		else
+			panelNorth.add(frame.panelTexte("Nous n'avons pas réussi à détecter de similarité selon les données fournis. "));
 		
 		
 
 		/*     PANEL CENTRE     */
-		this.lstText           = this.frameAccueil.getLstText();
-		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
-		JPanel panelCenter = new JPanel(new GridLayout(this.lstText.size(), this.lstPlagiatDetecte.size() > 0 ? 2 : 1 , 50, 0));
 
+		JScrollPane sp = new JScrollPane();
+		this.configureScrollPaneSensitivity(sp);
 
-		for (String texte : this.lstText) 
+		if (nbPlag == 0)
 		{
-			JTextPane textPane = new JTextPane();
-			textPane.setEditable(false);
-
-			StyledDocument doc = textPane.getStyledDocument();
-			SimpleAttributeSet defaultAttr = new SimpleAttributeSet();
-			SimpleAttributeSet highlightAttr = new SimpleAttributeSet();
+			JTextArea text = new JTextArea(this.comparant);
+			text.setEditable(false);
+			text.setLineWrap(true);
+   			text.setWrapStyleWord(true);
 			
-			StyleConstants.setBackground(highlightAttr, Color.YELLOW);
+			Border border = BorderFactory.createLineBorder(FrameAccueil.COULEUR_PRIMAIRE);
+    		text.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
 
-			try 
-			{
-				doc.remove(0, doc.getLength());
-				doc.insertString(0, texte, defaultAttr);
+			
+			
+			sp.setViewportView(text);
+			sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+    		sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		} else {
+			
+			// TODO : crée le panel central (dans sp) selon comment le truc fonctionnera 
 
-				for (String plagiat : this.lstPlagiatDetecte) {
-					int index = texte.indexOf(plagiat);
-					while (index >= 0) 
-					{
-						// int startContext = Math.max(0, index - 20);
-						// int endContext = Math.min(texte.length(), index + plagiat.length() + 20);
-						doc.setCharacterAttributes(index, plagiat.length(), highlightAttr, false);
-						index = texte.indexOf(plagiat, index + plagiat.length());
-					}
-				}
-			} catch (BadLocationException e) {
-				e.printStackTrace();
-			}
-
-			panelCenter.add(new JScrollPane(textPane));
-
-			if (!this.lstPlagiatDetecte.isEmpty()) 
-			{
-				JTextPane contextPane = new JTextPane();
-				contextPane.setEditable(false);
-				StringBuilder contextText = new StringBuilder();
-
-				for (String plagiat : this.lstPlagiatDetecte) 
-				{
-					if (texte.contains(plagiat)) {
-						int index = texte.indexOf(plagiat);
-						while (index >= 0) 
-						{
-							int startContext = Math.max(0, index - 20);
-							int endContext = Math.min(texte.length(), index + plagiat.length() + 20);
-							contextText.append("... ")
-								.append(texte.substring(startContext, endContext))
-								.append(" ...\n");
-							index = texte.indexOf(plagiat, index + plagiat.length());
-						}
-					}
-				}
-				contextPane.setText(contextText.toString());
-				panelCenter.add(new JScrollPane(contextPane));
-			}
+			/*
+			 * 
+			 */
 		}
-
 
 
 		/*     PANEL SUD     */
@@ -130,7 +99,7 @@ public class PanelResultat extends JPanel implements ActionListener
 		/*     AJOUT DES PANELS     */
 		this.setLayout(new BorderLayout(10,10));
 		this.add(panelNorth , BorderLayout.NORTH );
-		this.add(panelCenter, BorderLayout.CENTER);
+		this.add(sp         , BorderLayout.CENTER);
 		this.add(panelSouth , BorderLayout.SOUTH );
 
 		this.btnRetour.addActionListener(this);
@@ -140,14 +109,21 @@ public class PanelResultat extends JPanel implements ActionListener
 	public void actionPerformed(ActionEvent e) 
 	{
 		if (e.getSource() == this.btnRetour) 
+			System.out.println("Retour");
 			// TODO : Changer pour retourner au panel principal
 	}
+	
+	
 
-	public static void main(String[] args)
+	private void configureScrollPaneSensitivity(JScrollPane scrollPane)
 	{
-		JFrame frame = new JFrame();
-		frame.add(new PanelResultat(new FrameAccueil()));
-		frame.pack();
-		frame.setVisible(true);
+		JScrollBar verticalScrollBar = scrollPane.getVerticalScrollBar();
+		JScrollBar horizontalScrollBar = scrollPane.getHorizontalScrollBar();
+
+		verticalScrollBar  .setUnitIncrement(16);  
+		horizontalScrollBar.setUnitIncrement(16);
+
+		verticalScrollBar  .setBlockIncrement(100);   
+		horizontalScrollBar.setBlockIncrement(100); 
 	}
 }
