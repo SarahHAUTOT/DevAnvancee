@@ -157,15 +157,20 @@ public class PanelSuspect extends JPanel implements ActionListener
 	{
 		if (e.getSource() == this.btnImporter)
 		{
-			this.frameAccueil.ouvrirFichier();
+			this.frameAccueil.ouvrirFichier(null);
 		}
 
 		if (e.getSource() == this.btnSuivant)
 		{
-			if (!this.frameAccueil.getFichiers().isEmpty())
-				this.frameAccueil.ouvrirFichier();
+			if (this.frameAccueil.getFichiers().isEmpty())
+			{
+				this.frameAccueil.ouvrirFichier(null);
+				this.frameAccueil.pageSuivante();
+			}
 			else
-				return; // TODO changer le panelCentral
+			{
+				this.frameAccueil.pageSuivante();
+			}
 		}
 	}
 }
