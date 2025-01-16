@@ -40,37 +40,39 @@ public class BarreNav extends JToolBar implements ActionListener{
 		/* Création des composants       */
 		/*-------------------------------*/
 
-		this.btnLogo = new JButton(new ImageIcon("../images/Logo.png"));
+		
+		this.btnLogo = new JButton(new ImageIcon("images/Logo.png"));
 		this.btnLogo.setToolTipText("Ecureuil");
 		this.btnLogo.setActionCommand("logo");
 		this.btnLogo.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		
 
-		this.btnPageArriere = new JButton(new ImageIcon("../../images/undo.png"));
+		this.btnPageArriere = new JButton(new ImageIcon("images/undo.png"));
 		this.btnPageArriere.setToolTipText("Page arrière");
 		this.btnPageArriere.setActionCommand("pageArriere");
 		this.btnPageArriere.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
 		
-		this.btnPageAvant = new JButton(new ImageIcon("../../images/redo.png"));
+		this.btnPageAvant = new JButton(new ImageIcon("images/redo.png"));
 		this.btnPageAvant.setToolTipText("Page Avant");
 		this.btnPageAvant.setActionCommand("pageAvant");
 		this.btnPageAvant.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
 
-		this.btnTexte1 = new JButton(new ImageIcon("../images/texte.png"));
+		this.btnTexte1 = new JButton(new ImageIcon("images/texte.png"));
 		this.btnTexte1.setToolTipText("Nouveau texte");
 		this.btnTexte1.setActionCommand("compare");
 		this.btnTexte1.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
 
-		this.btnTexte2 = new JButton(new ImageIcon("../images/textes.png"));
+		this.btnTexte2 = new JButton(new ImageIcon("images/textes.png"));
 		this.btnTexte2.setToolTipText("Texte comparant");
 		this.btnTexte2.setActionCommand("comaprants");
 		this.btnTexte2.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
 		
-		this.btnParametreAnalyse = new JButton(new ImageIcon("/application/images/parametre.png"));
+		this.btnParametreAnalyse = new JButton(new ImageIcon("images/parametre.png"));
 		this.btnParametreAnalyse.setToolTipText("Paramêtre de l'analyse");
 		this.btnParametreAnalyse.setActionCommand("parametreAna");
 		this.btnParametreAnalyse.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
 
-		this.btnAnalyse = new JButton(new ImageIcon("../images/analyse.png"));
+		this.btnAnalyse = new JButton(new ImageIcon("images/analyse.png"));
 		this.btnAnalyse.setToolTipText("Analyse");
 		this.btnAnalyse.setActionCommand("analyse");
 		this.btnAnalyse.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
@@ -82,7 +84,7 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.panel = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		this.panel.setBackground(FrameAccueil.COULEUR_SECONDAIRE);
 
-		this.panel.add( this.btnLogo );
+		//this.panel.add( this.btnLogo );				// on à pas de page d'accueil et de logo
 		this.panel.add( this.btnPageArriere );
 		this.panel.add( this.btnPageAvant );
 		this.panel.add( this.btnTexte1 );
