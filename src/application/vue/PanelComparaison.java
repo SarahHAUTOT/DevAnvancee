@@ -15,13 +15,13 @@ public class PanelComparaison extends JPanel
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
   
-	private Test frameAccueil;
+	private FrameAccueil frameAccueil;
   
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 	
-	public PanelComparaison ( Test frame )
+	public PanelComparaison ( FrameAccueil frame )
 	{
 		this.frameAccueil = frame;
 
