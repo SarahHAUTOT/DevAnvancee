@@ -69,11 +69,12 @@ public class FrameAccueil extends JFrame
 		this.panelSuspect   = new PanelSuspect  ( this );
 		this.panelResultat  = new PanelResultat ( this );
 		this.fichiers       = new ArrayList<File>();
-		this.panels         = new JPanel[3];
+		this.panels         = new JPanel[4];
 
 		this.panels[0] = this.panelSuspect;
 		this.panels[1] = new JPanel(); // TODO : this.panelComparaison
-		this.panels[2] = this.panelResultat;
+		this.panels[2] = new JPanel(); // TODO : this.panelChargement
+		this.panels[3] = this.panelResultat;
 		this.idPanel = 0;
 
 		/* Configuration de la frame */
@@ -125,8 +126,6 @@ public class FrameAccueil extends JFrame
 
 	private void majPanel()
 	{
-		System.out.println(this.idPanel);
-		System.out.println(this.panels[this.idPanel]);
 		this.add(this.panels[this.idPanel], BorderLayout.CENTER);
 		this.validate();
 		this.repaint();
@@ -157,7 +156,7 @@ public class FrameAccueil extends JFrame
 	}
 
 	/**
-	 * Création du panel qui décrit l'étape
+	 * Création du panel qui décrit l'étape courante
 	 * @param titre affiché sur le panel
 	 * @return un panel
 	 */
@@ -176,22 +175,22 @@ public class FrameAccueil extends JFrame
 	}
 
 	/**
-	 * Création du panel qui décrit l'étape
-	 * @param titre affiché sur le panel
+	 * Création d'un panel sous-titre
+	 * @param sousTitre affiché sur le panel
 	 * @return un panel
 	 */
-	JPanel panelTexte(String titre)
+	JPanel panelSousTitre(String sousTitre)
 	{
-		JPanel panelTitre = new JPanel(new FlowLayout(FlowLayout.LEFT));
-		JLabel titreLbl = new JLabel(titre);
+		JPanel panelSousTitre = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		JLabel titreLbl = new JLabel(sousTitre);
 		titreLbl.setFont(new Font(FrameAccueil.POLICE_TEXTE, Font.BOLD, 12));
 
 		titreLbl  .setForeground(FrameAccueil.COULEUR_SECONDAIRE);	// Couleur du texte
-		panelTitre.setBackground(FrameAccueil.COULEUR_FOND);		// Couleur du fond
+		panelSousTitre.setBackground(FrameAccueil.COULEUR_FOND);	// Couleur du fond
 
-		panelTitre.add(titreLbl);
+		panelSousTitre.add(titreLbl);
 		
-		return panelTitre;
+		return panelSousTitre;
 	}
 	
 	private File selectionnerFichier(String dialogue, File cheminOrigine)
