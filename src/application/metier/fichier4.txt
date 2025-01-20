@@ -1,19 +1,3564 @@
-L'essor de l'intelligence artificielle et ses implications sur la société
-
-Depuis quelques décennies, l'intelligence artificielle (IA) est passée d'une simple idée de science-fiction à une technologie omniprésente qui transforme de nombreux aspects de nos vies. Qu'il s'agisse d'assistants vocaux, d'algorithmes de recommandation ou de véhicules autonomes, l'IA s'impose comme un outil puissant. Cependant, son développement rapide soulève également des questions éthiques et sociales cruciales.
-Les applications de l'IA dans divers secteurs
-
-L'IA a trouvé des applications dans une multitude de domaines. Dans la médecine, par exemple, elle est utilisée pour analyser des images médicales, détecter des maladies précocement et proposer des traitements personnalisés. Dans l'agriculture, les systèmes intelligents permettent de surveiller les cultures, de prédire les rendements et de réduire les pertes grâce à des analyses de données en temps réel.
-
-Dans le secteur des transports, les véhicules autonomes promettent de réduire les accidents de la route en éliminant les erreurs humaines. Par ailleurs, l'IA joue un rôle clé dans l'amélioration des systèmes logistiques, en optimisant les itinéraires et en réduisant les coûts.
-Les défis éthiques liés à l'IA
-
-Malgré ses nombreux avantages, l'IA pose des défis éthiques majeurs. L'une des préoccupations principales est celle de la partialité des algorithmes. Les modèles d'IA sont souvent entraînés sur des données biaisées, ce qui peut conduire à des décisions discriminatoires dans des domaines comme le recrutement, la finance ou la justice.
-
-Une autre question cruciale est celle de la vie privée. Les systèmes d'IA collectent et analysent une quantité massive de données personnelles, ce qui peut mettre en péril la confidentialité des individus. Les débats sur la surveillance de masse et la protection des données sont ainsi devenus plus intenses.
-L'impact sur l'emploi
-
-L'automatisation alimentée par l'IA soulève également des inquiétudes quant à l'avenir du travail. De nombreux emplois, en particulier ceux impliquant des tâches répétitives, risquent d'être remplacés par des machines. Cependant, l'IA peut aussi créer de nouvelles opportunités, notamment dans des domaines nécessitant des compétences avancées en programmation, en analyse de données et en gestion des systèmes intelligents.
-Les solutions pour un développement responsable
-
-Pour maximiser les bénéfices de l'IA tout en minimisant ses risques, des régulations et des cadres éthiques solides sont nécessaires. Les gouvernements, les entreprises et les chercheurs doivent collaborer pour définir des normes qui garantissent la transparence et l'équité des systèmes d'IA. De plus, il est essentiel de promouvoir l'éducation et la formation pour préparer les individus aux nouvelles réalités du marché du travail.
+Un scénario de Arthur Harari et Vincent Poymiro
+– Publication à but éducatif uniquement – Tous droits réservés -
+Merci de respecter le droit d’auteur et de mentionner vos sources si vous citez tout ou
+partie d’un scénario.
+ONODA – 10 000 nuits dans la jungle
+V10
+Ecrit par Arthur Harari et Vincent Poymiro
+ONODA - V10 du 22 nov. 2018 2
+INDEX DES PERSONNAGES SECONDAIRES
+par ordre d’apparition dans le récit
+(on pourra s’y rapporter pour faciliter la lecture)
+Major TANIGUCHI Yoshimi : Instructeur militaire d’Onoda au Japon
+Lieutenant HAYAKAWA : Officier commandant la Garnison japonaise à Lubang,
+souvent accompagné de son second, désigné SECOND KURODA
+Lieutenant SUEHIRO : commande l’Escouade des bateaux suicides à Lubang
+(âgé, cheveux blancs)
+KOZUKA Kinshichi : soldat, bras droit d’Onoda (« trapu, joufflu, au regard
+pétillant »)
+SHIMADA Shòichi : soldat, camarade d’Onoda et de Kozuka, le plus âgé de la
+bande – 30 ans au début – enfant de paysan, connaisseur de la nature et de la vie
+sauvage.
+AKATSU : dernier et plus jeune soldat de la bande, protégé de Shimada.
+SUZUKI Norio : étudiant, aventurier, dandy
+Sauf mention contraire, tous les dialogues sont en japonais.
+ONODA - V10 du 22 nov. 2018 3
+CARTON
+« Aucune ressemblance entre l’Onoda réel et celui de ce film ne sera jamais
+certaine. Dans tous les cas, ceci est une vraie histoire. »
+1. EXT. ARBRE A NANGKAS (1) – MATIN
+Un espace dégagé dans la jungle, un arbre d’où pendent des grappes de gros fruits
+jaunes. Le soleil du matin caresse les fruits. Hiroo ONODA les regarde. C’est un
+japonais d’une cinquantaine d’années, vêtu d’un uniforme militaire rapiécé et
+recouvert de feuilles en guise de camouflage. Fusil en bandoulière, il n’est pas très
+grand, son beau visage maigre est tanné. Ses yeux fixent les fruits mais semblent
+ailleurs, loin.
+Il approche de l’arbre et cueille un fruit de la taille d’une pastèque, le regarde. Une
+voix douce de jeune homme résonne alors, comme revenant du passé :
+VOIX HOMME (OFF)
+Ça s’appelle nangka, il y en a partout sur l’île. C’est encore
+meilleur cuit.
+Onoda sourit et fend le fruit en deux avec un couteau : au milieu, dans des sortes de
+compartiments, des pépins sombres.
+VOIX HOMME (OFF)
+ATTENTION !! Il faut surtout pas manger les pépins crus,
+c’est dangereux !
+Onoda regarde les pépins, comme hypnotisé. Quelque part, un bourdonnement se
+fait alors entendre, de plus en plus fort. Ça ressemble au moteur d’un hélicoptère qui
+se rapproche. Les échos d’une voix amplifiée sont dispersés par le vent :
+VOIX HELICOPTERE (OFF)
+… LA JUNGLE (….)… SERA FAIT(…)… SAN… (…)
+…TEZ DE LA (…) … AL NE VOUS …
+Dans les yeux d’Onoda une tension imperceptible, comme une attente. Voix et
+moteur s’éloignent. Il prend les pépins du fruit avec ses doigts, les approche de son
+nez, de sa bouche. Immergé dans l’ombre verte de la jungle, il est de la même
+couleur qu’elle.
+2. GENERIQUE / CARTE ÎLE
+Sur le plan d’une carte représentant une île de forme oblongue (rappelant celle du
+nangka), abîmée et annotée de caractères japonais, se succèdent les mentions du
+générique, jusqu’au titre :
+ONODA - V10 du 22 nov. 2018 4
+« ONODA – 10 000 NUITS DANS LA JUNGLE »
+La main noueuse d’Onoda approche de la carte, l’index semble chercher à préciser
+un emplacement, se rapproche d’un endroit au cœur de l’île.
+3. EXT. CLAIRIERE SHIMADA – JOUR
+Onoda arrive dans une petite clairière, havre inattendu dans la jungle. Il regarde
+l’endroit, puis avance vers un arbre au large tronc lisse, s’accroupit, tâte la base du
+tronc. Ses doigts trouvent enfin une entaille très profonde. Onoda sourit. Il regarde
+vers le sol à quelques mètres de l’arbre. Il sort d’une de ses poches des fleurs
+enveloppées dans un tissu, des lianes tressées et séchées (évoquant un bâton
+d’encens) et une bougie. Il les dépose délicatement dans cet ordre de gauche à
+droite.
+4. CARTE ÎLE + CRETE DE MONTAGNE – JOUR
+La main d’Onoda se déplace au dessus de la carte et l’index touche un autre endroit
+plus au nord… En fondu enchaîné, Onoda marche le long d’une crête montagneuse,
+petite silhouette solitaire et lente.
+5. EXT. ARBRE A NANGKAS (2) DES DESERTEURS– JOUR
+Onoda est face à un autre grand arbre à nangkas. Les fruits sont encore plus
+nombreux que sur le premier arbre. Il le regarde de haut en bas, puis touche de sa
+paume à plat le sol terreux à sa base.
+6. CARTE ÎLE
+La main d’Onoda plane à nouveau au-dessus de la carte de l’île, redescendant vers
+le sud, s’arrêtant près du dessin d’une montagne qu’il semble caresser de ses
+doigts…
+7. EXT. TOMBE INIEZ – SOIR
+A la tombée du soir, sur un sol herbeux, sont à nouveau disposées de gauche à
+droite fleurs, lianes-encens et bougie allumée. Allongé près des fleurs, Onoda
+regarde la flamme de la bougie doucement agitée par le vent. Ses yeux fatigués ne
+sont plus que deux fines fentes. On entend sa voix murmurer, mais ses lèvres ne
+bougent pas.
+ONODA - V10 du 22 nov. 2018 5
+ONODA (OFF)
+Je n’oublie aucun de vous… je n’oublie rien… je n’oublie
+rien…
+Les yeux d’Onoda se ferment lentement, tandis qu’un chant solitaire monte,
+hargneux et désespéré, semblant venir de très loin. C’est la version japonaise de
+« Ce n’est qu’un au-revoir » chantée par une voix de jeune homme ivre. On dirait
+qu’il pleure en chantant.
+8. INT. TAVERNE JAPON – JOUR
+L’origine du chant apparaît : Un garçon de 22 ans en costume militaire propre, pas
+très grand, beau, hurle la chanson dans une taverne sombre et enfumée,
+apparemment désertée. La ressemblance avec le vieil Onoda est frappante. Ivre,
+une bouteille à la main, le jeune homme en sueur titube. Il oscille entre les larmes et
+la rage, on dirait un petit garçon perdu. Dans l’ombre dense à côté de lui, s’affiche le
+texte suivant :
+« Fin 1944. Les forces de l’Axe ont commencé à perdre la
+guerre. Le Japon, après une période de conquêtes
+fulgurantes dans la région du Pacifique, se retrouve dominé
+par la puissance de feu américaine, perdant un à un les
+territoires colonisés : Malaisie, Indonésie, Birmanie,
+Nouvelle-Guinée, Îles Marianne, Philippines… Tandis que les
+soldats y vivent l’horreur des défaites sales, on continue de
+former au Japon de très jeunes hommes au combat. »
+On sent un mouvement dans la taverne : quelques militaires arrivent sur le seuil de la
+pièce, et désignent Onoda à un homme d’une cinquantaine d’années à l’uniforme
+impeccable et à la présence impressionnante, élégant et charismatique. C’est le
+MAJOR TANIGUCHI. Onoda, affalé sur la table, les aperçoit et hurle de plus belle,
+cette fois-ci une chanson paillarde, grivoise, envoyant sa bouteille vers les intrus qui
+se protègent. Il attrape d’autres verres et bouteilles sur les tables et les fracasse au
+sol. Il glisse et tombe. Le Major Taniguchi, qui tient un dossier à la main, s’approche
+de lui et veut l’aider à se relever. Onoda le repousse.
+ONODA
+C’EST FINI !... mettez-moi en prison…
+TANIGUCHI (sans violence)
+Qu’est-ce qui est fini ? Raconte-moi.
+Il parvient à le faire s’asseoir par terre, s’assoit à côté de lui.
+TANIGUCHI
+Allez, raconte-moi ton histoire.
+ONODA - V10 du 22 nov. 2018 6
+ONODA
+…pas d’histoire… c’est fini… mettez-moi en prison…
+TANIGUCHI (consultant le dossier)
+Tu veux être pilote, c’est ça ? Ton grand frère est pilote.
+ONODA (le regardant en chassant la fumée)
+Qui vous a dit ? je serai pas pilote…
+TANIGUCHI
+Pourquoi tu voulais être pilote ?
+Onoda le regarde, et ses larmes coulent à nouveau.
+ONODA
+C’est la plus grande fierté… c’est eux qui gagnent la
+guerre.
+TANIGUCHI
+Cette chanson que tu chantais, c’est dans les maisons de
+plaisir que tu l’as apprise ?
+Onoda interloqué détourne les yeux. Taniguchi ramène doucement son visage vers
+lui.
+TANIGUCHI
+Ne sois pas gêné, ce n’est pas comme si je ne
+connaissais pas. Ce genre de plaisir avec les filles…
+Onoda garde les yeux baissés. Taniguchi le scrute attentivement.
+TANIGUCHI (baissant la voix, prévenant)
+Tu n’as jamais connu de femme ?
+Onoda secoue très vite la tête: non. Taniguchi acquiesce en souriant, satisfait.
+TANIGUCHI (chuchotant à l’oreille d’Onoda)
+C’est bien. De toute façon, ce n’est pas vraiment une
+bonne période pour penser aux filles. Allez, je t’écoute,
+raconte-moi ton histoire.
+Le major offre une cigarette au jeune homme éberlué. Onoda, troublé, la prend et
+regarde le major la lui allumer. Il fume, se laisse aller.
+ONODA
+J’ai commencé l’école des Officiers, pour être pilote… Et ils
+ont dit… que je serai pas pilote… parce que j’ai le vertige.
+J’ai essayé… mais c’est fini. Alors ils m’ont dit que si je
+voulais, il y a une manière… avec ceux qui meurent dans les
+avions. Ils mettent juste assez d’essence pour aller jusqu’au
+bateau des diables américains, pas pour revenir.
+ONODA - V10 du 22 nov. 2018 7
+TANIGUCHI
+Mais toi tu as le vertige.
+ONODA
+Ils ont dit qu’ils allaient me donner quelque chose qui enlève
+le vertige, la peur et tout le reste, et que je pourrai piloter.
+Un temps en silence. Taniguchi regarde Onoda avec beaucoup d’intérêt.
+TANIGUCHI
+Et toi, tu n’as pas pu, c’est ça ? Dis-moi pourquoi.
+ONODA (démuni)
+Mettez-moi en prison…
+TANIGUCHI
+Regarde moi.
+Onoda le regarde avec ses grands yeux d’enfants.
+TANIGUCHI
+Je suis le Major Taniguchi Yoshimi. Tu n’as jamais entendu
+parler de l’annexe de Futamata de l’Ecole de Nakano ?
+Onoda secoue la tête.
+TANIGUCHI
+Tu ne seras pas pilote. Il y a d’autres manières d’être fier. Et
+de toute façon, ce ne sont pas eux qui gagnent la guerre.
+…Tu sais pourquoi tu n’es pas monté dans l’avion ?
+Onoda ne quitte pas des yeux le Major, fasciné.
+TANIGUCHI
+Parce que tu ne veux pas mourir.
+9. INT. RESTAURANT TRADI JAPON – NUIT
+Un homme de 55 ans en habit traditionnel, l’air digne, regarde attentivement Onoda,
+mal à l’aise dans son uniforme impeccable. Le contraste est frappant avec la scène
+d’avant, malgré son malaise : sérieux, déterminé, en maîtrise. Ils finissent de
+manger.
+CARTON : « PRINTEMPS 1945 »
+PERE ONODA
+Mon train part tard demain, je peux passer te voir à l’école.
+ONODA - V10 du 22 nov. 2018 8
+ONODA
+Je ne suis pas sûr d’y être demain…
+PERE ONODA
+Quoi ? Et où est-ce que tu pourrais être ?
+ONODA (évasif)
+Il est question que la cérémonie ait lieu… ailleurs. Je ne sais
+pas où.
+PERE ONODA
+Tu ne sais pas. Tu n’es pas sûr. Tu as le vertige. Et tu vas
+être officier ?
+Les yeux d’Onoda sont traversés d’un mélange de douleur et de haine, qu’il maîtrise
+en détournant le regard.
+PERE ONODA
+Dans une école d’officiers les diplômes sont remis à l’école.
+C’était comme ça pour ton frère. Mais si tu ne veux pas que
+je vienne, bien.
+Onoda hésite à parler, mais confirme d’un signe de tête. Son père le regarde avec
+une grande froideur. Une serveuse arrive et leur sert du saké, mais Onoda refuse,
+couvrant son verre de sa main. La serveuse le regarde, le malaise dure une
+seconde, puis elle s’éloigne. Le père regarde Onoda.
+PERE ONODA
+Tu ne veux pas boire avec ton père ?
+ONODA
+Je ne bois plus.
+LE PERE (tiquant)
+Toi ?
+Il boit seul. Tout dans son attitude dénote une forme silencieuse de mépris pour
+Onoda, qui encaisse avec une grande tension.
+PERE ONODA
+Où vas-tu être affecté ?
+ONODA
+Je ne sais pas encore.
+PERE ONODA
+Comment c’est possible ? tu as forcément une idée. Ton
+frère est au mieux avec l’Etat-Major, tu devrais--
+ONODA (l’interrompant)
+Non merci.
+ONODA - V10 du 22 nov. 2018 9
+Le père le regarde choqué, comme si Onoda l’avait giflé. Un temps. Le père sort de
+son veston un tissu enroulé autour d’un objet, qu’il tend à son fils. Onoda déroule le
+tissu : il contient un couteau à manche d’ivoire ouvragé, dans son fourreau.
+ONODA (troublé)
+C’était celui de grand-père…
+PERE ONODA
+Si tu es fait prisonnier, tu devras prendre ta vie avec. Ton
+corps, c’est le Japon lui-même : ne le laisse pas aux mains
+de l’ennemi. Peux-tu au moins me dire si tu es prêt à mourir
+pour l’Empereur ?
+Onoda ouvre la bouche, bloqué. Le père et le fils se regardent dans les yeux, chacun
+mesurant le gouffre qui les sépare. Onoda baisse la tête, le père regarde le crâne
+obstinément incliné de son fils… Onoda relève la tête, il fixe avec intensité…
+10. SEQUENCE SUPPRIMÉE
+11. EXT. BATEAU SEIFUKU-MARU / ARRIVEE LUBANG ET PORT – AUBE
+… une île qui approche depuis la proue d’un bateau, dans la brume de l’aube.
+Sur la coque le nom du bateau : « Seifuku-Maru ». Il se dirige vers le port d’une
+petite ville. Au-delà, palmiers abondants, champs cultivés, puis montagnes
+recouvertes d’une jungle dense. Onoda regarde l’île.
+Quelques instants plus tard. Une barque mène Onoda du « Seifuku-Maru » au
+ponton du port, Onoda met le pied sur le quai et marche, regardant vers la terre :
+deux hommes en uniforme l’attendent près d’une jeep, devant des baraques de
+pêcheurs. En sueur, ils fixent Onoda avec impatience.
+12. EXT. VOITURE sur ROUTE PORT – JOUR
+Onoda est dans une jeep qui fonce sur une piste cabossée, s’éloignant du rivage en
+ligne droite vers la montagne. A bord, le LT. HAYAKAWA, 38 ans, portant lunettes
+et perpétuellement en sueur, et son aide de camp, le SECOND KURODA, au volant,
+impassible en toutes circonstances. Il doit faire un écart pour éviter une escouade de
+soldats japonais mal fagotés, dont certains traînent sur la route devant des bâtisses
+indigènes. Onoda se retourne pour les regarder.
+HAYAKAWA (désignant les bâtisses)
+C’est là qu’on était installés, mais par mesure de sécurité j’ai
+déplacé la Garnison au pied du Mont Ambulong, dans les
+terres.
+ONODA - V10 du 22 nov. 2018 10
+13. EXT / INT. BARAQUEMENTS GARNISON – JOUR
+La jeep stoppe dans la forêt, où des baraquements, dont certains encore en
+construction, sont dissimulés. Hayakawa, suivi de son Second, saute à terre et prend
+un chemin qui s’éloigne du camp vers un cours d’eau encaissé.
+HAYAKAWA
+Vous allez voir, on n’a pas traîné !
+Onoda le suit sans comprendre, découvrant au passage le camp rudimentaire peuplé
+de soldats sales, abrutis par la chaleur.
+14. EXT. FALAISE – JOUR
+Hayakawa s’arrête à la lisière de la forêt, Onoda le rejoint et se retrouve au-dessus
+d’un à-pic. Il a un mouvement de recul, dissimule son vertige comme il peut.
+Hayakawa lui tend des jumelles, Onoda se force à regarder : dans une crique en
+contrebas, deux soldats montent la garde devant une demi-douzaine de canots
+indigènes, vaguement dissimulés sous des branchages.
+HAYAKAWA
+Mes hommes s’activent en ce moment et en récupèrent
+d’autres le long de la côte, il devrait y en avoir le double d’ici
+demain.
+ONODA
+Le double de quoi ?
+HAYAKAWA
+De bateaux.
+Devant Onoda perplexe, le sourire d’Hayakawa se crispe.
+15. EXT. FALAISE - JOUR
+Un instant plus tard. Les trois hommes sont penchés au-dessus d’un message
+manuscrit griffonné sur un morceau de papier froissé. Le message est signé de
+l’Etat-major.
+SECOND KURODA (lisant)
+« L’aspirant Onoda est envoyé pour diriger… les opérations
+de yùgeki-sen ».
+ONODA - V10 du 22 nov. 2018 11
+HAYAKAWA
+« Diriger les opérations de yùgeki-sen ».
+ONODA
+Oui, yùgeki-sen.
+HAYAKAWA
+Oui, yùgeki-sen.
+Un temps. Ils se regardent.
+HAYAKAWA
+C’est-à-dire… « Bateaux-guérilla ».
+ONODA (ahuri)
+…
+SECOND KURODA
+« Sen » peut vouloir dire bateau.
+ONODA
+« Sen » veut dire bataille. Pas bateau.
+C’est au tour d’Hayakawa de regarder son assistant. Il dégouline de sueur.
+SECOND KURODA
+Nous pensions que vous alliez nous faire évacuer l’île à bord
+de « bateaux-guérilla ».
+ONODA (s’efforçant de rester calme)
+Ça n’existe pas. Il n’y a pas d’évacuation, il y a une
+résistance à mener, ici. (au second d’Hayakawa) J’ai besoin
+de 5 hommes pour décharger mes explosifs et les répartir. Et
+réunissez les officiers des différents corps, je veux leur parler
+avant la nuit.
+Le second se tourne vers Hayakawa, qui hésite puis lui fait signe d’obtempérer.
+16. SEQUENCE SUPPRIMEE
+17. SEQUENCE SUPPRIMEE
+18. INT. BARAQUEMENT GARNISON, CABANON HAYAKAWA – NUIT
+Dans un des baraquements de la garnison, Onoda fait face aux officiers des divers
+corps de l’île. Son efficacité s’est affermie, il parle clairement et rapidement.
+ONODA - V10 du 22 nov. 2018 12
+ONODA
+L’aérodrome doit être détruit au plus vite, puis les
+installations portuaires à Vigo, Tilik et Looc. Autre urgence :
+le stockage des vivres et munitions dans les montagnes : ici
+c’est encore trop près de la côte. Enfin le plus urgent : il faut
+faire évacuer les personnels non-combattants au plus vite, le
+bateau « Seifuku-Maru » repart demain, sans certitude de
+revenir.
+Malaise dans l’assistance. Le lieutenant Hayakawa se lève.
+HAYAKAWA (à l’ensemble des officiers)
+Messieurs, veuillez nous laisser, j’ai à parler à l’Aspirant
+Onoda.
+ONODA
+Je n’ai pas terminé, il reste--
+HAYAKAWA (le coupant)
+Vos instructions ont bien été entendues. Messieurs.
+Les officiers sortent, excepté le second d’Hayakawa et un officier de 60 ans aux
+cheveux blancs. Ce dernier prend la parole devant un Onoda tendu à l’extrême.
+SUEHIRO
+Lieutenant Suehiro, Escouade des bateaux suicides.
+Aspirant, vos instructions ne peuvent être réalisées.
+ONODA
+Ce ne sont pas des instructions mais des ordres.
+HAYAKAWA
+Disons des directives.
+SUEHIRO
+Ce n’est pas ainsi qu’il faut repousser l’ennemi. Mon
+escouade est prête à passer à l’action dès que la flotte
+ennemie sera en vue. Détruire les infrastructures empêchera
+de s’en servir quand nos forces auront repris le contrôle de la
+zone.
+ONODA
+Vous savez que ça n’arrivera pas avant un certain temps, et
+j’ai été envoyé ici précisément pour préparer une résistance
+autonome. De toute façon j’ai l’autorité de diriger la garnison
+dans cette perspective, j’ai des ordres officiels.
+Il se tourne vers Hayakawa. C’est son second qui répond.
+ONODA - V10 du 22 nov. 2018 13
+SECOND KURODA (sortant l’ordre de l’Etat-Major)
+Diriger, oui, pas commander. L’autorité de
+commandement appartient au Lt. Hayakawa.
+Sans regarder le papier, Onoda fusille Hayakawa du regard.
+ONODA
+Le bateau va partir, Lieutenant. Il faut évacuer les personnels
+non armés, c’est des bouches inutiles à nourrir, qui ne
+pourront pas se défendre !
+SUEHIRO
+Nos forces vont reprendre le contrôle du ciel, c’est une
+question de jours. Votre inexpérience vous dessert.
+Onoda fixe toujours Hayakawa, qui est de moins en moins assuré.
+HAYAKAWA
+Le bateau reviendra… Nous allons attendre.
+Onoda salue sèchement et quitte la pièce.
+19. EXT. PROMONTOIRE – JOUR
+Depuis un point dominant en haut d’une pente douce, Onoda regarde aux jumelles le
+« Seifuku Maru » quitter le port. Un soldat arrive en courant. Onoda se retourne.
+SOLDAT
+Lieutenant Onoda, on a reçu un message radio : une flotte
+ennemie a été repérée entre Bataan et ici !
+Onoda dévale la pente à toute allure, trébuchant et se relevant.
+20. EXT. BARAQUEMENTS GARNISON – JOUR
+Onoda déboule couvert de poussière à la garnison. Il cherche Hayakawa, ne trouve
+que son second, « inspectant » quelques soldats qui finissent de construire un
+baraquement en bambou.
+ONODA (essoufflé)
+Il faut rassembler tous les hommes disponibles pour déplacer
+les vivres et les munitions dans les montagnes…
+MAINTENANT ! (Il reprend son souffle)… L’ennemi est à
+Luzon… A cette proximité la position des réserves est
+dangereuse.
+ONODA - V10 du 22 nov. 2018 14
+SECOND KURODA
+Les hommes sont occupés à d’autres taches. Le Lt.
+Hayakawa est absent et c’est lui qui a l’autor--
+ONODA (le coupant)
+Ça suffit avec ça ! Vous voulez être responsable de la perte
+des munitions et de la nourriture ? Donnez-moi 30 hommes
+et…
+SECOND KURODA
+Il n’y a que 35 hommes ici, je ne peux pas vider la garnison.
+ONODA
+15 ! Donnez m’en 15, si vous ne le faites pas ça aura des
+conséquences graves pour cette île, et ce sera VOTRE
+responsabilité !
+Seuls les yeux du Second bougent, allant d’Onoda aux hommes qui se sont figés.
+SECOND KURODA (criant)
+10 hommes avec l’Aspirant Onoda !
+ONODA (aux hommes)
+Bien ! On commence par les vivres. Laissez le nécessaire
+pour 10 jours ici et réunissez le reste, direction les
+montagnes à l’est.
+Les hommes, torses-nus et en sueur, s’habillent à contrecœur. Onoda surprend le
+regard moqueur de quelques soldats qui finissent de déjeuner sous une tente. Ils
+murmurent en montrant quelque chose sur la table, puis quittent la tente. Seul reste
+un jeune homme trapu, joufflu, au regard pétillant qui termine de manger.
+ONODA (approchant de lui)
+Qu’est-ce qu’ils disaient ?
+KOZUKA (montrant un flacon de sauce Soja sur la table)
+Vous connaissez la marque ‘Noda Shòyu’ ? (Onoda opine)
+Ils vous appellent comme ça : ‘Noda’ = Onoda, ‘Shòyu’= shòi
+[Lieutenant]. Vous êtes juste l’assaisonnement, en gros. Moi
+je répète hein, c’est tout…
+Onoda regarde le groupe qui s’éloigne, on dirait soudain un enfant blessé, humilié.
+ONODA
+Comment vous vous appelez ?
+KOZUKA
+Première classe Kozuka Kinshichi.
+ONODA - V10 du 22 nov. 2018 15
+ONODA
+Soldat Kozuka, vous avez quelque chose à faire ? J’ai besoin
+d’hommes.
+Kozuka s’essuie la bouche, regarde ses camarades qui s’éloignent puis Onoda. Il
+acquiesce en se levant. Onoda sourit, Kozuka se met immédiatement au travail.
+21. EXT. CACHE DE VIVRES et CHEMIN VERS BARQUEMENT – JOUR
+Onoda ne lâche pas ses 11 hommes, leur fait dissimuler les caisses dans une grotte,
+au pied d’une montagne à l’entrée de la jungle. Épuisés, ils s’écroulent, boivent à
+leurs gourdes.
+ONODA
+On repart.
+Les hommes se regardent. Kozuka se tourne vers Onoda.
+KOZUKA
+Il y en a qui sont malades. Ils s’attendaient à se reposer ici,
+même passer la nuit.
+ONODA
+Non, départ immédiat, notre travail n’est pas fini.
+Les hommes finissent par obéir, ils quittent la grotte.
+22. EXT. BARAQUEMENT GARNISON – JOUR
+En arrivant à la garnison Onoda est attendu par Hayakawa, dans une attitude
+étrange : il avance tordu en deux, apparemment de douleur, mais très furieux.
+HAYAKAWA
+Vous avez épuisé ces hommes ! Qu’est-ce que-aaahahhh…
+qu’est-ce que vous voulez encore faire avec eux à cette
+heure-là ?!
+ONODA (interloqué)
+Qu’est-ce qui vous arrive ? (Hayakawa balaye d’un geste,
+toujours plié en deux) Mes ordres sont d’empêcher que
+l’aérodrome tombe aux mains de l’ennemi. Je vais appliquer
+mes ordres.
+HAYAKAWA
+Ça suffit, je vous retire ces hommes.
+ONODA (continuant son chemin)
+Alors j’irai seul.
+ONODA - V10 du 22 nov. 2018 16
+Hayakawa va pour le rattraper mais s’écroule en hurlant de douleur. Il est à genoux,
+yeux écarquillés et souffle coupé. Onoda et les soldats se précipitent à son aide.
+23. INT. BARQUEMENT GARNISON, CABANON HAYAKAWA - SOIR
+Hayakawa livide gémit dans son lit, face au second, Onoda et un médecin.
+MEDECIN (finissant d’examiner Hayakawa)
+C’est une crise de calculs. Tant que le caillou n’est pas
+évacué ça fait très mal. (Hayakawa hurle derrière lui.) Je
+pense qu’il a mal.
+Onoda approche d’Hayakawa, qui s’est tu, yeux mi-clos.
+ONODA
+Transférez-moi le commandement jusqu’à ce que vous
+soyez rétabli. Vous ne pouvez même pas sortir du lit.
+HAYAKAWA (désignant son second)
+Si je transfère mon autorité à quelqu’un, c’est à Kuroda.
+Ce dernier paniqué secoue la tête, se penchant à l’oreille d’Hayakawa.
+SECOND KURODA (chuchotant)
+Non Shigeru, vous allez vous remettre !
+HAYAKAWA
+Tu peux y arriver, Tomo.
+Hayakawa se tord à nouveau de douleur, sans bruit. On frappe à la porte de la
+hutte : un philippin élégant d’une quarantaine d’années est sur le seuil, accompagné
+d’autres insulaires. Le second va lui parler.
+HAYAKAWA (à peine audible, à Onoda)
+…c’est le maire de Lubang… dites-lui…
+ONODA (jouant la carte de la persuasion douce)
+Chh, pas d’efforts. Allez, Lieutenant, chaque seconde
+compte, l’ennemi--
+SECOND KURODA (revenant vers eux)
+Il dit que des hommes à nous ont volé du café et du riz à ses
+paysans.
+MAIRE DE LUBANG (en mauvais japonais)
+Ils sont déjà mal nourris. Ils n’ont pas à subir ça.
+Hayakawa se dresse sur un coude, inondé de sueur, on dirait qu’il va s’évanouir.
+ONODA - V10 du 22 nov. 2018 17
+HAYAKAWA (entre ses dents)
+Saloperies de donkos, ils sont en train de prier pour le
+débarquement américain et ils osent venir se plaindre. SORS
+D’ICI !! Il N’Y A PAS DE VOLEURS DANS MA GARNISON !
+Sortez-le…
+Le second s’en charge. Hayakawa empêche d’un geste Onoda de parler.
+HAYAKAWA (vacillant)
+… crise va passer… serai debout demain…
+Il retombe sur sa paillasse. Soudain une énorme déflagration au loin. Chacun se
+regarde, moment de stupeur. Des cris parviennent du dehors, Onoda se précipite
+hors de la hutte.
+24. SEQUENCE SUPPRIMEE
+25. EXT. PROMONTOIRE et CAMPEMENT GARNISON – NUIT
+A l’écart des baraquements, Onoda regarde aux jumelles vers un port en contrebas:
+des bâtiments sont en feu, des silhouettes courent en tout sens, s’effondrent, plus
+loin des soldats casqués sautent à bas d’embarcations qui accostent.
+Onoda retourne en courant vers le camp où la panique règne. Dans le bruit des
+bombardements, il tente de calmer les hommes, mais le chaos est total : on court, on
+crie des ordres contradictoires, on emporte du matériel inutile ; certains tentent de
+transporter du riz dans leur fuite. Un soldat en haillons se plante devant Onoda.
+SOLDAT EN HAILLONS
+Vous voulez du café pas cher ? C’est du bon café d’ici hein,
+juré.
+Onoda halluciné continue d’avancer au milieu de la confusion, en direction de la
+hutte d’Hayakawa. Ce dernier en sort, tordu de douleur et soutenu par son second.
+SECOND KURODA (hurlant, dépassé)
+VOTRE LIEUTENANT VOUS ORDONNE DE…
+Il n’a pas le temps de finir : un déluge de flammes s’abat sur le bâtiment avec une
+explosion, le second Kuroda et Hayakawa s’embrasent. Onoda se précipite vers les
+torches humaines mais une main le saisit et le retient : c’est Kozuka, le soldat trapu.
+Derrière eux, d’autres explosions.
+KOZUKA (rapide)
+Ça ne sert à rien. Il faut dire aux hommes où aller.
+ONODA - V10 du 22 nov. 2018 18
+ONODA (le regardant, choqué)
+Oui. Il faut… il faut aller à la Montagne 500 rejoindre
+l’Escouade Radar.
+Onoda se retourne une dernière fois vers le brasier, épouvanté, puis ils fuient loin
+des hurlements et des flammes.
+26. EXT. MONTAGNE 500 – AUBE
+L’aube se lève. Onoda, Kozuka et une dizaine de soldats évoluent dans la
+montagne. Les hommes sont fatigués.
+Onoda fait approcher Kozuka.
+ONODA (désignant la montagne qu’ils gravissent)
+Pourquoi on l’appelle « Montagne 500 » ?
+KOZUKA
+Parce qu’elle fait 500 mètres de haut.
+27. EXT. CAMP ESCOUADE RADAR – NUIT
+Ils arrivent au camp Radar à la nuit tombée. Le camp semble désert, à part un
+homme assis près d’une tente et d’un feu éteint. En se rapprochant, Onoda reconnaît
+le vieil officier aux cheveux blancs, Suehiro. Hagard, il a l’air d’avoir traversé la
+jungle, uniforme sale et déchiré par endroits, éraflures… Il semble épuisé et n’a plus
+ni barda ni sabre d’officier. Tandis que les hommes inspectent le camp abandonné et
+réunissent du bois pour un feu, Onoda s’assoit face à Suehiro et lui donne de l’eau,
+l’autre boit avec lenteur.
+ONODA
+Lieutenant, qu’est ce qui s’est passé, où sont vos hommes ?
+Vous avez vu l’Escouade radar ?
+SUEHIRO (parlant avec effort)
+On est allés à Tilik où nos bateaux étaient cachés… prêts à
+l’action, chargés de dynamite… Le navire ennemi était à
+peine à 200 mètres… à portée de main. On a renouvelé
+notre détermination, et quand les hommes ont commencé à
+monter sur les bateaux… Ils nous ont pris par surprise. Tous
+mes hommes…
+Il ne finit pas, hébété.
+ONODA - V10 du 22 nov. 2018 19
+ONODA (dubitatif)
+Vous étiez avec vos hommes ?
+SUEHIRO
+Vous mettez en cause ma parole ? J’ai sauté dans l’eau et
+j’ai nagé. J’ai acquis de l’expérience, j’ai des réflexes que les
+autres n’avaient pas.
+ONODA
+Qu’est-ce que vous savez d’autre ? L’Escouade radar, vous
+les avez vus en arrivant ici ?
+SUEHIRO (secouant la tête)
+… partis ce matin attaquer les américains à Tilik... tous morts
+là-bas. Ici il n’y a que les malades, dans une tente par là (il
+désigne une tente à une trentaine de mètres, puis marque un
+temps). L’aérodrome a été pris intact par les américains. Le
+Lieutenant Hayakawa est avec vous ?
+Onoda ouvre la bouche mais ne parle pas, comme giflé par ces informations. Il
+secoue enfin la tête. Il fixe son regard sur le soldat qui allume le feu à l'aide de deux
+demi-bambous frottés l'un contre l'autre : il semble solide et habile. Onoda s’adresse
+à lui.
+ONODA
+Vous savez comment aller à Vigo d’ici ? (L’homme
+acquiesce). Allez-y le plus vite possible en reconnaissance,
+c’est le dernier port où on n’est pas sûr que les américains
+aient débarqués. Comment vous vous appelez ?
+SHIMADA
+Shimada Shòichi.
+Il prend le strict nécessaire et part aussitôt.
+SUEHIRO
+« Ils » sont déjà dans les terres… J’ai d’abord rejoint la
+garnison, tout était brûlé. Un détachement américain y était
+passé, j’ai vu leurs traces. Ils ont laissé les corps brûlés, je
+pense qu’ils ont continué dans la montagne. Mais ils ne
+connaissent pas l’île, j’ai pris un raccourci pour arriver ici au
+plus vite.
+Onoda regarde ses dix hommes dans le camp désert, où seul brille le feu. Il se
+précipite pour l’éteindre avec ses pieds. Un silence de mort règne, la peur se lit dans
+les yeux. Onoda serre les dents de rage. Kozuka s’approche tout près de lui.
+KOZUKA (chuchotant presque)
+Qu’est-ce que vous pensez faire ?
+ONODA - V10 du 22 nov. 2018 20
+ONODA
+Ils sont forcément proches de nous. La seule façon
+d’accomplir notre devoir envers ceux qui ont été tués est de
+marcher sur l’ennemi et de massacrer autant d’américains
+que possible.
+Kozuka le regarde sans répondre.
+28. INT + EXT. TENTE MALADES ET CAMP ESCOUADE RADAR – NUIT
+Onoda et Kozuka écartent le rabat de toile à l’entrée d’une tente : une vingtaine de
+malades gisent sur des paillasses. La puanteur est telle qu’Onoda et Kozuka doivent
+ressortir aussitôt pour respirer. Ils se regardent en silence. Onoda rouvre le rabat.
+Sur le premier lit, un jeune homme le regarde.
+ONODA (doux)
+Nous sommes de la garnison. Qu’est-ce que vous avez ?
+JEUNE MALADE (très faible)
+On ne sait pas, peut-être le typhus… On ne peut pas
+marcher.
+Onoda regarde cet « hôpital » où règne une étrange sérénité, comme hors du temps.
+ONODA
+L’ennemi est en chemin, il sera bientôt là mais on peut
+encore le prendre à revers. On vous emmène avec nous.
+JEUNE MALADE (murmurant)
+S’il vous plait, regardez-nous. Laissez-nous nous tuer ici.
+Les yeux brûlants, Onoda regarde au-delà du jeune homme : les vingt malades le
+fixent. Des bruits de voix lui parviennent du camp, Kozuka revient en courant.
+KOZUKA
+C’est Shimada, il a été repéré par une sentinelle près d’un
+bivouac ennemi sur le chemin de Vigo.
+Shimada les rejoint, encore essoufflé, et prend le relai :
+SHIMADA
+… Je l’ai tué sans que personne s’en rende compte, mais ça
+veut dire qu’on va être pris en tenaille bientôt. Il faut partir
+tout de suite.
+Onoda retourne vivement à la tente : les malades le fixent de leurs yeux hagards.
+ONODA (se faisant violence)
+S’ils vous plait, faites un dernier effort. C’est vivants que
+ONODA - V10 du 22 nov. 2018 21
+nous pouvons servir l’Empereur, vivants. Votre vie… (il
+déglutit) votre vie et votre corps c’est le Japon lui-même.
+Le jeune malade enlève lentement le drap qui recouvre son corps rachitique. Onoda
+regarde le corps, puis à nouveau les yeux du garçon. Il s’éloigne en courant et
+revient avec une mèche et de la dynamite, qu’il pose avec une boîte d’allumettes à
+portée de main du jeune homme. Il regarde chacun des vingt visages,
+reconnaissants.
+JEUNE MALADE
+Nous attendrons que les américains soient là. Nous
+emporterons des ennemis avec nous, et pour vous ça sera le
+signal qu’ils sont arrivés ici.
+Onoda s’incline et s’en va, comme s’il s’arrachait à ce moment. Il court vers les
+autres, déplie sa carte.
+ONODA (à Shimada)
+Où est-ce que tu as tué la sentinelle ?
+29. SEQUENCE SUPPRIMÉE
+30. EXT. CHEMIN MONTAGNE et BIVOUAC ENNEMI – NUIT
+Onoda et sa troupe se fraient à coups de machette un chemin dans la jungle
+montagneuse. Une déflagration étouffée derrière eux, puis un silence lugubre – les
+malades se sont fait sauter. Les soldats n’osent pas se regarder. Onoda sort son
+couteau à manche d’ivoire de son fourreau et le regarde. Il jette le fourreau à terre et
+avance arme à la main.
+Au sol, une brillance attire son œil. Sous les yeux de Kozuka et Shimada, il ramasse
+un papier argenté froissé autour d’une boule rosâtre. Du chewing gum. Il le tâte :
+encore mou. Les trois hommes sont parcourus d’une sueur froide.
+SHIMADA (chuchotant)
+Ils viennent de passer par là ! On a dû passer tout près
+d’eux.
+Onoda reprend la tête, accélérant le pas, couteau en avant. Ils arrivent bientôt aux
+traces du bivouac américain déserté : restes de feu, traces de pas, papiers. Onoda
+respire fébrilement, entre rage et frustration. Serrant son couteau, il tente de contenir
+son émotion. Kozuka lui tend discrètement le fourreau du couteau.
+KOZUKA
+Vous l’avez laissé tomber. (un temps) Lieutenant… vous
+étiez prêt à aller jusqu’au bout, c’est ça ?
+ONODA - V10 du 22 nov. 2018 22
+Honteux, Onoda acquiesce. Il détourne la tête, au bord des larmes, submergé par
+une immense fragilité. Au bout d’un temps, il s’aperçoit que tous les hommes le
+regardent. Leur épuisement est patent, Kozuka vient chuchoter à son oreille :
+KOZUKA
+Ils attendent vos ordres… il y en a qui n’ont pas mangé depuis
+plus de 48 heures.
+Onoda, démuni, regarde la troupe, au centre de laquelle se tient le vieux Suehiro,
+raide comme un bâton. Seul le blanc de ses yeux mi-clos est visible, il paraît encore
+plus maigre qu’auparavant, au bord de la syncope. Onoda range son couteau dans
+son fourreau.
+ONODA (se reprenant)
+On va à la cache de vivres, il faut évaluer combien de temps
+on peut tenir.
+Sur un signe de lui, les hommes repartent dans la nuit.
+31. SEQUENCE SUPPRIMEE
+32. EXT. CACHE DE VIVRES – SOIR
+Dans la grotte, devant les sacs de vivres qu’il a fait déterrer, Onoda fait le point sur
+les réserves. Les hommes sont déjà en train de manger, éprouvés par la faim.
+ONODA
+Avec deux rations de riz chacun par jour et par homme, on
+tiendra jusqu’en octobre. Vous avez entendu ? Ce que vous
+avez là c’est jusqu’à demain matin !
+Il se défait enfin de son barda, s’assoit à côté de Kozuka. A peine a-t-il entamé son
+riz qu’une dispute éclate entre des soldats affamés sur la taille des rations.
+ONODA
+Arrêtez ça ! Vous n’êtes pas des porcs !
+SOLDAT AFFAMÉ 1
+Il prend une ration plus grosse devant mes yeux et je dois
+me taire ?!
+SOLDAT AFFAMÉ 2
+C’EST FAUX !!
+Onoda se lève et gifle les deux soldats dans la foulée.
+ONODA - V10 du 22 nov. 2018 23
+ONODA (au premier soldat)
+Tu dois te taire parce qu’on est en guerre.
+Les larmes montent aux yeux de l’homme, honteux et blessé. Il finit par se rassoir.
+Onoda retourne près de Kozuka.
+ONODA
+Si l’ennemi attaquait pendant les repas, on serait morts en
+deux minutes.
+Le vieux Suehiro, cadavérique et littéralement blanc, est soudain devant eux. Il a
+encore des grains de riz collés autour de la bouche.
+SUEHIRO
+Pour éviter l’anéantissement, je propose qu’on se sépare en
+deux rations. Huh ? Non. En deux sections. Je prendrai la
+tête de la seconde ration. (Un temps) Excuse…
+Il s’éloigne et vomit un filet blanc dans un fourré. Onoda et Kozuka le regardent.
+ONODA
+Qu’est-ce que tu penses de ça ?
+KOZUKA
+Sa santé physique et mentale est atteinte. Il pense plus
+normalement.
+ONODA (acquiesçant)
+Il veut revenir avec son groupe voler toute la nourriture. Mais
+je peux pas me fier à ces porcs, autant choisir les plus fiables
+et lui laisser les autres.
+Finissant leur riz, ils entament leur sélection : les visages de tous les hommes
+défilent, en train de manger.
+ONODA (à voix basse)
+Shimada sans hésiter, il parle pas beaucoup mais il est
+solide et volontaire.
+Kozuka désigne un très jeune soldat près de Shimada, visiblement son protégé,
+gracile et élancé (Shimada est en train de lui rouler une cigarette dans une feuille
+d’arbre.)
+KOZUKA
+Akatsu suivra Shimada partout.
+Onoda désigne trois soldats en train de palabrer.
+ONODA
+Et ceux-là ? Ils sont toujours fourrés ensemble.
+ONODA - V10 du 22 nov. 2018 24
+KOZUKA
+Oshima, Sakamoto et Sato : on les appelle les triplés.
+C’est pas les pires.
+Onoda acquiesce et se lève.
+ONODA (à tous, autoritaire)
+Se séparer en deux groupes est la meilleure solution. Je
+prends Kozuka, Shimada, Akatsu, Oshima, Sakamoto et
+Sato. Le Lieutenant Suehiro commande les autres. On se
+sépare maintenant.
+Suehiro, à la tête de sa troupe hagarde, se lève.
+SUEHIRO
+Nous restons ici jusqu’à demain matin.
+ONODA
+Je suis responsable de cette réserve. Prenez le nécessaire
+pour un mois et partez.
+Onoda se tient avec ses hommes devant les vivres. Un ange passe. Suehiro finit par
+prendre les rations et part avec ses hommes. Onoda se tourne vers son groupe.
+ONODA
+Je vous ai choisis car vous vous tenez encore comme des
+hommes. Un soldat japonais n’obéit pas à son ventre ! (il
+montre les vivres :) D’autres survivants peuvent vouloir se
+ravitailler ici.
+SATO
+Vous croyez qu’il y a encore beaucoup de japonais ?
+ONODA
+On le saura vite, mais ça ne change rien à notre objectif.
+SAKAMOTO
+C’est quoi ?
+ONODA
+La résistance ! Harceler les américains et récupérer la
+maîtrise du terrain par la guérilla. (Il se raidit :) NOTRE
+CHANSON DOIT ETRE CHANTEE !
+Onoda regarde les visages déstabilisés des hommes que le soir enveloppe.
+Fondu au noir.
+ONODA - V10 du 22 nov. 2018 25
+33. EXT. CACHE DE VIVRES – MATIN
+Dans le noir monte un vacarme mêlant pluie torrentielle, coups de tonnerre et un
+bruit plus étrange, comme d’entrailles liquides…
+Ouverture au noir : Onoda ouvre les yeux en se redressant d’une pièce,
+brandissant son arme de poing comme un jouet mécanique : Kozuka le secoue en lui
+parlant.
+KOZUKA
+…Lieutenant les Triplés sont partis.
+Derrière Kozuka, l’entrée de la grotte : un déluge torrentiel s’abat sur la jungle avec
+de violents bruits d’orage. Onoda regarde le camp : seuls Shimada et Akatsu sont là.
+Ce dernier est en train de vomir, manifestement malade, soutenu par Shimada.
+Onoda se lève et va vers les sacs de vivres.
+ONODA
+Ils ont volé un sac.
+KOZUKA
+On les rattrape ?
+Onoda prend un temps.
+ONODA
+Qu’ils se bâfrent, on a plus important à faire. (à Shimada,
+désignant Akatsu :) Qu’est-ce qu’il a ?
+Shimada
+Un coup de froid, ça va passer.
+Akatsu livide et épuisé se rallonge, Shimada lui éponge le front.
+ONODA (sortant sa carte de l’île)
+L’ennemi a débarqué là, et c’est le meilleur endroit pour
+installer sa base (il pointe un port). On va s’en assurer et
+décider d’une action. A quatre, bien organisés, on peut tuer
+des centaines d’hommes. (Pointant un autre endroit :) On est
+ici. Il faut remonter sur ce flanc montagneux, ce qui nous
+permettra ici d’avoir une vue dominante.
+SHIMADA
+Avec une pluie comme ça c’est dangereux. Il y a des torrents
+de boue, et ça devient impossible de se repérer.
+Onoda approche du dehors : le rideau de pluie et les coups de tonnerre sont
+impressionnants. Il regarde Kozuka, qui hoche la tête comme pour appuyer les
+dires de Shimada, puis Akatsu éreinté sur sa couche.
+ONODA - V10 du 22 nov. 2018 26
+ONODA (prenant sur lui)
+A la première accalmie, on y va.
+34. SÉQUENCE SUPPRIMÉE
+35. INT. CACHE DE VIVRES – SOIR
+Il pleut sans discontinuer dans un bruit terrifiant. La pluie est un rideau de plomb
+écrasant la jungle. Bruits de tonnerre (ou de canons ?), comme ouatés. Akatsu,
+encore pâle, tremble de froid, Shimada le frotte pour le réchauffer. La frustration
+d’Onoda est lisible sur son visage.
+36. SÉQUENCE SUPPRIMÉE
+37. INT. CACHE DE VIVRES – JOUR
+Ils sont toujours dans la grotte. Onoda est en train de se raser. La jungle chante et
+craque, le déluge est toujours aussi violent. Ils ne sont que trois dans la grotte,
+Shimada manque. Akatsu a l’air d’aller mieux ; Kozuka et lui, désœuvrés et
+regardant la pluie, murmurent un chant de l’armée comme pour se réchauffer : « Les
+troupes avancent dans le désert / glissant sur le sable… Même si ma casquette de
+combat gèle… »
+Shimada revient trempé de dehors, les jambes couvertes de boue : dans un drap il a
+entassé des fruits. On lui met une bâche autour des épaules. Il tremble, tous se
+massent autour des fruits.
+ONODA (pressant)
+Tu as vu quelque chose, entendu des tirs ?
+SHIMADA
+Rien. (Il fend en deux un gros fruit jaune :) Ça ça s’appelle
+nangka, c’est encore meilleur cuit. ATTENTION !!
+D’un geste violent il a arraché le fruit à Akatsu qui allait le croquer, affamé.
+SHIMADA (vidant le fruit de ses pépins)
+Il faut surtout pas manger les pépins crus, c’est dangereux !
+Il y a quelques arbres à nangkas sur l’île, mais ce qu’il y a
+surtout c’est des bananes et des noix de coco, et c’est une
+bonne nouvelle parce qu’on peut quasiment manger que ça
+et être en bonne santé.
+Les autres mangent la pulpe des fruits en le regardant, incrédules.
+ONODA - V10 du 22 nov. 2018 27
+KOZUKA
+Comment tu sais tout ça ?
+SHIMADA
+Chez moi c’était une grande ferme, on travaillait tous, et une
+fois j’ai été brûler du charbon dans la montagne, j’y suis resté
+seul pendant un mois. Je connais les fruits et les arbres.
+ONODA
+Où ça ?
+SHIMADA
+A Owase, dans la préfecture de Mie.
+Chacun mange, on dirait qu’ils imaginent le Japon. Soudain, le vacarme de la pluie
+se calme presque instantanément dehors, créant une sensation de calme irréel.
+Chacun s’est figé, regardant vers la jungle. Sur le visage d’Onoda, l’excitation s’est
+rallumée.
+38. SEQUENCE SUPPRIMEE
+39. EXT. ARBRE A NANGKAS (2) DES DESERTEURS – JOUR
+Les quatre hommes avancent dans la jungle fusils à la main, à nouveau sous la
+pluie. Akatsu est à la traîne, épuisé, livide. Onoda doit ralentir le rythme, tendu.
+SHIMADA
+On n’a pas assez mangé, on devrait attendre que la pluie--
+ONODA (le coupant brutalement)
+C’est des averses. On a trop attendu.
+Onoda est reparti, dégoulinant de pluie. Il stoppe bientôt, épouvanté. Les autres
+voient à leur tour : à 10 mètres d’eux, sous un arbre, trois cadavres. Yeux ouverts,
+visage bleus battus par la pluie, ils reposent contre le tronc. Hébétés, les vivants
+reconnaissent les morts : Oshima, Sakamoto et Sato, les triplés déserteurs. Nulle
+trace de blessures, mais à leurs pieds, les tas de nangkas qu’ils ont mangés. Le
+regard d’Onoda remonte vers les branches et les fruits jaunes meurtriers.
+40. EXT. ROUTE PORT DETRUIT – NUIT
+La pluie a cessé, la nuit est tombée. Les 4 soldats rampent comme des ombres dans
+un champ cultivé sous une lune voilée. Les yeux d’Akatsu se ferment, Shimada doit
+le secouer pour qu’il les rouvre et avance. Il lui murmure des mots d’encouragement.
+Onoda le fait taire d’un geste : devant eux les silhouettes carbonisées et dévastées
+des bâtisses indigènes près du port où Onoda a débarqué il y a peu.
+ONODA - V10 du 22 nov. 2018 28
+Quelques instants plus tard. Ils avancent prudemment entre les ruines calcinées
+du hameau fantôme. Çà et là, des signes d’un campement récent : emplacements
+des tentes repérables à l’herbe couchée et arrachée, déchets détrempés dont les
+fameux emballages de chewing gum. Ils parviennent aux dernières ruines, Onoda
+fait signe aux autres de l’attendre et continue d’avancer seul.
+41. EXT. ROUTE PORT DETRUIT : POV SUR MER – NUIT
+Onoda a rampé jusqu’au bord de l’eau. Il chausse ses jumelles : à peine discernable
+dans la nuit, ce qui peut ressembler à un croiseur disparaît à l’horizon. Onoda baisse
+ses jumelles et fixe les détritus de l’ennemi qui flottent sur l’eau noire.
+42. EXT/INT. ROUTE PORT DETRUIT – NUIT
+Parcourant à nouveau le camp, les 4 hommes inspectent en silence les lieux.
+Kozuka entre dans une des rares baraques en partie épargnées par le feu.
+Il éclaire l’intérieur d’une allumette : il n’y a qu’une chaise. Kozuka s’approche : sur le
+dossier, des traces sombres. Onoda dans son dos regarde la chaise : ça ressemble
+à des giclées de sang. Ils se regardent. Dans un angle, un tas de cendres d’où
+émerge un morceau de tissu calciné. Onoda s’accroupit et le saisit : un morceau
+d’uniforme japonais. Kozuka regarde son chef immobile qui tient le vestige dans son
+poing tellement serré qu’il fait trembler tout son corps.
+ONODA (voix étouffée)
+On ne peut même pas les combattre.
+SHIMADA (OFF, venant de dehors)
+LIEUTENANT !
+Les deux soldats se précipitent à l’extérieur.
+43. EXT. ROUTE PORT DETRUIT - NUIT
+A la périphérie du bourg, Shimada et Akatsu tiennent en joue deux philippins
+miséreux tirant une brouette pleine de matériaux divers : ostensiblement, des
+pillards. Onoda et Kozuka les rejoignent.
+Les philippins, mains en l’air, s’épanchent en tagalog_. Des mots anglais émergent :
+PILLARD PHILIPPIN
+No yankees! No yankees, yankees go! War over!
+Les autres regardent Onoda. Il se retourne, ses yeux injectés d’une rage folle
+scrutent le hameau dévasté. Soudain un mouvement derrière un mur : le visage
+ONODA - V10 du 22 nov. 2018 29
+d’Onoda s’illumine. Un coup de feu, les japonais se précipitent à couvert derrière une
+bâtisse effondrée tandis que les pillards fuient. Dans les yeux d’Onoda, de
+l’excitation : entre les ruines c’est une escouade en uniformes clairs qui se déploie.
+Shimada accroupi vise et tue l’un des assaillants courant entre deux ruines. Onoda
+en repère un autre qui se cache furtivement derrière un mur. Il met en joue l’endroit
+où l’uniforme a disparu. Quand l’homme apparaît et arme, Onoda tire, l’homme
+tombe. Onoda réarme, un coup de feu claque soudain, il crie de douleur et lâche son
+fusil : il voit alors l’un des assaillants qui s’était placé à revers et vient de tirer. Alors
+que ce dernier réarme, une balle lui fauche le crâne. Onoda tourne la tête : c’est
+Akatsu qui a tiré, encore hébété. Onoda remarque alors que sa propre main saigne :
+une balle a coupé le bout de son petit doigt.
+Les japonais voient les trois derniers assaillants se replier et fuir à l’autre bout du
+hameau en ruine. Le calme est revenu, les trois ennemis tués gisent à terre. Onoda
+a le souffle court.
+44. EXT. GROTTE – NUIT
+Réfugiés à l’entrée d’une grotte à l’orée de la jungle, ils tremblent encore de
+l’accrochage.
+KOZUKA
+C’était des uniformes philippins.
+SHIMADA
+C’était des philippins, j’ai vu le visage du dernier.
+AKATSU (éprouvé)
+Et si on a tué des gens avec qui on n’est plus en guerre ? Ils
+ont dit « War over », vous avez entendu…
+Onoda est dans un état de tension extrême, proche de la jubilation.
+ONODA
+Qui a tiré la première balle ? Nous ? (Akatsu secoue la tête)
+C’est les donkos, ils ont fait feu sur nous, on est en guerre !
+Akatsu secoue la tête, ses mains ont lâché son arme. Onoda les lui plaque sur le
+fusil.
+ONODA
+Ne lâche jamais ça ! Il y a un ennemi. Philippins ou
+américains, c’est l’ennemi ! IL Y A UN ENNEMI, IL Y A UNE
+MISSION, JE NE SUIS PAS--
+Il s’est interrompu brutalement. Akatsu, Shimada et Kozuka fixent leur chef,
+impressionnant d’intensité. Ebranlés, ils attendent tous qu’il poursuive.
+ONODA - V10 du 22 nov. 2018 30
+ONODA
+Je ne suis pas un soldat de l’armée régulière. J’ai reçu une
+éducation secrète, dans une école secrète, j’ai été formé
+pour une mission.
+KOZUKA (soufflé)
+Quelle éducation, quelle-- ?
+ONODA
+Vous allez m’écouter, sans parler. D’accord ?
+Les trois autres acquiescent, suspendus à ses lèvres. Il prend une longue inspiration.
+TANIGUCHI (OFF)
+Regarde-moi. Tu sais pourquoi tu n’es pas monté dans
+l’avion ?
+45. INT. TAVERNE - JOUR / FLASHBACK
+TANIGUCHI
+Parce que tu ne veux pas mourir.
+Nous sommes de retour dans la taverne plusieurs mois plus tôt, Onoda regarde le
+Major Taniguchi avec ses grands yeux d’enfants. Ils sont assis par terre.
+TANIGUCHI
+Je suis le Major Taniguchi Yoshimi. Tu n’as jamais entendu
+parler de l’annexe de Futamata de l’Ecole de Nakano ?
+Onoda secoue la tête.
+MAJOR TANIGUCHI (OFF)
+« Mauvais garçons », « bons à rien », « vauriens »… C’est
+comme ça qu’on vous appelle, non ?
+46. INT. ECOLE FUTAMATA, SALLE DE COUR / FLASHBACK - JOUR
+Le Major est maintenant debout dans une salle de classe.
+MAJOR TANIGUCHI (SUITE)
+J’ai grandi dans une petite ville en bord de mer. Vous n’avez pas
+besoin de savoir laquelle, imaginez seulement les soirs chauds
+d’été, où il n’y a pas de vent. Imaginez maintenant les
+moustiques, par milliers. Vous savez le bruit qu’ils font… Et bien
+imaginez le silence lorsqu’ils ont disparu un jour. C’est le jour où
+on a fait venir d’Amérique un produit chimique à badigeonner sur
+les murs.
+ONODA - V10 du 22 nov. 2018 31
+Face à lui, une vingtaine d’étudiants. Aucun ne porte l’uniforme. Onoda regarde ses
+voisins : l’un est affalé sur sa chaise, l’autre est secoué de tics… jusqu’à tomber sur
+un garçon qui met tranquillement une cigarette dans sa bouche, écoutant
+sérieusement Taniguchi. Onoda n’en revient pas.
+MAJOR TANIGUCHI
+…En réalité, ils n’avaient pas tous disparu. Les rares qui ont
+survécu sont ceux qui se posaient au plafond la tête en bas. Une
+conduite stupide et inconfortable pour les autres moustiques -
+n’empêche que ceux là ont survécu. Aujourd’hui dans mon
+village il n’y a plus que des moustiques qui se posent au plafond,
+et il y en a des milliers. Tant pis pour le silence.
+Vous êtes comme eux : vous vous posez au plafond. Vous ne
+vous en rendez pas compte, mais vous avez un don rare pour la
+survie.
+Il laisse passer un ange, comme pour faire résonner sa dernière phrase.
+MAJOR TANIGUCHI
+Ce que vous apprendrez ici restera un secret, que nous
+partagerons. Retenez bien ce mot – secret. Vous êtes ici
+parce que nous croyons que vous êtes les mieux à même de
+le comprendre.
+Onoda fixe le Major. Taniguchi le regarde, parmi les autres. Sa voix a une étrange
+qualité hypnotique.
+MAJOR TANIGUCHI
+Il y a la guerre, et il y a la guerre secrète. Elle se mène dans
+le camp ennemi. Nous vous apprendrons des techniques -
+renseignement, survie, communication, dissimulation - mais
+surtout à penser et décider seuls, parce qu’il vous arrivera de
+mener cette guerre, seuls. Secrètement. Nous vous
+apprendrons donc, des secrets. Secret n°1 :
+Taniguchi s’est rapproché des élèves, subjugués. Sa voix baisse jusqu’au murmure :
+MAJOR TANIGUCHI
+…Vous n’avez pas le droit de mourir.
+47. EXT. ECOLE DE FUTAMATA, COULOIR, EXT et REFECTOIRE – JOUR +
+SOIR
+Onoda enlève des journaux pendus à une corde tendue dans un couloir, et affiche
+les quotidiens du jour. Ramassant un petit tas de journaux, il passe devant une
+chambre spartiate (où des élèves lisent dans des hamacs), avance dans le couloir et
+quitte le bâtiment, traverse l’enceinte de l’école. La voix de Taniguchi l’accompagne :
+ONODA - V10 du 22 nov. 2018 32
+MAJOR TANIGUCHI (OFF, SUITE)
+Tous les autres s’ils veulent, mais pas vous ! Vous devrez
+toujours - TOUJOURS ! Trouver une autre solution.
+L’honneur existe, oui, mais plus au même endroit. Vous
+seuls déciderez où… au plafond par exemple.
+Onoda longe un terrain où des recrues jouent au volleyball… puis un baraquement
+devant lequel un groupe d’étudiants, assis en cercle au sol, écoute un instructeur
+pour un cours de stratégie … un hangar où quelques uns démontent des radios et
+des moteurs de tondeuse à gazon… Des étudiants fument en parlant devant une
+porte…
+MAJOR TANIGUCHI (OFF, SUITE)
+Car le principe qui structure la guerre secrète…
+Bercé par la voix du Major, Onoda entre dans le bâtiment du réfectoire, passe devant
+des camarades qui travaillent à une table et répète la même tâche que dans le
+couloir : il enlève les journaux de la veille pendus au fil prévu à cet effet et affiche
+soigneusement les journaux du jour.
+MAJOR TANIGUCHI (OFF, SUITE)
+…c’est que chacun, en dernière instance, y est son propre
+officier.
+Sur la table où travaillent ses co-disciples, à côté des cahiers et livres, quelques
+bouteilles de saké pleines.
+Plus tard. Sur la table du réfectoire, il ne reste qu’une seule bouteille de saké quasi
+vide. Le soir tombe, cahiers et livres repoussés en bout de table, les élèves sont
+gais, Onoda ivre. Au milieu du cercle qui bat la mesure, il chante, à deux voix avec
+un autre élève, une chanson folklorique, « Sado Okesa », qui figure un dialogue
+entre un homme et une femme :
+« - Vers Sado, vers Sado, même les feuilles des arbres
+et l’herbe sont soufflés par le vent. Sado n’est-il pas un
+endroit agréable à vivre ?
+- Viens, viens me dis-tu, mais je ne peux m’y rendre
+facilement. Sado est à 49 ri d’ici, au-delà des vagues de la
+mer.
+- De Sado, de Sado je peux parvenir à Izumozaki à la
+rame. Mais pourquoi, pourquoi mes sentiments ne
+parviennent pas jusqu’à toi ? »
+ONODA
+C’est pas Izumozaki c’est « De Sado je peux parvenir à
+Kashiwazaki en bateau » !
+ONODA - V10 du 22 nov. 2018 33
+ELEVE
+Non ! « De Sado, de Sado je sens la chaleur de Niigata
+apportée par le vent. Mais pourquoi, oui pourquoi ta voix
+n’arrive pas jusqu’à moi ? » C’est comme ça dans la version
+de Katsutaro Kouta !
+Chacun en connait une version différente. Une joute débute, Onoda continue sa
+version malgré le brouhaha.
+… A ce moment une voix s’élève, les recrues se tournent vers la pénombre du fond
+du réfectoire. La voix de ténor profonde chante une version synthétique qui cite
+toutes les autres. Une silhouette sort de l’ombre, c’est Taniguchi.
+MAJOR TANIGUCHI (chantant)
+« Depuis Sado, depuis Sado je peux entendre le chant des
+soldats à Futamata. Mais pourquoi, oui pourquoi ne
+chantent-ils plus avec moi ? »
+Les élèves éclatent de rire et applaudissent leur mentor, qui les calme d’un geste.
+Seul Onoda, plus saoul que les autres, fredonne encore quelques secondes, fixant
+Taniguchi avec son sourire ivre. Le Major a un coup d’œil pour le verre de saké
+qu’Onoda a dans sa main, puis le regarde sans se départir de son apparente
+bienveillance. Ils sont très proches.
+MAJOR TANIGUCHI
+Moi aussi j’aime beaucoup cette chanson, tu sais pourquoi ? Elle
+a quelque chose de spécial. A ton avis, qu’est-ce que c’est ?
+Onoda cherche, levant les yeux au ciel, souriant toujours.
+ONODA
+Elle vient de Sado ?
+Les élèves rient en cœur.
+MAJOR TANIGUCHI
+On dirait que tu aimes t’amuser toi, hein ? J’ai une question
+pour toi : est-ce qu’ici c’est le bon endroit pour s’amuser ?
+Onoda ne sait plus s’il doit continuer à sourire, et secoue négativement la tête.
+MAJOR TANIGUCHI
+Si, parce que c’est votre après-midi de repos. Mais alors dis-
+moi : pourquoi vous amenez vos cahiers, est-ce que c’est le
+moment d’étudier ?
+Cette fois-ci, le silence s’est installé. Onoda secoue à nouveau la tête.
+MAJOR TANIGUCHI
+Tu es sûr ? C’est une école, dans une école, c’est toujours le
+moment d’apprendre. Penses-tu pouvoir t’amuser et
+ONODA - V10 du 22 nov. 2018 34
+apprendre en même temps ? Alors voyons, je te repose ma
+question : cette chanson, qu’est-ce qu’elle a de spécial ?
+Onoda s’est figé, il n’ose plus répondre.
+MAJOR TANIGUCHI
+Quand j’ai chanté, est-ce que j’ai chanté la même chanson
+que toi ?
+Onoda fait non la tête. Taniguchi le regarde froidement.
+MAJOR TANIGUCHI
+Il faut que tu m’écoutes bien. Quand j’ai chanté, tu te
+souviens de ce que j’ai fait ? (Onoda acquiesce) Bon, alors :
+fais la même chose que moi.
+Il se tourne vers un élève et lui fait signe de battre la mesure, il s’exécute. Tout le
+monde regarde Onoda.
+ONODA
+« Depuis Sado, depuis Sado je peux entendre le chant des
+soldats à Futamata. Mais pourquoi, oui pourquoi ne
+chantent-ils plus avec—»
+MAJOR TANIGUCHI (le coupant)
+NON. T’as pas compris ce que j’ai dit. Chaque mot est
+important, écoute-moi bien : Je n’ai pas dit « chante comme
+moi », j’ai dit « fais la même chose que moi ».
+Un instant de panique passe dans les yeux d’Onoda.
+ONODA (hésitant)
+« De Sado… de Sado je sens la chaleur de Niigata…»
+Taniguchi attrape son bras (son corps n’a pas bougé, seulement sa main). Onoda
+regarde ses camarades, dégrisé par l’attitude de Taniguchi. Ce dernier rapproche
+lentement Onoda de lui de sa main puissante, jusqu’à presque coller sa bouche à
+son oreille, un éclat sauvage dans les yeux.
+MAJOR TANIGUCHI (chuchotant pour lui seul)
+J’essaie de t’apprendre quelque chose. Si tu ne comprends
+pas ce que je dis, je te jure que c’est la dernière fois que tu
+t’enivres. Tu veux monter dans un avion ? Vertige ou pas
+vertige, peu importe. Je te le redemande, fais la même chose
+que moi.
+Pendant de longues secondes, Onoda tétanisé fixe le Major, puis regarde la main qui
+serre son bras.
+ONODA (fébrile, improvisant)
+« De Futamata… de Futamata je sens le bras du Major qui
+ONODA - V10 du 22 nov. 2018 35
+m’emporte vers la gloire. Mais pourquoi ne puis-je… me
+rassoir à table ? »
+Le Major lâche son bras et sourit. Explosions nerveuses de rires. Onoda a l’air
+sonné. On lui ressert du saké ainsi qu’au Major, qui tourne le liquide en parlant.
+MAJOR TANIGUCHI (redevenu doux)
+Voilà : ce qu’elle a de spécial, comme certaines chansons
+folkloriques, c’est que quelles que soient les paroles, c’est
+bien la même chanson. Elle bouge, elle réapparaît sans
+cesse, elle est immortelle. L’improvisation, l’adaptation,
+l’initiative, c’est ça la clef. Ce qui compte, c’est que la
+chanson soit chantée. Vous êtes votre propre officier.
+Le regard de Taniguchi est revenu se fixer sur Onoda. Le major continue de tourner
+lentement l’alcool dans son verre, sans le boire. Onoda regarde son propre verre
+rempli de saké dans sa main : ils sont face à face dans des positions symétriques.
+Onoda finit par poser son verre sur la table. Imperceptiblement, Taniguchi acquiesce.
+Progressivement, le son de la scène disparaît, on dirait que Taniguchi et Onoda sont
+seuls dans la pièce.
+MAJOR TANIGUCHI (OFF, à voix très basse)
+La gloire et la honte sont deux choses contraires, n’est-ce
+pas ? Pas pour vous !
+48. EXT. ECOLE DE FUTAMATA, COUR – AUBE
+Dans la vaste cour de l’école déserte et silencieuse, l’aube pointant, Onoda se tient
+en uniforme avec cinq autres camarades. A leurs pieds, leurs bardas, devant eux, le
+Major, en uniforme également. Il parle à voix très basse, intime.
+MAJOR TANIGUCHI
+Vous n’êtes plus des soldats ordinaires. Mensonge, trahison,
+humiliation : rien ne vous est interdit ! Oui, le reste du pays y
+verra de l’infamie. Seuls vous saurez que vous avez agi
+glorieusement. N’attendez aucune récompense. Voila notre
+dernier secret : la seule récompense de la guerre secrète,
+c’est l’intégrité ! L’intégrité, c’est une gloire sans gloire, une
+gloire secrète.
+La voix a terminé sur des accents lyriques. Les visages des six jeunes soldats
+reçoivent cette ultime leçon avec une solennité intense. Taniguchi déploie une carte
+du Pacifique. Il reprend à voix toujours aussi basse, mais martiale.
+MAJOR TANIGUCHI
+Les philippines comportent 7 000 îles. C’est là que la bataille
+décisive a lieu en ce moment, et c’est sur certaines de ces
+îles que vous allez être envoyés !
+ONODA - V10 du 22 nov. 2018 36
+Taniguchi se raidit, un second lui tend une série de papiers. Le plus éloigné du
+Major, Onoda attend en serrant les poings. Taniguchi lit les ordres de missions des
+camarades d’Onoda, inaudibles pour lui.
+MAJOR TANIGUCHI
+« L’aspirant officier Sugii Haruka ira sur l'île de Tablas où il
+dirigera la garnison dans la guérilla. Il prendra contact avec le
+Lieutenant Kondo Mutsuo, et supervisera le déploiement des
+troupes en préparation de la guérilla. Celle-ci a pour but
+d’empêcher la conquête du territoire par l’ennemi. »
+Enfin, il est face à Onoda, le regard apaisant, sa voix se fait douce.
+MAJOR TANIGUCHI
+« L’aspirant officier Onoda ira sur l’île de Lubang où il
+dirigera la garnison dans la guérilla. Il prendra contact avec
+le Lieutenant Hayakawa Shigeki, et supervisera le
+déploiement des troupes en préparation de la guérilla. Celle-
+ci a pour but d’empêcher la conquête du territoire par
+l’ennemi. »
+Onoda a écouté dans une tension extrême, mais son attention peine à se focaliser.
+MAJOR TANIGUCHI (d’une voix encore plus intime)
+L’aérodrome de Lubang est le seul à l’ouest de Manille. Tu
+comprends l’importance stratégique qu’il a ? Ta première
+mission est de détruire l’aérodrome et les installations
+portuaires. Quand l’ennemi sera là, détruis ses avions et tue
+ses troupes. Tiens l’île jusqu’au retour de nos forces.
+Onoda s’incline. Taniguchi recule et parle aux six soldats, reprenant son
+chuchotement étrangement martial et violent. Mais c’est toujours Onoda qu’il regarde
+droit dans les yeux.
+MAJOR TANIGUCHI
+Il vous est absolument interdit de vous donner la mort ! Ça
+pourra prendre 3 ans, ou 5 ans, mais quoi qu’il arrive nous
+reviendrons pour vous ! Jusque là, tant que vous avez un
+soldat, vous devez continuer à le diriger ! Ne lui révélez la
+nature de votre mission qu’en dernière extrémité ! Vous
+aurez peut-être à vivre de noix de coco ! Si c’est le cas, vivez
+de noix de coco !! Mangez des racines, mangez de la terre !!!
+LES 6 SOLDATS
+Oui !!
+ONODA - V10 du 22 nov. 2018 37
+49. EXT. GROTTE – NUIT
+Onoda reproduit, seul, le cri d’allégeance des 5 soldats :
+ONODA
+Oui !!
+Nous sommes de retour dans la grotte, dans la jungle de Lubang. Les visages de
+Kozuka, Shimada et Akatsu sont frappés par le récit qu’Onoda vient de finir. Il respire
+plus sereinement, on dirait que l’aura de Taniguchi est en partie passée en lui.
+ONODA
+Je crois que sur chaque île importante du Pacifique, il y a
+quelqu’un avec la même mission que moi. A quatre on peut
+se fondre complètement dans cette île, on peut l’étudier à
+fond et transmettre tout ce qu’on saura aux troupes qui
+reviendront s’en servir comme base de reconquête de la
+zone. Sans nous, il n’y a plus de combat, il n’y a plus de
+victoire.
+Si les américains sont vraiment tous partis, tant mieux : c’est
+notre île. Qui le conteste est notre ennemi.
+Les autres prennent la mesure de ces mots. Onoda baisse les yeux.
+ONODA
+Vous pouvez être l’avant-garde. Mais vous devez le vouloir.
+Sinon, allez vous rendre à eux.
+Son bras s’est calmement déplié et désigne les ruines lointaines du port de Lubang,
+invisibles. Kozuka se lève. Onoda relève les yeux.
+KOZUKA
+Je suis avec vous, jusqu’à la victoire !
+Kozuka et Onoda regardent les deux autres. Shimada se lève.
+SHIMADA
+Je suis avec vous.
+Akatsu regarde le vide, encore assis. Il sent le regard des autres sur lui.
+AKATSU (se levant lentement)
+Je suis avec vous.
+Onoda acquiesce d’un regard pénétrant. Sans un mot de plus, ils s’installent pour
+dormir. Onoda regarde Akatsu encore hagard et ébranlé. Ce dernier le remarque.
+AKATSU (murmurant, confus)
+C’était le premier… ennemi que je tue.
+ONODA - V10 du 22 nov. 2018 38
+ONODA (avec un sourire confiant)
+Moi aussi.
+Onoda reste seul à regarder la nuit.
+50. EXT. GROTTE – MATIN.
+Les quatre sont penchés au dessus de la carte. Onoda délimite une zone précise.
+ONODA
+Notre domaine réservé c’est le centre, la jungle. Aucun
+donko ne s’y risquera, ils savent qu’ils se feront tuer. Mais il
+faut qu’on ait un accès permanent et rapide aux ports et
+surtout à l’aérodrome. Pour l’instant on le laisse intact pour
+nos troupes, mais en cas d’activité ennemie il devra sauter.
+L’accès étant capital, les zones intermédiaires sont la clé :
+plaines et semi-montagne, et là c’est plus compliqué…
+KOZUKA
+…Parce que c’est que des champs, c’est chez eux.
+ONODA
+On va leur faire passer des ‘messages’ : qu’ils sachent qu’on
+tolère leurs cultures mais que le terrain est à nous. Quand ils
+auront tout le temps peur, on maîtrisera toute l’île. (il replie la
+carte) Des questions ?
+Onoda fixe Akatsu droit dans les yeux. Akatsu hésite à parler, regardant Shimada qui
+tresse des brins de chanvre, placide.
+AKATSU
+Je… j’ai faim. Combien de temps on peut tenir avec le riz qui
+reste ?
+KOZUKA (éructant soudain)
+HHHA !! « Le riz qui reste » ?! Tu veux dire APRES que t’en
+as volé ou AVANT ?!
+Akatsu se dresse mais Kozuka le rassoit avec violence et dans un même geste sort
+de la poche d’Akatsu deux boules de riz qu’il brandit. Shimada a bondi mais reste
+muet face à cette preuve. Akatsu détourne son visage, honteux.
+KOZUKA (donnant à Onoda les deux boules de riz)
+Tiens ! Moi j’ai une question : quels ‘messages’ on va faire
+passer ?
+Onoda regarde les boules de riz dans ses mains.
+ONODA - V10 du 22 nov. 2018 39
+51. EXT. RIZIERE – JOUR
+A plat ventre dans des hautes herbes, ils observent des paysans moissonner un
+champ à une cinquantaine de mètres. Le riz est entassé au bout des rangées. Le
+crépuscule approche, Shimada met en joue les paysans, chantonnant "Sado Okesa":
+« Vers Sado, les feuilles des arbres et l’herbe sont soufflés
+par le vent. »
+Onoda fait un signe. Shimada tire, la balle crève un tas de riz. Les paysans
+tressautent et s’enfuient. Shimada fait le guet : Akatsu verse de l’essence en traînées
+dans le champ, Onoda et Kozuka raflent tout le riz qu’ils peuvent, remplissant quatre
+énormes sacs. Ils plantent ensuite des tissus imbibés d’essence dans les tas restant,
+y mettent feu. Les flammes gagnent rapidement le champ.
+Chacun chargé d’un sac de riz, ils filent vers la montagne tandis que la récolte
+s’enflamme. Tout ce temps, le chant de Shimada n’a pas cessé, OFF.
+52. EXT. HAUTEUR sur RIZIERE – SOIR
+Depuis un point dominant, ils regardent la récolte brûler, essoufflés.
+ONODA (OFF)
+On va appeler ça les « Signaux de fumée ». On les fera à
+chaque récolte, partout. Si il y a des troupes japonaises ou
+des agents de liaison dans les îles autour de nous, ils verront
+ces feux et comprendront que Lubang est encore en lutte.
+Le chant se poursuit OFF :
+« Viens, viens me dis-tu, mais je ne peux te rejoindre
+facilement. Sado est si loin d’ici, au-delà des vagues de la
+mer… »
+53. EXT. DIVERS LIEUX ILE : PLAINE WAKAYAMA, COLLINE, CASCADE,
+ROUTES, PORT, VILLAGE, AERODROME et CARTE - JOUR
+Le chant de Shimada continue tandis qu’Onoda et Kozuka, depuis une série
+d’éminences, déplient la carte : ils repèrent les endroits qui y correspondent,
+l’annotent au fur et à mesure. Elle s’étoffe d’indications, de symboles. Onoda désigne
+une plaine en altitude, entouré de jungle.
+ONODA
+« La plaine Wakayama ». Ma ville natale. (il l’inscrit sur la
+carte.)
+ONODA - V10 du 22 nov. 2018 40
+Ailleurs. Ils sont devant une colline à la forme singulière, pouvant évoquer la poitrine
+généreuse d’une femme. Kozuka en caresse les contours à distance, concupiscent.
+KOZUKA
+« Les mamelles de Machiko » ! Ahahah ! J’ai connu une
+Machiko qui en avait des--
+Il s’interrompt devant la gêne manifeste d’Onoda, qui a détourné les yeux.
+KOZUKA (regardant à nouveau la colline)
+… Disons « La colline du dromadaire ».
+Onoda opine et l’inscrit sur la carte.
+Ailleurs : nous suivons à rebours le trajet d'une rivière jusqu'à une cascade, au-
+dessus de laquelle Onoda et Kozuka se tiennent. Onoda regarde dans ses jumelles.
+ONODA
+"La rivière du serpent."
+Kozuka observe son chef : Onoda est au bord du vide.
+KOZUKA
+Et ton vertige ?
+Onoda regarde le paysage à ses pieds, presque surpris, puis Kozuka. Il fait non de la
+tête, en souriant. On remarque que leurs uniformes commencent à être déchirés par
+endroits.
+Tandis que leur aspect évolue par touches (uniformes rapiécés, barbes et cheveux
+qui poussent, sauf Onoda toujours parfaitement rasé), défilent dans les jumelles les
+sites importants : routes, villes, ports, casernes, montagnes, rivières, plages,
+aérodrome.
+Parallèlement Onoda tient sur un mince carnet le décompte des jours, semaines,
+mois, bercé par le chant de SHIMADA OFF :
+« Depuis Sado je peux atteindre Izumozaki sur le continent à
+la rame… »
+54. SEQUENCE SUPPRIMEE
+55. EXT. BIVOUAC à 4 – JOUR
+Installés à un bivouac dans la jungle, Kozuka torse nu suit un cours de tressage de
+sandales que lui donne Shimada, imitant ses gestes. Tous deux chantonnent « Sado
+ONODA - V10 du 22 nov. 2018 41
+Okesa ». Akatsu à l’écart a le regard fixe, hagard. Onoda l’observe tout en notant la
+date du jour sur son carnet (« 1er janvier 1946 »).
+SHIMADA
+Juste avant de quitter le Japon, j’en ai fait une petite paire
+pour mon fils.
+KOZUKA
+T’as un fils ?
+SHIMADA
+Il est né quand j’étais déjà parti. Il doit savoir bien parler
+maintenant.
+KOZUKA
+Comment il s’appelle ?
+Shimada ne répond pas. Akatsu tourne les yeux vers lui, au comble du malaise.
+SHIMADA (brûlant un fil de chanvre)
+Il n’y a presque plus d’allumettes.
+KOZUKA
+On va faire une ‘réquisition’ ce soir le Lieutenant et moi.
+Onoda fixe toujours Akatsu qui regarde Shimada tressant le chanvre.
+Plus tard. Les pieds des quatre soldats courent dans la jungle, seuls Shimada et
+Kozuka ont des sandales. Akatsu, faible et boitant un peu, est à la traîne… Sur son
+visage, la fatigue se mêle à un début de découragement.
+Shimada termine la chanson OFF :
+« …Mais pourquoi, oui pourquoi ne puis-je atteindre ton
+tendre cœur ? »
+56. EXT. BIVOUAC à 4 – NUIT
+Nuit. Shimada est réveillé par un bruit : Akatsu redressé sur sa natte s’agite
+bizarrement. Shimada rejoint Akatsu : il pleure, les jambes recouvertes de fourmis
+qu’il n’essaie même pas de chasser. Shimada les chasse et les écrase, change sa
+couche de place.
+AKATSU
+Elles s’en prennent qu’à moi.
+SHIMADA (bienveillant)
+C’est le riz que t’as tout le temps dans tes poches.
+ONODA - V10 du 22 nov. 2018 42
+AKATSU
+J’ai trop faim… J’ai tout le temps faim.
+Shimada regarde la main de son protégé posée sans force sur son ventre
+douloureux. Shimada l’allonge avec des gestes doux sur sa natte, relève sa veste,
+dévoilant son ventre maigre. Il masse son estomac avec délicatesse. Le visage
+d’Akatsu se détend, il regarde son ami, épuisé et reconnaissant.
+Onoda, depuis sa natte, les regarde. Ses yeux fatigués se ferment lentement. Sur sa
+natte, Kozuka se tourne et, caché aux regards des autres, glisse une main vers son
+entrejambe, qu’il caresse en essayant de ne pas faire de bruit. Il ferme les yeux à
+son tour, et sur son visage le plaisir semble se mêler à la douleur et la tristesse.
+57. EXT. BIVOUAC à 4 – MATIN
+La natte d’Akatsu est vide, les fourmis y grouillent. Les trois sont penchés sur la
+carte.
+ONODA
+Je suis sûr qu’il va par là. Il sait qu’il y a des bananes toute
+l’année, faciles d’accès, et c’est proche de Looc.
+SHIMADA
+Mais c’est pas le plus rapide pour atteindre une caserne. S’il
+est parti dans une autre direction ça risque d’être trop tard--
+KOZUKA (le coupant)
+Et bah qu’il crève, il l’aura cherché !
+Shimada attrape son fusil pour partir, tendu. Onoda le retient, attrape un sac.
+SHIMADA
+Laissez-moi y aller. (Il jette un œil noir à Kozuka) Je veux
+pas rester avec lui.
+ONODA
+Non ! Battez-vous si il faut mais prenez conscience de vos
+responsabilités ! Vous ne bougez pas d’ici.
+Les autres le regardent disparaître, évitant de se regarder. Kozuka ouvre le carnet
+d’Onoda et note : « 2 JUIN ». Shimada regarde le ciel se charger de nuages
+sombres.
+58. EXT. JUNGLE VERS RUISSEAU et BIVOUAC à 4 – JOUR
+Sous le ciel chargé, Onoda chemine dans la jungle, son rythme ne faiblit pas.
+ONODA - V10 du 22 nov. 2018 43
+Une goutte tombe sur le carnet où Kozuka vient d’inscrire « 3 JUIN ». Il échange un
+regard avec Shimada, qui lève les yeux vers le ciel :
+…perçant le toit des arbres, la pluie tombe autour d’Onoda. Il presse le pas.
+59. EXT. HUTTE DE MOUSSON à 4 et JUNGLE : RUISSEAU BOUE – JOUR
+Pluie soutenue. Sous une large bâche tendue pour s'abriter, Shimada et Kozuka
+récoltent des matériaux (bois, feuilles, joncs etc.), délimitent et nettoient un
+emplacement puis bâtissent, adossée à un arbre, une hutte en bambous et feuilles
+de palme. Avec précision et efficacité, sans un mot, tâches et gestes sont clairement
+répartis. La hutte se bâtit devant nos yeux…
+… tandis qu’Onoda continue sa route : il défriche, longe une rivière, gravit une
+colline… La pluie s’intensifie, il ne ralentit pas, son agilité semble même augmenter.
+Shimada et Kozuka terminent la hutte alors que la pluie se fait diluvienne. Ils se
+sourient, fiers et éreintés.
+Depuis la hutte, Kozuka inscrit sur le carnet : « 7 JUIN » puis regarde la pluie qui
+tombe du ciel…
+… la pluie tombe drue sur Onoda qui continue son périple, le long d’un ruisseau
+encaissé. Il s’arrête brusquement: affalé dans la boue au pied d’un arbre, des
+épluchures d’innombrables bananes flottant autour de lui, Akatsu le regarde
+convulsionné de froid, incrédule. Onoda sort son couteau, approche lentement.
+Akatsu regarde l’arme, terrifié. Onoda s’agenouille et pose la lame sur le cou
+d’Akatsu, la fait glisser… jusqu’à une sangsue. Akatsu ferme les yeux, Onoda enlève
+délicatement la sangsue et la jette. Akatsu rouvre ses yeux d’enfant terrorisé. Avec
+une douceur paternelle, Onoda amène la tête du garçon contre son épaule. Akatsu
+ferme les yeux.
+Fondu au noir.
+60. SÉQUENCE SUPPRIMÉE
+61. EXT/INT. HUTTE DE MOUSSON à 4 – NUIT
+Akatsu ouvre les yeux, il sort de la fièvre. Allongé au fond de la hutte, il découvre les
+ombres de ses camarades qui remuent dans le fragile éclairage du feu, dont le foyer
+est creusé à une des extrémités de la hutte. Dehors, pluie venteuse. Sur le plus
+grand « mur » est placardée la carte annotée de Lubang. Kozuka, Shimada et Onoda
+fredonnent en chœur le chant militaire (« Même si ma casquette de combat gèle… »)
+tout en vaquant à leurs tâches respectives : Kozuka cuisine ; Shimada coupe les
+cheveux d’Onoda avec des ciseaux bricolés ; Onoda tient son calendrier, inspectant
+au passage le bout de son petit doigt sectionné : parfaitement cicatrisé. Akatsu se
+redresse et déchiffre ce qu’Onoda vient d’inscrire dans son carnet : « 9 juillet 46. »
+ONODA - V10 du 22 nov. 2018 44
+AKATSU (comme pour lui-même)
+J’ai 20 ans…
+Tous le regardent, disent « Bon anniversaire. » et se remettent à leurs tâches.
+Akatsu les regarde l’un après l’autre, jusqu’à tomber à nouveau sur le carnet
+d’Onoda : à côté de la date, Onoda est en train d’ajouter « Anniversaire Akatsu ».
+Une émotion submerge Akatsu, il s’agenouille brusquement devant Onoda.
+AKATSU (très vite)
+Je serais mort tout seul, merci de ne pas m’avoir abandonné!
+Shimada et Kozuka le regardent, décontenancés. Assis au-dessus d’Akatsu
+prosterné, Onoda évoque un roi. Il se lève, regarde le crâne incliné d’Akatsu. Il le fait
+se relever.
+ONODA
+Une famille, ça abandonne ses enfants ?
+Akatsu se mord la lèvre pour réprimer une nouvelle vague d’émotion. Onoda
+retourne se faire couper les cheveux, Shimada se remet à fredonner la chanson
+militaire. Kozuka se penche hors de la hutte et saisit un récipient dans lequel il a
+récolté de l'eau de pluie. Il regarde vers le haut, la pluie qui tombe sans
+discontinuer...
+La caméra monte: au-dessus de la hutte, la voûte des arbres. Et au-dessus, la pluie,
+les montagnes et le ciel sombre. Un avion passe et largue quelque chose – un petit
+paquet tombe sans bruit sur la jungle.
+62. EXT + INT. HUTTE DE MOUSSON à 4 (2eme) – JOUR
+Le chant se poursuit. Quelques gouttes de pluie tombent sur la hutte, puis plus rien.
+Le soleil chauffe le toit de feuilles moisies.
+A l’intérieur, les dernières gouttes ont transpercé le toit pourri et coulent sur le sol, où
+les fourmis pullulent. Une main les écrase : c’est celle d’Akatsu. Torse nu, il regarde
+Shimada qui est en train de recoudre sa chemise d’uniforme (du fil de fer taillé pour
+l’aiguille, un filament de chanvre pour le fil). Les deux soldats ont muri, leurs visages
+se sont creusés et tannés. Ils chantent placidement mais les paroles ont changé :
+« Même si ma casquette a complètement pourri… »
+Dehors, Onoda et Kozuka reviennent de récolte : quelques fruits. Eux aussi sont
+maigris, tannés. Onoda est toujours le plus « propre » : cheveux et barbe rasés,
+uniforme bien recousu, démarche parfaite.
+ONODA (entrant dans la hutte)
+Ça y est il pleuvra plus, on détruit et on nettoie.
+ONODA - V10 du 22 nov. 2018 45
+SHIMADA (désignant les fruits)
+Vous avez trouvé que ça ?
+Kozuka lui jette un regard noir et crache par terre.
+SHIMADA
+Eh ! On VIT ici !
+KOZUKA
+Plus maintenant.
+Il commence à détruire la hutte.
+SHIMADA (se levant)
+Et bah si. Tu peux pas attendre cinq minutes ?
+KOZUKA
+Pour que tu recouses ses habits ? Non. Allez sortez.
+SHIMADA
+Tu peux me donner des ordres toi ? Montre-moi tes gallons.
+ONODA
+Allez, stop, tu remets ta couture à plus tard, on se presse.
+Shimada prend sur lui et tous se mettent à travailler pour faire disparaître la hutte.
+63. EXT. BIVOUAC DISPUTE – JOUR
+Ils marchent dans la jungle, Kozuka et Shimada sont en pleine discussion
+conflictuelle.
+SHIMADA
+Ça fait des semaines qu’on n’a pas mangé de viande, la
+priorité c’est ça ! Il faut dormir près d’un village, c’est là qu’il y
+a des vaches, y a même pas à hésiter.
+KOZUKA (désignant Onoda et lui-même)
+Contrairement à vous, nous on a marché toute la journée,
+alors la priorité c’est de pas se fatiguer encore plus : on reste
+dans le centre cette nuit, on mangera des bananes.
+Ils continuent de marcher, et parler les épuise d’autant plus.
+SHIMADA
+Pourquoi tu comprends pas une chose aussi évidente ?! On
+a tous besoin de viande !
+KOZUKA
+Ce qui est évident pour moi maintenant, c’est que j’ai envie
+de te casser la gueule.
+ONODA - V10 du 22 nov. 2018 46
+SHIMADA
+HEIN ?!! Répète ce que tu viens de dire ?!!!
+KOZUKA
+TA GUEULE.
+Shimada et Kozuka lâchent ensemble leurs bardas et commencent à se frapper.
+Tout indique, dans leurs attitudes, que c’est un manège fréquent, mais la bagarre est
+violente. Cette fois Onoda les laisse faire, s’asseyant à terre pour souffler et les
+regarder. Akatsu reste debout, angoissé : c’est Kozuka qui prend le dessus.
+Epuisé, dominant Shimada à terre, Kozuka le gifle violemment avec lassitude, une,
+deux, trois fois... Onoda regarde, absent. Akatsu serre son fusil, tremblant, mais
+Shimada lève la main. Kozuka le regarde : sa lèvre est fendue, son visage maculé de
+sang. Onoda regarde attentivement le terrain où ils sont : dégagé, sol plan, incliné.
+ONODA
+Ça va, vous êtes bien épuisés maintenant ? On va
+bivouaquer là.
+Ils écartent leurs bardas, dégagent branches et pierres du sol. Onoda prépare un
+feu.
+KOZUKA (lapidaire)
+Latrines.
+Il s’enfonce dans la végétation avec une pelle.
+64. EXT. LATRINES BIVOUAC DISPUTE – JOUR
+Kozuka marche en tâtant sa mâchoire douloureuse. Il s’arrête et creuse un trou. Il
+s’accroupit pour déféquer.
+Quelque chose attire son attention : un papier blanc en mauvais état dans la terre
+qu’il a retournée en creusant. Il s’essuie avec une feuille et va déterrer le papier : un
+fragment de tract, visiblement ancien. Il s’active pour chercher d’autres fragments, en
+trouve bientôt un autre morceau, enseveli sous de la végétation accumulée. Il le
+nettoie rapidement et reconstitue le papier en entier : au recto un message imprimé
+en japonais, au verso une carte de Lubang avec des cercles à certains endroits.
+Troublé et stimulé, Kozuka continue à chercher, creuse de plus en plus vivement. Il
+exhume bientôt d’autres papiers et des restes d’une enveloppe kraft éventrée. Son
+regard se fige de stupeur.
+ONODA - V10 du 22 nov. 2018 47
+65. EXT. BIVOUAC DISPUTE – SOIR
+Autour du feu, les quatre soldats examinent les tracts, et surtout deux photos salies :
+la première représente une famille (un homme et une femme d’âge avancé, un
+couple d’une trentaine d’années et une fillette de 4 ans) ; la seconde, un hommes de
+50 ans. Onoda regarde celle-ci : l’homme ressemble à son père, en costume cravate.
+Shimada se perd dans la contemplation de la 1ere photo, les autres gardent le
+silence.
+SHIMADA
+Keiko a accouché en février 42, juste après mon départ.
+Aujourd’hui l’enfant doit avoir… (il baisse la voix, troublé) 7
+ans… bientôt 8. Sur la photo, la petite a l’air d’avoir 4 ans…
+Si c’est vraiment ma fille, ça veut dire que la photo a été
+prise il y a 3 ans.
+AKATSU
+Mais pourquoi ça a été enterré ?
+KOZUKA
+Le paquet a dû être largué par avion, l’enveloppe a éclaté.
+Les pluies et la boue pendant 3 ans, plus l’humus qui s’est
+recréé par dessus… Personne les a enterrés.
+SHIMADA
+C’est censé être une photo de ma famille, mais lui là, c’est
+juste un voisin. Il a rien à faire là.
+AKATSU
+Mais c’est bien tes parents, et ta femme et ta fille ?
+SHIMADA
+J’ai jamais vu ma fille, je sais même pas si c’est une fille que
+j’ai eu. Les autres oui, c’est ma famille… et c’est notre voisin.
+KOZUKA (à Onoda)
+Et toi ?
+Silencieux depuis le début, Onoda semble envahi d’une espèce de stupeur, qui le fait
+comme souvent ressembler à un enfant perdu. Il repousse brusquement la photo de
+« son père » et prend celle de la famille de Shimada. Les autres se tournent vers lui.
+Entièrement concentré sur l’image, il semble vouloir plonger dedans. Long silence.
+ONODA
+C’est un piège. Je sais pas comment ils se sont débrouillés,
+comment ils ont convaincu ou trompé ta famille, mais vous
+voyez le voisin là, c’est un signe : ta famille a voulu que tu te
+méfies. Et ça c’est pas mon père : il s’habille jamais à
+l’occidentale.
+ONODA - V10 du 22 nov. 2018 48
+Shimada regarde attentivement les visages des siens : souriants, mais légèrement
+figés. Le voisin sourit à peine.
+Akatsu est très perturbé, son regard exprime stupeur et tristesse.
+AKATSU
+Je comprends pas bien… pourquoi y aurait que des photos
+de vos familles à vous deux ?...
+ONODA
+C’est pas mon père je t’ai dit. Et pour Shimada il y a qu’une
+explication : les américains n’ont pu faire un raid qu’à un
+endroit facilement accessible pour eux. Ils ont repéré et ciblé
+la famille de Shimada qui est sur la Péninsule de Bòsò,
+directement sur l’océan. Ta famille (il s’adresse à Akatsu) est
+d’Hiroshima, beaucoup plus dur d’accès. Et Kozuka…
+KOZUKA (sec)
+Pas de famille de mon côté.
+Tous regardent Kozuka, interdits.
+Un instant plus tard. Dans les mains d’Onoda, le tract reconstitué annonce la fin
+des combats pour la 14ème Armée, et l’ordre pour tous les unités et individus de se
+placer sous le commandement de l’officier supérieur le plus proche, ou à défaut de
+se rendre aux forces Américaines ou Philippines. C’est signé « Général Yamashita,
+19 Septembre 1945. ».
+A nouveau, Onoda se concentre à l’extrême, pour pénétrer dans l’esprit du tract.
+ONODA
+Ecoutez-ça : ils disent que ceux qui se rendront recevront de
+la nourriture et un « support hygiénique ». Quelqu’un a déjà
+entendu parler de support hygiénique ?
+KOZUKA
+Jamais entendu parler. Et ils disent qu’ils vont nous
+« expédier » au Japon. On est quoi, on est des cargos ?
+ONODA
+Mais regarde, ce qui est le plus bizarre c’est le passage sur
+l’«Ordre Impérial Direct ». J’ai jamais entendu cette formule,
+ça n’existe pas.
+KOZUKA
+Et ici t’as vu ? il dit « Je », « je », « nous »… On dirait que
+Yamashita donne l’ordre en son nom, parmi d’autres
+officiers. C’est pas du tout habituel…
+Le regard d’Akatsu va de l’un à l’autre, sans intervenir.
+ONODA - V10 du 22 nov. 2018 49
+ONODA
+C’est un faux, et même assez grossier. C’est ce que le Major
+Taniguchi appelle un bonbon empoisonné. Tout le monde est
+d’accord ?
+KOZUKA
+Absolument.
+Shimada acquiesce, regardant la photo. Onoda fixe Akatsu qui opine, yeux perdus.
+ONODA (consolateur)
+Demain c’est jour de viande, on en a tous besoin.
+Tous se lèvent et se dispersent pour préparer la soirée, sauf Shimada qui est plongé
+dans la contemplation de la photo. Onoda le remarque et s’approche pour la
+récupérer, mais suspend son geste quand Shimada murmure pour lui seul, tout
+doucement :
+SHIMADA
+8 ans… elle a 8 ans.
+Onoda s’est figé, pour la première fois tristesse et peur se mêlent sur son visage.
+66. SÉQUENCE SUPPRIMÉE
+67. EXT. CHAMP VACHE – JOUR
+Les quatre hommes sont embusqués en lisière d’une forêt. Devant eux une clairière
+où pait une vache. Shimada la tient en joue, prenant du temps pour viser, peut-être
+trop. Onoda ne le quitte pas des yeux. Shimada tire, la vache tombe, touchée au
+front. Kozuka secoue la tête d’admiration, félicitant son ami d’une tape amicale. Ils
+foncent vers l’animal. Arrivés près de la vache, ils sortent leurs couteaux, des
+besaces et de la corde, s’apprêtent à la débiter. Soudain des coups de feu venant du
+champ, au delà de la vache : des paysans. Les quatre japonais se couchent au sol,
+les tirs continuent, ils repartent en courant courbés vers la jungle. Presque parvenu
+aux arbres, Onoda se retourne et voit Shimada qui s’est arrêté et, redressé, vise
+avec son fusil, mais ne tire pas. Abrité derrière un petit rocher, un paysan mince qui
+semble le miroir philippin de Shimada, le vise. Onoda, figé, ouvre la bouche pour
+crier mais reste sans voix. Imperceptiblement, Shimada baisse son fusil dans un
+silence glaçant. Un tir claque et il tombe en arrière.
+Onoda et Kozuka rampent jusqu’à leur ami inconscient et le traînent jusqu’aux arbres
+où Akatsu les attend, livide. Onoda se retourne vers le champ, les yeux fous de
+haine.
+ONODA (d’une voix blanche)
+Je vous couvre et je vous rattrape. Partez.
+ONODA - V10 du 22 nov. 2018 50
+Kozuka charge Shimada sur son dos et Akatsu prend leurs bardas. Onoda, cette fois
+avec son pistolet, tire en rafale aussi vite qu’il peut pour freiner ses adversaires.
+Quand le silence revient, il entend un gémissement non loin de lui, venant des
+hautes herbes du champ. Arme à la main, il rampe dans les herbes. Le gémissement
+se rapproche, il y a du sang sur les herbes. Onoda s’arrête : couché dans les herbes,
+un paysan, blessé aux deux jambes, gémit. Onoda le regarde, yeux écarquillés.
+68. INT/EXT. BIVOUAC DISPUTE – JOUR
+Ils ont dressé une tente sur leur bivouac. Shimada a été touché à la tête, le sang s’en
+échappe. Il semble à peine souffrir, à demi conscient, fiévreux. Onoda lave sa
+blessure avec un linge et de l’eau qu’apporte Akatsu, mais le sang continue de
+s’écouler. Avec un énergie désespérée, Onoda sort de la tente et arrache de l’herbe,
+ramasse des feuilles, les broie et les mêle à de la boue. On voit alors le paysan
+philippin, mains attachées dans le dos, assis au sol, le sang s’échappant de ses
+blessures aux deux jambes. Il regarde, presque évanouit, l’agitation des japonais.
+Onoda rentre dans la tente et applique un cataplasme improvisé sur la blessure de
+Shimada. Le sang semble refluer, mais bientôt le liquide rouge filtre entre les doigts
+d’Onoda. Les yeux de Shimada sont entrouverts, il regarde Onoda.
+ONODA
+J’ai voulu te crier de te baisser… Je ne sais pas ce qui…
+excuse-moi.
+Shimada ferme les yeux et les rouvre pour acquiescer. Onoda réprime son émotion
+et sort de la tente. Kozuka le suit.
+KOZUKA (chuchotant)
+Tu n’aurais rien pu faire. C’est lui… il a perdu sa vivacité.
+Dans la tente, Akatsu regarde Shimada. Une fourmi, puis deux, puis d’autres
+commencent à monter sur les bras et le ventre du mourant. Akatsu paniqué les
+chasse avec une frénésie désespérée. Kozuka rentre dans la tente et le voit faire.
+Akatsu sort, des larmes d’impuissance emplissent ses yeux qui regardent vers la
+jungle. Onoda le regarde. La voix de Shimada sort alors de la tente, faible, calme.
+SHIMADA (OFF)
+Je voudrais voir la photo.
+KOZUKA (OFF)
+Oui, tiens.
+Un temps. Onoda et Akatsu regardent vers la tente, saisis.
+SHIMADA (OFF)
+J’arrive plus… à voir. S’il te plait, dis-moi, qu’est-ce qu’elle a
+aux pieds ?
+Dans la tente, Kozuka a la photo devant les yeux. Les pieds de la fillette sont nus.
+ONODA - V10 du 22 nov. 2018 51
+KOZUKA
+Elle a des sandales. Shimada, elle porte des sandales.
+Kozuka regarde son ami. Il ne bouge plus. Kozuka, pleurant, va pour toucher son
+visage, mais sa main s’arrête et retombe doucement sur le côté.
+Dehors, le prisonnier philippin, livide, s’est remis à gémir.
+69. EXT. CLAIRIERE SHIMADA – JOUR
+Ils ont creusé une tombe dans une minuscule clairière, au pied d’un arbre imposant.
+Onoda, accroupi devant l’arbre, fait avec son couteau une entaille très profonde à la
+base du tronc, et y noue une ficelle en guise de repère. Le paysan philippin est là,
+entravé, adossé au tronc. Le plus délicatement possible, les trois japonais déposent
+le corps de Shimada enveloppé dans une toile de tente au fond de la fosse, le
+recouvrent de terre. Un silence, puis Kozuka parle.
+KOZUKA
+C’était… c’était notre compagnon… Il était solide, et vaillant.
+Il nous a beaucoup appris. Je regrette les mots durs, et les
+coups qu’on s’est donnés. Et… je ne t’oublierai pas. On ne
+t’oubliera pas, et on te vengera. SHIMADA, ON VA TE
+VENGER !
+Il pleure bien qu’il essaie de ne pas craquer. Onoda regarde son ami, qu’il n’a jamais
+vu dans cet état émotionnel. Lui-même est hagard. Il se tourne vers la tombe.
+ONODA (d’une voix blanche)
+On te vengera. Au revoir Caporal Shimada.
+Le même bouleversement sec le submerge. Les deux ainés se tournent vers Akatsu.
+AKATSU (perdu)
+Il faut lui parler comme si il était là ? C’est comme ça qu’il
+faut faire ?
+Déstabilisés, les deux autres hésitent, puis opinent.
+AKATSU
+Je ne sais pas quoi te dire… Je voudrais que toi tu me dises
+si tu es mort pour quelque chose ou pour rien, parce qu’ici
+personne ne peut me répondre. Dis-moi si c’est la peine de
+continuer. Dis-moi si la guerre est finie ou pas, je ne sais plus
+comment le savoir.
+ONODA
+Regarde-moi. Akatsu, regarde-moi. (Akatsu ne le regarde
+pas, les yeux rivés sur la tombe.) Ces paysans étaient
+armés.
+ONODA - V10 du 22 nov. 2018 52
+AKATSU
+Nous aussi…
+ONODA
+NON !! Tu mérites le peloton immédiatement, pour sédition.
+Tu le mérites depuis ta première fugue. Tu étais jeune, mais
+maintenant c’est fini. Tu as le choix, poursuivre ou mourir.
+Onoda lève en tremblant son fusil vers Akatsu qui ne bouge pas, se contente de le
+regarder enfin. Tous deux ont des larmes dans les yeux. Onoda ôte le cran de
+sureté.
+ONODA
+REPONDS !!
+Akatsu ne bouge pas, tétanisé. Onoda jette son fusil au sol près du paysan philippin,
+et avec son couteau sectionne les liens qui entravent les mains de ce dernier. Le
+prisonnier a un regard paniqué vers Onoda, qui le force à se relever. Tenant à peine
+sur ses jambes blessées, l’homme vacille. Onoda lui désigne son fusil au sol.
+ONODA
+On va voir si on n’est pas en guerre. (au philippin :) Tu crois
+que t’es chez toi ici, tu crois que t’as le droit de nous tuer ?
+Alors ramasse !
+Onoda recule loin de son fusil, désarmé. Le philippin secoue la tête, refusant.
+ONODA
+Sale donko, ramasse !!
+Le philippin refuse à nouveau, de plus en plus apeuré. Akatsu et Kozuka regardent,
+ahuris. Onoda s’approche et frappe l’homme au visage et au ventre, plusieurs fois,
+tout en le maintenant debout, en criant :
+ONODA
+RAMASSE RAMASSE RAMASSE !!!!
+Le philippin à bout pleure et tombe au sol quand Onoda recule à nouveau. L’homme
+regarde Akatsu et Kozuka, implorant leur aide en tagalog. Ils ne bougent pas. Le
+prisonnier épuisé fait enfin un geste vers le fusil à ses pieds.
+ONODA (à Akatsu)
+TUE-LE !! C’EST LUI QUI A TUE SHIMADA !!!
+Akatsu, dans un état second, ne peut détacher ses yeux du jeune paysan qui saisit le
+fusil puis lève les yeux vers lui. Le paysan arme lentement la culasse sans quitter
+Akatsu des yeux, puis amorce le geste de le viser. Akatsu se jette alors sur lui
+couteau à la main et le poignarde à la poitrine. Onoda le regarde faire, les yeux
+grands ouverts : Akatsu s’écarte, laissant le couteau dans la poitrine du philippin qui
+a ouvert la bouche sans crier. Onoda se tourne vers Kozuka avec le même regard
+fou. Celui-ci avance comme un somnambule et poignarde à son tour l’homme qui ne
+ONODA - V10 du 22 nov. 2018 53
+bouge plus, laissant son couteau dans le cadavre. Onoda va à son tour vers le mort,
+s’agenouille et regarde le couteau de son père dans sa main. Il le plante à côté des
+deux autres.
+ONODA (murmurant, au cadavre)
+C’est notre île.
+Il contemple les trois couteaux plantés dans la chemise imbibée de sang. Il y a
+quelque chose d’extatique dans son regard. Ils restent un temps ainsi, sans plus
+bouger, tous trois couverts du même sang.
+70. EXT. BIVOUAC DISPUTE – NUIT
+Nuit, ils dorment. Un bruit. Onoda ouvre les yeux : Akatsu s’est levé et s’éloigne.
+Onoda pointe son fusil sur lui. Akatsu s’est arrêté et le fixe, à moitié mangé par la
+nuit.
+AKATSU
+Je veux aller sur la tombe de Shimada.
+Onoda le fixe longuement, sans baisser son arme.
+ONODA
+Recouche-toi.
+AKATSU (hésitant)
+Non. J’y vais.
+ONODA
+On ne fait pas ça en pleine nuit. Tu le feras demain.
+AKATSU (se mettant à chanter, tremblant)
+« Vers Sado, vers Sado, je veux voir si les feuilles sont
+soufflées par le vent cette nuit. »
+ONODA
+Qu’est-ce que tu fais ?
+Kozuka s’est réveillé et regarde Akatsu sans comprendre.
+AKATSU
+Je chante notre chanson. Vous faites vos grands discours,
+comme votre Taniguchi, mais vous voulez que tout le monde
+chante votre version. Lieutenant, laissez-moi ma version.
+Onoda cherche à lire l’expression indéchiffrable d’Akatsu. Ce dernier se retourne et
+part. Onoda garde son arme pointée mais ne tire pas.
+Akatsu a disparu dans la nuit.
+ONODA - V10 du 22 nov. 2018 54
+71. SÉQUENCE SUPPRIMÉE
+72. EXT. CHEMIN JUNGLE - JOUR
+Onoda et Kozuka marchent péniblement dans la jungle montagneuse. Leurs visages
+sont sombres, amers.
+73. EXT. BIVOUAC MONTAGNE - CREPUSCULE
+A la belle étoile, Kozuka coupe les cheveux d’Onoda, tandis que ce dernier se rase à
+l’aveugle. Entre eux, une tristesse sourde.
+74. INT. BIVOUAC MONTAGNE – SOIR
+Au même endroit, un peu plus tard, un feu brûle. Onoda et Kozuka, cheveux rasés à
+blanc, s’inclinent vers un Japon imaginaire.
+ONODA
+Bonne année.
+KOZUKA
+Bonne année.
+ONODA (dirigé vers le Japon)
+Nous donnerons notre meilleur, comme soldats et comme
+japonais, en cette nouvelle année. Nous vengerons
+Shimada, notre camarade et… notre frère.
+Kozuka s’incline profondément pour signer son approbation. Puis ils s’assoient au
+bord du feu et entament leur repas traditionnel de riz-haricots et soupe.
+Dans son carnet, Onoda inscrit « 1er Janvier 1950 » et raye le décompte qui précède.
+75. EXT. BIVOUAC MONTAGNE – AUBE
+Ils sont tous les deux allongés et frissonnent, le jour est en train de se lever. Il pleut
+légèrement mais ils ne se protègent pas. Leurs vêtements élimés, leur matériel
+épars, les restes du repas : tout est trempé et dégage une atmosphère misérable.
+Leurs yeux sont ouverts, ils ne bougent pas. Au fond des yeux d’Onoda, un abîme.
+ONODA - V10 du 22 nov. 2018 55
+76. EXT. JUNGLE VALLEE MEGAPHONE – JOUR
+Onoda et Kozuka marchent dans la jungle étouffante, le beau temps est revenu.
+Leurs uniformes sont de plus en plus usés, leurs cheveux ont repoussé. La barbe de
+Kozuka est broussailleuse, le visage fatigué d’Onoda reste parfaitement glabre mais
+il s’est coupé en se rasant. Soudain, une voix se fait entendre, amplifiée. Elle
+résonne dans plusieurs endroits, on dirait qu’elle vient de partout à la fois. Figés de
+stupeur, ils tendent l’oreille. Les mots en japonais se font plus compréhensibles.
+VOIX
+… Quand je me suis rendu les gens de l’île ont été gentils
+avec moi…
+Onoda et Kozuka se regardent. Ils se mettent vivement en route vers l’origine du
+son.
+77. EXT. VALLEE MEGAPHONE - JOUR
+Onoda et Kozuka sont sur le flanc d’une colline recouverte de végétation. De l’autre
+côté d’une vallée, sur une colline dégagée face à la leur, un groupe se tient parmi
+lequel une silhouette qui pourrait être Akatsu, tenant un mégaphone. Autour,
+quelques soldats philippins et d’autres personnes, militaires et civiles…
+VOIX (Akatsu ?)
+La guerre est finie, il faut que vous vous rendiez. Aucun mal
+ne vous sera fait. Quand je me suis rendu, les gens de l’île
+ont été gentils avec moi. Quoi que nous ayons fait, ils savent
+qu’on a agi en soldats.
+Onoda a mis la silhouette en joue et la vise. Mais il y a un mouvement sur la colline.
+Un homme en veste de sport prend le mégaphone.
+HOMME COLLINE
+Hiroo, si tu nous entends, sors désarmé. C’est ton frère, c’est
+Toshiro.
+Onoda pétrifié vise la silhouette distante. Kozuka regarde Onoda, puis la silhouette.
+HOMME COLLINE
+Hiroo, je sais que tu te souviens de ça (il chante d’une belle
+voix) : « Le vent de l’Est souffle sur le ciel de la capitale »
+Onoda se met instantanément à trembler, yeux écarquillés. Il a baissé son fusil.
+HOMME COLLINE
+Il amène le souffle du printemps
+ONODA - V10 du 22 nov. 2018 56
+Les cerisiers du temple Kan’ei-ji s’épanouissent
+La pluie de pétales tombe sur le fleuve Sumida
+Il faut pourtant rester fermes
+Malgré l’arrivée du printemps
+La Sibérie est encore en hiver
+Les aigles féroces s’envolent
+Kozuka fixe son compagnon déchiré intérieurement. La bouche d’Onoda s’ouvre et
+forme les mots de la chanson, en silence.
+Le vent de l’est provoque des vagues
+Et atteint enfin le rivage
+Cela ranime notre fougue
+Nous sommes tous prêts à mourir pour notre pays
+La voix de l’homme déraille alors comme sous le coup de l’émotion, quitte la note
+juste :
+En vainquant la Russie
+Le Japon gouvernerait l’Asie
+Nous arborons notre drapeau
+En cet émouvant moment de la victoire. »
+Sur le visage d’Onoda passent tour à tour la douleur, la tendresse, le regret…
+L’homme s’est tu. Le moment s’étire. Kozuka attend la réaction d’Onoda, jetant des
+petits coups d’œil en direction de la colline. Onoda quitte sa sidération, semblant
+faire un énorme effort sur lui-même, son regard se durcit.
+ONODA
+Il n’a pas réussi à tenir l’imitation jusqu’au bout. Sa vraie voix
+est revenue.
+Onoda tourne lentement le dos à la colline, comme pour ne pas risquer de douter de
+ce qu’il vient de dire. Kozuka seul voit une silhouette voûtée prendre le mégaphone,
+tenant un papier à la main.
+VIEIL HOMME COLLINE (lisant son papier)
+« Le vent du Sud souffle
+Sur le rivage je me tiens
+Attendre une voix »
+Hiroo, mon fils… je sais que tu accomplis ton devoir, mais la
+situation a changé. Il faut que tu essayes de changer ta
+manière de voir les choses.
+Il est très loin de la froideur du père au début du film.
+Onoda pleure silencieusement, le dos toujours tourné, sous les yeux de Kozuka.
+En face, le groupe commence à lever le camp.
+ONODA - V10 du 22 nov. 2018 57
+Kozuka regarde son ami crispé sur son fusil, les yeux dans le vide. Il le rapproche
+doucement de lui, lui ôte sa casquette pose ses dix doigts sur sa tête. Avec des
+gestes lents, il se met à lui masser le crâne de ses deux mains, semblables à des
+serres délicates.
+En face les hommes partent, seul le ‘frère’ regarde encore un temps par-delà la
+vallée.
+Kozuka masse, très concentré. Peu à peu, les yeux d’Onoda se ferment, il s’endort.
+78. SÉQUENCE SUPPRIMÉE
+79. EXT. COLLINE MEGAPHONE - AUBE
+Le bout de colline où la veille se tenait la délégation, à présent désert. Un tas de
+journaux, qu’une petite sacoche de cuir empêche d’être dispersés par le vent.
+Kozuka avance prudemment fusil en avant, Onoda le couvre à quelques pas. Kozuka
+s’empare de la sacoche et des journaux, puis ils décampent. En un instant, la colline
+est à nouveau déserte, ne restent que les herbes et le vent.
+80. EXT. CACHE DE VIVRES – JOUR
+A couvert dans la grotte où ils avaient caché les vivres quelques années avant,
+Onoda s’empare du premier journal de la pile, le parcourt avec avidité. Sans
+intervenir, Kozuka guette ses réactions. Onoda s’en aperçoit et lui tend le journal, se
+plonge dans le suivant, le décortique rapidement, passe au suivant… Kozuka s’y met
+aussi, se servant dans la pile.
+Nous voyons titres, extraits, réclames, photos. Ce sont des journaux japonais, il n’y a
+aucune mention de la guerre.
+Onoda et Kozuka se regardent. Un malaise passe entre eux. Ils se tournent
+ensemble vers le petit transistor en plastique qu’ils ont sorti de la sacoche : l’appareil
+trône sur une souche, bien calé face aux deux hommes. A peine plus gros qu’un jeu
+de tarots, c’est une boite de plastique rouge et grise munie d’une large molette ronde
+avec des chiffres et portant l’inscription : « Transistor six ». Plus bas, un écusson
+« SONY ».
+Kozuka avance une main hésitante vers le bouton… une cacophonie brutale en jaillit
+soudain, déstabilisant les deux soldats : un rock’n’roll primitif, bruyant et chaloupé :
+« BOOGIE IN THE PARK / YEAHH WE BOOGIE IN THE
+PARK »
+Stupéfaits, ils l’écoutent jusqu’au bout, regardant la radio.
+ONODA - V10 du 22 nov. 2018 58
+ONODA
+On dirait un blues, mais en plus rapide et mal joué.
+Il se met à tourner le bouton, encore et encore, sur des voix incompréhensibles :
+anglais, espagnol, indien, arabe, thaï… soudain sa main lâche la molette : une voix
+parle en japonais. Ils sourient, saisis.
+KOZUKA
+Comme c’est beau...
+Rapidement, ce que raconte cette voix parvient à leur cerveau :
+SPEAKER RADIO
+«…mais peut-être pas à ce triomphe. Partout, à Tokyo,
+Kyoto, Osaka, les Los Angeles Dodgers sont reçu en héros.
+A la faculté de Tokyo la séance d’autographes a occasionné
+plusieurs bousculades parmi-»
+Onoda coupe brutalement le poste. Le silence s’étire. Kozuka regarde son chef,
+attendant qu’il parle. Onoda est prostré, regard horrifié. Désemparé, Kozuka regarde
+la radio muette. Les journaux posés tout près, en pagaille.
+KOZUKA (éberlué)
+Mais… Tu peux imaginer des japonais qui auraient accepté
+ÇA sans se battre ?
+Ils se regardent. Onoda sourit et se lève, en proie à un regain d’énergie.
+ONODA
+Le Japon ne peut pas être comme ça. Tu sais pourquoi ?
+Parce que si on avait perdu la guerre, ce serait parce qu’il y
+avait plus de VIVANTS au Japon. Les commerçants, les
+femmes, même les enfants et les vieux étaient prêts à se
+battre !……Dans la rue si il fallait, avec des lances de
+bambou !! Tu te souviens du slogan « 100 millions d’âmes
+prêtes à mourir d’honneur » ?
+KOZUKA
+Bien sûr c’était partout ! « En avant, la boule de feu de 100
+millions ! », « L’Empire est immortel ! » et « La résolution de
+la victoire impérieuse ! »…
+ONODA
+On a juré fidélité à ces principes, et maintenant on nous dit
+qu’on est les seuls ?! AHAHAHA!! FOUTAISES !
+Il s’accroupit devant une bassine en fer blanc pleine d’eau et s’asperge vivement le
+visage, comme pour se donner encore plus d’énergie.
+ONODA - V10 du 22 nov. 2018 59
+81. SÉQUENCE SUPPRIMÉE
+82. EXT. CACHE DE VIVRES – SOIR
+Le soir est tombé, du linge mouillé est étendu sur une corde, on sent qu’ils se sont
+installés dans la grotte pour un long moment. Kozuka prépare le riz tandis qu’Onoda
+est à nouveau plongé dans les journaux. La même énergie un peu folle circule entre
+eux.
+KOZUKA (désignant les journaux)
+Alors comment tu crois qu’ils font pour faire ça ? Et pour
+« Sony » ?
+ONODA
+C’est des réimpressions, ils partent des originaux et ils
+trafiquent les articles, ils en font des entièrement faux et
+d’autres juste rectifiés. Tout ce qu’ils ne veulent pas qu’on
+lise, ils l’enlèvent. Pareil pour la radio, les vraies émissions
+sont truquées et rediffusées très vite. La rapidité avec
+laquelle ils font ça, je dois admettre, c’est impressionnant.
+Mais vu ce que j’ai appris en trois mois à Futamata sur les
+radiodiffusions, en fait ça m’épate pas tant que ça…
+Kozuka sert le riz et s’absorbe à son tour dans les quotidiens sans cesser de
+manger.
+KOZUKA (secouant la tête)
+Et les annonces !!? « Boys wanted / Diner Steak H. » Qu’est-
+ce que c’est que ça, ça veut strictement rien dire. Et chaque
+fois qu’ils parlent de l’armée j’y comprends rien, un coup
+c’est les « Troupes de réserve de la Police », un coup c’est la
+« Force de Sécurité », ça parle jamais des manœuvres, on
+dirait qu’ils font des détours exprès. T’es sûr que c’est les
+américains qui écrivent ça ? S’ils cherchent à nous tromper,
+pourquoi ils écrivent pas des choses cohérentes, simples à
+comprendre ?
+ONODA (dévorant son riz, stimulé)
+Parce que ça sonnerait faux ! Imagine un habitant de la lune
+qui lirait un journal de la terre, il y comprendrait rien, t’es
+d’accord ? Ils sont encore plus forts que ce qu’on pourrait
+croire : ils savent que ce qui a l’air compliqué, et même
+incompréhensible, SONNE VRAI !!
+Kozuka secoue la tête, bluffé par tant d’habileté. Après cette longue conversation, le
+silence résonne fort. Le repas fini, ils regardent « Sony ». Onoda finit par tendre le
+bras pour l’allumer, comme après une longue préparation. Il suspend son geste :
+ONODA - V10 du 22 nov. 2018 60
+ONODA
+On restreint l’écoute à la nuit, il faut rationner les batteries.
+Mais c’est important d’écouter et de décrypter.
+KOZUKA
+Oui, c’est important.
+Leur soif d’entendre à nouveau est palpable, presque dévotionnelle. Onoda allume,
+met le volume au minimum. Ils s’allongent de part et d’autre du poste, leurs têtes à
+quelques centimètres du haut-parleur. L’émission parle de la construction d’un
+shinkansen, « bullet-train » destiné à relier Tokyo et Osaka.
+La nuit tombe sur la jungle, la voix de « Sony » berce le silence, et l’endroit en paraît
+complètement transformé.
+83. INT. CACHE DE VIVRES – JOUR
+Près du tas de journaux est étalé sur le sol de la grotte un morceau de toile de tente,
+50x100cm environ. Prenant modèle sur une carte du monde imprimée dans un des
+quotidiens, Onoda finit de dessiner sur la toile de tente un planisphère précis.
+Kozuka le regarde faire. On dirait deux enfants sérieux et excités.
+Une fois le dessin fini, Onoda ouvre son carnet qu’il a couvert de notes. Kozuka leur
+sert du café noir volé aux îliens. Ils en boivent et reboivent, électrifiés.
+ONODA
+Bon, on y va ! C’est très possible qu’une nouvelle démocratie
+ait été mise en place au Japon. Quand et comment : va
+savoir, mais le gouvernement a toujours l’air de construire la
+Sphère de Coprospérité de la Grande Asie de l’Est, et ce
+qu’ils appellent la Force d’Autodéfense est forcément
+toujours engagée dans un conflit militaire avec les
+Américains.
+Kozuka acquiesce, concentré.
+ONODA (désignant la Chine sur sa carte)
+La Chine communiste, Mao Zedong, ça aussi on peut le
+croire, mais il serait jamais arrivé au pouvoir sans l’aide du
+Japon. Evidemment c’est logique que les Américains aient
+supprimé ça des journaux. Pour le Japon c’est avantageux
+d’aider Mao : on sait qu’il y a des financiers très riches en
+Chine. Et on peut supposer que pour avoir l’appui du Japon,
+Mao a accepté d’éjecter les Américains et les Anglais. Au
+fond on a le même but, c’est normal de s’allier. Cette
+alliance, on n’a qu’à l’appeler « Ligue de Coprospérité de
+l’Asie de l’Est ».
+ONODA - V10 du 22 nov. 2018 61
+KOZUKA
+C’est assez bizarre mais d’un certain point de vue, c’est
+assez logique. Et tu crois que c’est les deux seuls états de la
+Ligue ?
+ONODA (pointant la carte)
+C’est possible que les gens du nord de la Sibérie n’aient pas
+supporté l’athéisme des Soviets et qu’ils se soient séparés
+de l’Union Soviétique pour rejoindre la Ligue.
+KOZUKA
+La Sibérie ?! (Il se rapproche de la carte comme pour voir la
+Sibérie) Mais ce serait quoi, une République Sibérienne
+Chrétienne Indépendante ? En fait c’est vraiment possible !!
+ONODA (reprenant du café)
+Et à mon avis Java et Sumatra aussi : en 44 ils étaient vingt
+de Futamata à aller à Java pour diriger la guérilla. Ça aussi,
+c’est une quasi certitude.
+KOZUKA
+D’accord, alors ça donne : la Sibérie du Nord, la Chine, Java
+et Sumatra qui supportent le Japon contre les USA et
+l’Angleterre. La grande question pour nous, c’est où en sont
+les Philippines ?
+ONODA
+Pense aux avions : il y a 3 ans, c’était deux par jour
+maximum. Depuis ça a fait qu’augmenter, parfois jusqu’à
+douze par jour ! Ça prouve mieux que n’importe quoi une
+activité intense dans notre zone. La guerre est tout près, elle
+est là, elle s’est jamais arrêtée !
+Sur le planisphère, la main d’Onoda entreprend de transcrire, en codes graphiques
+clairs, leurs conclusions sur l’activité guerrière dans le Pacifique : il hachure les pays
+de la ‘Ligue’ et fait des points sur les pays ennemis. Kozuka désigne l’Indochine,
+juste en face des Philippines, à quelques encablures...
+KOZUKA
+Tu crois que les combats dont parle « Sony » en Indochine
+ça fait partie de la guerre de reconquête de la Ligue ? C’est
+juste en face de nous…
+ONODA
+Evident !! Et pense à une chose: l’ennemi a organisé une
+fausse expédition japonaise avec Akatsu qu’ils ont retourné,
+et des gens qui ressemblent à mon frère et mon père ! Je
+sais pas si t’imagines l’argent et le temps que ça représente
+de récupérer les informations sur ma famille, puis de former
+deux personnes à imiter leurs voix, tout ça pour tromper et
+ONODA - V10 du 22 nov. 2018 62
+capturer DEUX soldats !? Ça, ça veut dire que notre île, ici,
+c’est un point hautement stratégique. Je l’ai toujours su !
+Sur la carte, Onoda désigne Lubang, petit point perdu au Sud-Est du monde.
+ONODA
+Plus j’y pense, plus c’est clair : ils feraient pas tout ça si une
+opération japonaise ici était pas imminente. L’armée va
+bientôt envoyer une équipe de reconnaissance pour établir le
+contact avec nous, ou sûrement d’abord un agent seul. Il faut
+guetter le moindre--
+Il renverse son café en hurlant, comme frappé d’une révélation :
+ONODA
+LE HAÏKU DE MON PERE !!
+KOZUKA (sans comprendre)
+Mais…
+ONODA
+ATTENDS : imaginons que c’était vraiment mon père – c’est
+très possible en fait, comme pour la photo des parents de
+Shimada. Alors comme avec la photo de Shimada, il doit
+forcément y avoir un sens caché dans le haïku ! Un
+message…
+Il attrape son carnet et ferme les yeux, crayon en suspend…
+ONODA (cherchant à se rappeler)
+« Hae fukite (le vent du sud
+souffle)… »
+KOZUKA (sans hésiter)
+« Hae fukite / Kishini tatazumi /
+Matsu koe wo » (le vent du sud
+souffle / sur le rivage je me tiens /
+attendre une voix)
+ONODA (impressionné)
+Incroyable ! Avec ta mémoire t’aurais fait une bonne recrue
+pour Futamata !
+Kozuka sourit, Onoda note le haïku verticalement, de droite à gauche :
+ONODA - V10 du 22 nov. 2018 63
+南
+風
+吹
+き
+て
+Hae Fukite
+Le vent du sud souffle
+岸
+に
+た
+た
+ず
+み
+Kishini tatazumi
+Sur le rivage je tiens
+待
+つ
+声
+を
+Matsu koe wo
+Attendre une voix
+KOZUKA
+Quel genre de code ça pourrait être ?
+ONODA
+Tu te rappelles que le vieillard a dit quelque chose après, il a
+dit… « Tu dois changer de manière de voir les choses » ou
+quelque chose comme ça. Ça peut sonner bizarrement,
+non ? Pour décrypter un code il y a souvent une clé cachée.
+Le Major Taniguchi disait : « chaque mot est important. »
+« Changer de manière de voir »… Changer…
+Onoda se concentre à nouveau sur le haïku. Il réécrit les vers en les déplaçant
+comme les pièces d’un puzzle.
+KOZUKA
+Il faut trouver d’autres combinaisons ?
+ONODA
+Je ne sais pas, je cherche…
+KOZUKA (cherchant)
+« Une voix souffle sur le rivage… » Non. « Attendre le
+vent » ? Non…
+Ils regardent, perplexes, la feuille couvertes d’écritures. Nous voyons l’idéogramme
+« vent » : 風. Puis l’idéogramme « Sud » : 南
+ONODA (détachant chaque mot)
+« Changer - ma manière - de voir »…
+Il se concentre à nouveau sur le haïku d’origine qu’il a commencé par écrire.
+ONODA - V10 du 22 nov. 2018 64
+南
+風
+吹
+き
+て
+Hae Fukite
+Le vent du sud souffle
+岸
+に
+た
+た
+ず
+み
+Kishini tatazumi
+Sur le rivage je tiens
+待
+つ
+声
+を
+Matsu koe wo
+Attendre une voix
+Onoda suit du doigt, de haut en bas, la verticalité du premier vers, du second et enfin
+du troisième, puis sa main se fige. Sa bouche et ses yeux s’ouvrent, le silence
+s’étire, le regard de Kozuka passe du doigt d’Onoda à son visage figé. Le doigt
+d’Onoda revient brusquement au début du premier vers, et décrit cette fois-ci un
+trajet horizontal de droite à gauche, reliant les premiers idéogrammes des trois vers.
+Un sourire arrive sur ses lèvres, Kozuka comme par mimétisme prend une à une les
+expressions d’Onoda, mais rien ne nous dit qu’il comprend. Onoda entoure d’un seul
+ovale au crayon les trois premiers idéogrammes de chacun des trois vers :
+南 (sud)
+岸 (rivage)
+待 (attendre)
+… et c’est Kozuka qui lit à haute voix ce que ça donne :
+KOZUKA
+« ATTENDRE RIVAGE SUD » ! IL FAUT LIRE DANS
+L’AUTRE SENS !
+ONODA
+C’EST UNE INJONCTION !
+KOZUKA
+T’as raison !! C’est génial, tout est complètement cohérent :
+« Changer la manière de voir », la simplicité du haïku donc la
+simplicité du code ! Et en même temps c’est impossible à
+déceler pour des américains !! Mais pourquoi rivage Sud ?
+Qu’est-ce qu’il y a de particulier au rivage Sud ?
+Onoda se lève et regarde intensément la carte de Lubang, concentrant son attention
+sur le dessin de la côte sud, non loin du bourg de Looc.
+ONODA
+Il n’y a rien de particulier au rivage Sud. Si on doit
+y attendre, c’est parce que quelque chose
+d’important va arriver là-bas.
+ONODA - V10 du 22 nov. 2018 65
+KOZUKA
+L’AGENT !!
+ONODA
+C’est ça : l’agent viendra par le rivage Sud !
+A l’image, un fondu enchaîné remplace la côte Sud de la carte par le rivage réel : les
+vagues, la plage bordée de grands arbres et d’herbes hautes battues par le vent. Sur
+cette plage…
+84. EXT. PLAGE : RIVE SUD - SOIR
+…trois pêcheurs retirent des filets de l’eau. Des coups de feu venant des arbres
+sombres les font fuir. En quelques secondes, la plage est déserte.
+ONODA (OFF, calme et déterminé)
+On doit sécuriser cette zone avant tout. Après l’agent ce sera
+un débarquement de troupes au même endroit, il faudra les
+mener le plus vite possible et sans danger à l’aérodrome.
+Notre mission, c’est ça.
+Les deux silhouettes familières des maquisards se détachent bientôt des arbres,
+fusils en avant. Ils contemplent le soleil qui se couche sur la mer, dans des couleurs
+folles : rouge, rose, jaune, bleu nuit. Les deux soldats sont étonnamment sereins,
+sûrs d’eux.
+KOZUKA
+Depuis tout le temps qu’on est là, on s’est jamais baignés !
+Ils se regardent, on dirait qu’ils parviennent à communiquer sans se parler. Kozuka
+pose son fusil et se déshabille. Nu, il avance vers l’eau, s’immerge, se baigne.
+Onoda monte la garde, souriant. Kozuka ressort, lumineux, va ramasser son arme.
+KOZUKA
+Vas-y, à toi ! On est chez nous.
+Onoda se déshabille et va se baigner. Kozuka nu veille. Onoda se laisse doucement
+aller sous l’eau, les vagues sont calmes. On ne l’a jamais vu aussi apaisé.
+Il retourne vers son ami, ils s’allongent mouillés sur le sable, fusils à la main, près
+des filets et des harpons artisanaux abandonnés par les pêcheurs. Le soleil
+disparaît.
+ONODA
+C’est une bonne île. On aurait pu tomber sur un endroit bien
+pire. Même au Japon tu sais, il y a pas beaucoup d’endroits
+comme ça.
+ONODA - V10 du 22 nov. 2018 66
+KOZUKA
+Là, tout de suite, le Japon me manque pas. A part les
+femmes !
+Il rit. Onoda a un étrange sourire.
+ONODA
+Quand on rentrera on sera des héros. T’auras toutes les
+femmes que tu veux.
+KOZUKA (regardant Onoda)
+Je suis heureux de t’avoir comme chef.
+ONODA
+J’aurais pas pu tomber sur un meilleur lieutenant que toi. Les
+choses sont bien faites.
+Il tourne la tête, son attention attirée par quelque chose : au loin sur la berge, des
+lumières se sont mises à scintiller. Il se lève, stupéfait, Kozuka l’imite.
+KOZUKA
+Ils ont l’électricité ! C’est Looc, hein ?
+ONODA
+Ils doivent l’avoir installée ailleurs, peut-être même partout
+sur l’île… C’est parfait : maintenant on pourra avoir l’œil sur
+tout, tout le temps. L’agent peut venir n’importe quand, on est
+prêts.
+Onoda regarde droit devant lui, confiant et concentré. En un long fondu enchaîné sur
+son visage plein carde, on voit apparaître une silhouette qui s’approche dans la nuit.
+On n’arrive à distinguer ses traits que lorsque les deux visages se superposent :
+c’est Onoda lui-même, mais vieilli, il semble avoir 50 ans (tel qu’on l’a découvert au
+tout début du film). Visage parcheminé, halé, rides marquées, grisonnant. Un temps
+les deux visages se confondent, puis le premier Onoda, le plus jeune, disparaît tout à
+fait.
+85. EXT. HUTTE DE MOUSSON à 2 - NUIT
+La pleine lune qui brille à travers la pluie et les arbres de la jungle.
+Onoda a passé sa tête hors de la hutte pour voir la lune.
+ONODA (rentrant sa tête)
+Ça va être maintenant !
+Kozuka allume « Sony ». Son visage a subi la même évolution que celui d’Onoda.
+On sent qu’ils attendent un programme particulier.
+ONODA - V10 du 22 nov. 2018 67
+Au mur, les cartes de Lubang et du monde ont vieilli et beaucoup évolué : enrichies
+de nouveaux noms, rapiécées, marouflées sur de la toile pour être plus résistantes.
+Dans le poste, la voix japonaise chronique avec solennité un événement désigné
+comme historique. Un silence grésillant… puis :
+NEIL ARMSTRONG (OFF)
+« That's one small step for a man, one giant leap for
+mankind. »
+Le speaker mentionne la date, 20 juillet 1969. Onoda et Kozuka sont comme des
+gosses, leurs yeux brillent, fascinés. Dehors la lune brille à travers la pluie.
+Soudain la retransmission crachote, entrecoupée de silences, revient un instant, puis
+meurt. Onoda secoue le poste, vérifie l’antenne. Il sort les piles, les intervertit, en
+vain.
+ONODA
+Non, pas maintenant, pas maintenant !!
+86. EXT. FORET + CABANE INIEZ- NUIT
+Sous la pluie battante les deux japonais avancent rapidement dans la jungle, jusqu’à
+arriver en bordure d’un champ. Le but de leur sortie apparaît alors : une cabane de
+paysan au bout du champ.
+87. INT. CABANE INIEZ - NUIT
+Dans la cabane déserte, ils passent tout au peigne fin : nourriture, objets,
+vêtements…
+KOZUKA
+Trouvé ! Regarde.
+Il extrait des piles d’une lampe de poche au sigle « US ARMY ». Un chien aboie
+soudain, proche, puis une lumière fuse de dehors. Ils se cachent, des pas se font
+entendre, quelqu’un entre dans la cabane, une lampe de poche à la main. Onoda
+ceinture l’arrivant et Kozuka retourne la lampe vers lui : c’est une femme ! La
+trentaine, opulente, habillée comme les paysans de l’île, cheveux noirs en désordre,
+sale. Elle est terrorisée et parle en tagalog avec difficulté. Le chien aboie sans
+s’arrêter à l’extérieur.
+ONODA (en anglais)
+Chht, silence, no scream. Why you here at night?
+Elle répond dans sa langue, très expressive, désigne le chien dehors.
+ONODA (en anglais)
+Dog? What?
+ONODA - V10 du 22 nov. 2018 68
+KOZUKA
+Elle parle de ses vaches, je crois qu’elle est venue avec son
+chien pour les récupérer.
+LA PAYSANNE (en anglais)
+…Yes, rain! Prrr, BOUM, rain! No yankee spy.
+Elle pointe son torse du doigt, répète ses derniers mots. Onoda regarde ses
+chaussures, des rangers de l’armée US. Le chien aboie sans s’arrêter.
+ONODA
+T’as vu ses chaussures ? (Kozuka acquiesce. Onoda
+désigne le chien) Faut pas rester ici.
+Ils poussent la femme dehors, qui essaie, paniquée, de revenir vers son chien.
+Kozuka braque son fusil sur elle, la femme avance en tremblant, ils vont vers la forêt.
+Le chien continue d’aboyer.
+88. EXT. JUNGLE TEMPETE - NUIT
+Ils sont maintenant au milieu d’une végétation dense, un peu protégés de la pluie.
+ONODA
+You know who we are? (Il se désigne ainsi que Kozuka).
+We ?
+LA PAYSANNE
+Devil from mountain. Me no yankee spy, not kill me.
+ONODA (désignant ses rangers)
+Where you had American shoes? Lubang? Looc?
+Agkawayan?
+LA PAYSANNE
+No yankee spy, no yankee spy! (poursuit en tagalog)
+Elle semble évoquer la pluie, sa peur du tonnerre et son chien. Elle tremble, de peur
+ou de froid.
+KOZUKA
+Elle est bête, elle a un problème dans la tête. Il y en a
+toujours des comme ça, ils leur laissent quatre vaches et un
+chien. On arrivera à rien savoir avec elle, c’est une crétine.
+Onoda enlève les piles de la lampe de poche et la lui rend.
+KOZUKA
+Go, go! Pffuit, go! Go see dog, wouf wouf, go.
+Il la pousse dans le sens de la pente, mais la femme ne bouge pas, elle regarde sa
+ONODA - V10 du 22 nov. 2018 69
+lampe inutile, la terreur dans les yeux.
+LA PAYSANNE
+Rain, brrroum!! (imitant le tonnerre) Typhoon, rain…
+Fcshhhh, PRRRR!!
+Elle mime une chute, se protège de ses bras, ramasse une branche et fait mine de
+s’assommer avec et de tomber, inerte. Elle finit par joindre ses deux mains en
+supplication. Onoda brandit son fusil vers elle. La femme recule, mains en avant pour
+se protéger, et disparaît. Onoda et Kozuka partent dans la direction opposée.
+89. INT/EXT. HUTTE DE MOUSSON à 2 - NUIT
+Les mains d’Onoda introduisent les nouvelles piles dans « Sony », qui redémarre.
+Les nouvelles parlent encore de l’homme sur la lune. Onoda et Kozuka se
+recouchent et écoutent. Au bout d’un moment un frottement contre la paroi de la
+hutte se fait entendre. Onoda coupe la radio, oreille tendue. Rien. Puis un
+éternuement. Ils saisissent leurs armes, sortent avec précaution. Chacun fait le tour
+de la hutte dans un sens différent, ils se retrouvent à l’arrière : un corps est
+recroquevillé sous l’abri pratiqué par le prolongement du toit, où ils stockent du bois
+sec. Aux pieds de l’intrus : des rangers américains. Onoda tapote du pied sur la
+jambe de la paysanne, qui s’extrait de sa cachette, écorchée, trempée, secouée de
+tremblements.
+LA PAYSANNE
+Typhoon… No… yan…kee… spy…
+Onoda regarde Kozuka.
+Plus tard, dans la hutte. La paysanne est dans un coin, recouverte d’une couverture
+avec laquelle elle essuie son visage sale. Elle fixe les deux soldats qui parlent en
+japonais. Kozuka se fait violence pour ne pas la regarder, perturbé.
+ONODA
+Elle a peur du typhon. Vu qu’on l’a bien traitée elle croit qu’on
+est gentils. T’as raison c’est une crétine.
+KOZUKA
+Si on la vire, elle va forcément en parler et demain ils sont là.
+Ça veut dire détruire la hutte tout de suite, effacer les traces,
+partir maintenant sous la pluie, marcher pendant deux jours
+pour mettre de la distance et reconstruire ailleurs. Sous la
+pluie. Tu veux faire ça ?
+ONODA
+Qu’est-ce que tu veux faire, tu veux la garder avec nous ?
+KOZUKA (troublé)
+… J’ai pas dit ça. Tu estimes que la pluie va se calmer
+quand ?
+ONODA - V10 du 22 nov. 2018 70
+ONODA
+Minimum 4 semaines. (Il regarde la femme qui écoute sans
+rien comprendre) Bon, on la garde cette nuit et demain on
+décide.
+Ils lui font une natte dans la hutte, Onoda lui entrave pieds et mains, ostensiblement
+troublé. Puis il rallume « Sony » et ils écoutent tous trois la voix qui parle
+d’Armstrong, d’Apollo et de la Lune… La paysanne lutte contre le sommeil mais
+s’endort bientôt. Onoda éteint la radio et se couche, Kozuka reste assis, prenant le
+premier tour de garde. Il regarde, comme malgré lui, la naissance de la poitrine de la
+paysanne, visible à travers sa chemise, puis ses longs cheveux noirs. Il finit par
+détourner les yeux.
+90. INT. HUTTE DE MOUSSON à 2 - AUBE
+Aube. Onoda, Kozuka et la paysanne mangent. Elle mange avec appétit, s’arrêtant
+pour regarder ses geôliers, puis repartant de plus belle.
+KOZUKA
+Tu vas voir qu’elle va en redemander.
+La paysanne finit son riz jusqu’au dernier grain, lèche ses doigts.
+ONODA (montrant l’extérieur)
+Where you live? Tilik? Vigo?
+Elle réagit à ce mot, et enchaîne en tagalog. Elle semble évoquer sa vie, on
+comprend qu’elle parle de ses vaches et de son chien. Son monologue opaque
+s’étire, et a quelque chose d’absurde vu la situation. Les deux soldats l’écoutent sans
+comprendre. La femme a l’air d’un enfant.
+LA PAYSANNE (finissant en anglais)
+…Love Lubang. Good, Lubang.
+KOZUKA
+What’s your name? (il la montre du doigt) You?
+LA PAYSANNE
+Iniez.
+Elle dégage ses cheveux emmêlés de devant son visage, dans un geste sans
+affectation mais pourtant gracieux. Le silence revient. Onoda et Kozuka sont
+d’évidence touchés par elle. Repas fini, ils lui attachent à nouveau mains et pieds.
+Onoda coud un fourreau pour pistolet, Kozuka polit son fusil. Iniez les regarde.
+Onoda la fixe, incapable de continuer à l’ignorer. A son tour, il regarde l’échancrure
+de sa chemise, la poitrine dans la chemise, la gorge, les cheveux, enfin le visage de
+la femme. Elle a une sensualité, mais on sent qu’elle n’en a aucune conscience.
+ONODA - V10 du 22 nov. 2018 71
+Onoda s’arrache à son trouble violent en entraînant Kozuka sur le seuil de la hutte.
+ONODA
+Il faut décider. Ou bien on la relâche…
+KOZUKA
+Ou bien quoi ? Dis-le.
+ONODA
+Ou on la garde jusqu’à la fin des pluies - ou on s’en
+débarrasse.
+Kozuka regarde dehors, la pluie fait comme un rideau blanc.
+KOZUKA
+On passe la nuit, si demain la pluie se calme, on la relâche et
+on change de campement. Sinon, on décide.
+Ils regardent à l’intérieur : Iniez les regarde, la peur est revenue dans ses yeux.
+91. INT. HUTTE DE MOUSSON à 2 - NUIT
+Onoda veille, fusil sur les genoux. Kozuka dort, Iniez aussi. Onoda regarde la pluie
+tomber. Il tourne la tête : Iniez regarde la pluie, puis Onoda. Ils se fixent. Onoda
+secoue Kozuka : c’est son tour de garde. Kozuka s’ébroue et prend le fusil, regardant
+à son tour la pluie. Onoda se couche.
+Iniez ferme les yeux, paraît s’endormir. Kozuka la regarde fixement. Ses lèvres
+entrouvertes, ses cheveux. Il tend lentement la main et les effleure délicatement, du
+haut vers le bas. Ses doigts approchent de la poitrine. Elle rouvre les yeux
+brusquement, il fige son geste. Elle referme aussitôt les yeux, comme un enfant
+persiste à faire semblant de dormir. Kozuka se crispe, la main toujours dans
+l’échancrure d’Iniez. Il lutte, ferme le poing en détournant les yeux vers la pluie.
+92. INT. HUTTE DE MOUSSON à 2 - AUBE
+Onoda dort. Kozuka s’est endormi, affaissé, ses mains relâchées autour du fusil.
+Onoda ouvre les yeux. La première chose qu’il voit c’est la pluie qui ne s’est pas
+calmée. Puis près de lui, le fourreau de son revolver, vide. Il se tourne et voit Iniez:
+dans ses mains attachées, elle serre le revolver. Tremblant, elle baragouine en
+tagalog. Elle montre ses pieds entravés et demande qu’on la libère. Kozuka s’éveille
+en sursaut, Iniez effrayée tire, la balle déchire la jambe de Kozuka qui hurle. Onoda
+bondit sur Iniez, un nouveau coup part et lui frôle l’oreille, il la désarme et la frappe
+brutalement deux fois à la tête avec le pistolet. Groggy, du sang coule de son crâne.
+Réfléchissant à toute allure, Onoda inspecte rapidement la blessure de Kozuka. Iniez
+revient à elle, se met à hurler en rampant vers la sortie. Onoda se tourne vers
+ONODA - V10 du 22 nov. 2018 72
+Kozuka et opine. Ils prennent chacun leur fusil, Onoda debout recule jusqu’au fond
+de la hutte. Iniez s’est arrêtée de ramper et tombe évanouie.
+Les deux soldats arment mais aucun ne tire, doigts bloqués sur la détente. A
+nouveau ils se regardent. Kozuka saisit une cruche d’eau et asperge son visage. Elle
+ouvre les yeux, sonnée. Kozuka regarde le visage, puis un des seins mouillés d’Iniez
+dans l’échancrure. Voyant les armes braquées, elle se remet à hurler vers l’extérieur.
+Kozuka lui fait signe de se taire, doigt sur les lèvres, désemparé. Iniez lui obéit et
+arrête de crier.
+ONODA (martial)
+Armes ! En joue !...
+Il n’arrive pas à dire la suite. Kozuka a les larmes aux yeux.
+ONODA (criant)
+FEU !!
+Il tire seul dans la poitrine de la femme aux yeux écarquillés.
+KOZUKA (hurlant)
+VIVE l’EMPEREUR !!!
+Il tire sa balle, Iniez s’affaisse. Les deux soldats la regardent longuement, choqués.
+93. EXT. TOMBE INIEZ - JOUR
+La pluie s’est calmée mais tombe encore. Onoda a creusé une fosse, Iniez est sous
+une bâche, il l’en extrait et la regarde. Il reboutonne sa chemise jusqu’en haut,
+nettoie son visage maculé de sang et la blessure de son crâne. Puis il porte le corps
+comme il peut dans le trou. Un dernier regard à son beau visage enfantin, puis il
+remplit la fosse de terre. Il fait une prière silencieuse, reste un temps à regarder la
+tombe, une détresse dans les yeux.
+94. INT. HUTTE DE MOUSSON à 2 - JOUR
+Les mains d’Onoda défont le bandage de Kozuka: une espèce de chenille s’échappe
+de la plaie. Onoda l’écrase, terrifié. Kozuka vacille : la blessure est infectée, verdâtre,
+la cuisse gonflée, violacée. Après un moment de panique, Onoda tâte la peau
+gonflée, Kozuka gémit. Onoda lui caresse la joue pour l’apaiser. Kozuka attrape sa
+main, la serre fort contre son visage, les yeux suppliants. Onoda regarde la plaie,
+penche son visage et y appose sa bouche : il aspire, crache ce qu’il a aspiré, aspire
+à nouveau… Kozuka ferme les yeux avec une plainte gutturale, se laissant aller
+contre la paroi. Onoda essuie sa bouche, le regard empli de détresse de son ami le
+laisse interdit.
+ONODA - V10 du 22 nov. 2018 73
+Onoda prend un pot, applique sur la plaie ce qui ressemble à de la graisse animale.
+Il fait un nouveau bandage et une attelle. Puis il écrit sur son carnet en disant :
+ONODA
+13 Août.
+Kozuka, yeux vides, regarde la pluie tomber. Quelque chose s’anime sur son visage,
+un sourire lui vient.
+KOZUKA
+13 Août… au pays c’est le premier jour du « Obon ». C’est le
+moment le plus heureux de l’année… Chez toi aussi?
+(Onoda fait non) J’étais tellement impatient quand on arrivait
+en juillet, tous les matins je demandais à ma mère « c’est
+aujourd’hui c’est aujourd’hui ?? »
+Il sourit à ces souvenirs, s’animant peu à peu. Soudain il se met à chanter.
+KOZUKA (enjoué, marquant le rythme)
+« Les seuls qui ne dansent pas ce soir sont le vieux bouddha
+en pierre et moi ! » On construit la grande scène en bois pour
+les trois jours, pour les danses. Et ça commence… les gars
+se pavanent dans leurs kimonos d’été… les tambours jouent
+sans s’arrêter jusque dans la nuit, les chanteurs chantent en
+rythme… et tout le monde danse en cercle. Et à mesure que
+la nuit avance, les paroles deviennent petit à petit
+paillardes… Et quand on sent que ça va être l’aube, nous les
+garçons, on commence à se glisser vers les filles…
+Il a un regard gourmand, perdu dans ses souvenirs.
+KOZUKA
+C’est le moment le plus heureux de l’année…
+ONODA
+Moi c’est quand je travaillais en Chine à Hankow avant la
+guerre, que je dansais. Le tango.
+KOZUKA
+Toi tu dansais ? Je te crois pas. Montre-moi.
+Onoda hésite, puis se lève et danse avec application un tango sans partenaire.
+ONODA
+Crois-le ou pas, je sortais, j’étais élégant, je fumais… J’avais
+19 ans, les femmes me regardaient… Il y en avait une qui
+m’aimait bien. Elle me--
+KOZUKA (le coupant, excité)
+Quoi ? C’était bien, c’était ta première ??
+ONODA - V10 du 22 nov. 2018 74
+ONODA
+Elle me regardait… Elle me parlait tout le temps.
+Onoda imite une femme qui minaude dans un chinois caricatural. Kozuka perd peu à
+peu son sourire, le numéro moqueur d’Onoda devenant gênant. Kozuka détourne les
+yeux, comprenant que l’autre n’a rien de plus à raconter.
+KOZUKA (saisi de dégoût)
+Arrête.
+Onoda arrête son imitation et le regarde : ses yeux détournés sont pleins de larmes.
+95. INT. HUTTE DE MOUSSON à 2 - JOUR
+Onoda écrit sur son carnet : « 15 septembre ». Dehors, il ne pleut plus.
+Une mince couche de peau recouvre la blessure de Kozuka, qu’Onoda examine.
+ONODA
+Il y a plus de risque d’infection. Montre si tu peux la bouger.
+Grimaçant, Kozuka remue lentement la jambe. Onoda acquiesce, satisfait.
+KOZUKA
+Je te cause des soucis, je le sais.
+…Si je m’étais pas endormi pendant mon tour—
+ONODA (le coupant)
+Kinshichi, on a fait ce qu’on a pu.
+KOZUKA
+Quand tu l’as… enterrée… (Onoda ferme les yeux,
+mâchoires serrées) Dis-moi juste si elle était bien mise.
+ONODA (troublé)
+Elle était bien. J’ai nettoyé son visage.
+Kozuka opine. Un voile obscur recouvre son regard. Au plafond de la hutte, la
+moisissure prolifère. Soudain Kozuka se lève et rassemble les vêtements,
+claudiquant.
+KOZUKA
+Je vais faire une lessive.
+ONODA
+Quoi ?! Tu peux à peine marcher, si tu fais—
+KOZUKA
+Je DOIS marcher t’as dit.
+ONODA - V10 du 22 nov. 2018 75
+ONODA
+Pas aussi loin, tu peux pas courir si y a quoi que ce soit.
+Kozuka sort et court en boitant devant la hutte, réprimant la douleur.
+ONODA
+Ça te fait mal, je le vois, tu risques de rouvrir la plaie.
+KOZUKA
+Tais-toi !! Je veux plus rester à rien faire, j’en peux plus de
+rester dans cette hutte pourrie !
+Il rentre et attrape le linge, sans regarder Onoda.
+96. EXT. RIVIERE KOZUKA - JOUR
+Onoda et Kozuka arrivent au bord d’un large cours d’eau. Ils défont leurs baluchons
+et commencent à tremper les vêtements qu’ils frottent avec de la cendre.
+ONODA
+On fait vite.
+Kozuka opine, fermé. L’eau est claire et rapide. Sans parler, ils lavent tout ce qu’ils
+n’ont pas sur eux : casquettes, chemises, pantalons… qu’ils posent une fois lessivés
+sur le sol herbeux. Onoda commence à rassembler les affaires, se fige soudain.
+ONODA
+Ton fusil… ?
+KOZUKA (regardant sur la rive à ses pieds)
+Il est…
+ONODA
+Tu l’as posé ? Pourquoi t’as fait ça ?
+Kozuka regarde le fusil d’Onoda, que ce dernier a gardé en bandoulière. Kozuka
+regarde à nouveau au sol, où le sien n’est plus. Démuni, il avance vers l’eau.
+KOZUKA
+C’est pas normal, je l’ai posé là…
+ONODA (le coupant brutalement)
+Il est parti dans le courant. Tu comprends ce que t’as fait ?! Il
+va arriver jusqu’à Brol (son doigt pointe l’aval), même avant il
+peut être repéré par n’importe qui en deux minutes. TU AS
+PERDU TON ARME !!
+Kozuka tremble, yeux baissés. Onoda avance dans l’eau pour chercher, mais revient
+aussitôt sur ses pas, une colère froide, effrayante dans les yeux.
+ONODA - V10 du 22 nov. 2018 76
+ONODA
+Tu l’as fait exprès ?
+Kozuka ouvre la bouche, transpercé par cette phrase. Onoda braque son fusil sur lui.
+ONODA
+REPONDS ! TU L’AS FAIT EXPRES !!!
+Le regard de Kozuka exprime une grande détresse. Il finit par nier de la tête. Onoda
+le fixe un temps, puis baisse son fusil. Un instant, il semble totalement perdu lui
+aussi.
+KOZUKA
+Je te jure…
+Il avance dans l’eau en boitant pour se mettre à chercher, mais Onoda le rattrape.
+KOZUKA
+Je vais le retrouver !
+ONODA (lui jetant son fusil, autoritaire)
+Tu vas sur l’autre rive, je cherche de ce côté. Dans 3 minutes
+si on l’a pas trouvé on va tout ramasser à la hutte. C’est trop
+dangereux.
+Ils descendent le courant, Onoda plonge, ressort, court dans le courant jusqu’à 200,
+300 mètres des baluchons tandis que Kozuka évolue sur la rive à l’ombre. Onoda
+finit par siffler dans sa direction : rien. Ils se rejoignent au point de départ.
+ONODA (haletant)
+C’est fini, allez !
+Il rassemble les vêtements lavés. Kozuka, encore à moitié dans l’eau, y tombe à
+genoux, se mettant à pleurer en silence. Onoda le voit et fonce le relever.
+KOZUKA
+Excuse-moi… excuse-moi…
+ONODA
+Pas maintenant, on doit partir !!
+Kozuka se laisse aller contre lui, sans volonté, laissant ses larmes couler.
+KOZUKA
+Je voulais pas…
+ONODA (le secouant violemment)
+ARRÊTE !! Tu veux qu’ils nous trouvent ?!
+Il tire Kozuka de l’eau et le traîne vers la rive, l’y jette, rassemble le linge, attrape son
+fusil. Kozuka regarde l’eau, frappé de stupeur.
+ONODA - V10 du 22 nov. 2018 77
+KOZUKA
+Attends… comment… ?
+Onoda se tourne et suit du regard le doigt pointé de son ami : à un certain endroit, à
+peine perceptible, il y a un petit tourbillon. Onoda rentre à nouveau dans l’eau et s’en
+approche.
+ONODA (criant)
+C’EST UN TOURBILLON ! ÇA INVERSE LE COURANT !
+Il regarde le tourbillon un instant, comme fasciné. On dirait un œil. Puis il suit des
+yeux le courant inversé: le fusil de Kozuka est coincé dans un renfoncement de la
+rivière. Il brandit l’arme vers Kozuka, un large sourire de joie sur son visage. Kozuka
+rejoint à mi rivière Onoda trempé qui frissonne, ils regagnent la rive.
+KOZUKA (enlevant sa veste)
+Mets-ça, tu es glacé.
+ONODA (pris de tremblements)
+Pardon d’avoir crié… c’était pas toi, c’était la rivière. Cette
+traitresse, mais elle nous a pas eus !
+Ils sourient, Kozuka frotte Onoda pour le réchauffer. Onoda serre son ami dans ses
+bras, blotti contre lui. Kozuka regarde le tourbillon dans l’eau. Quelque chose de très
+triste se peint dans son regard.
+KOZUKA
+C’est l’île qui a fait ça. Oui, c’est elle…
+Onoda lève la tête et le regarde. Kozuka ferme douloureusement les yeux. Un bruit
+sec fuse, Kozuka est rejeté en arrière, lâchant son fusil, yeux écarquillés de douleur :
+un harpon vient de lui transpercer l’épaule. Onoda se jette au sol sur son fusil,
+épaule et réplique en direction de l’origine du tir. Il regarde Kozuka étalé au sol, puis
+son fusil qui dérive dans l’eau. Du sang coule sous le harpon, dont part un filin tendu
+vers l’autre rive. Kozuka, tiré vers l’eau, tente de résister en hurlant de douleur, les
+deux mains accrochées au filin. Onoda le retient, sort son couteau mais une volée de
+harpons le frôle à son tour. Il est forcé de lâcher son ami pour armer et tirer.
+ONODA
+COUPE LE CÂBLE !!! C’est des pêcheurs ils ont pas de
+fusils !!
+Il tire en rafales, jusqu’à vider son chargeur. Depuis l’autre rive, les assaillants
+avancent dans l’eau, tirant Kozuka vers eux. Onoda recharge précipitamment.
+ONODA
+KINSHISHI !!
+Kozuka parvient à trancher le câble avec son couteau et titube vers Onoda. Un
+harpon le frappe à nouveau dans le dos, la flèche transperçant sa poitrine. Il s’étale
+dans l’eau rouge sang, les pêcheurs le tirent vers eux. Il ne bouge plus.
+ONODA - V10 du 22 nov. 2018 78
+Onoda tétanisé vide encore son chargeur. Il constate qu’il n’a plus de cartouches,
+voit les pêcheurs parvenus au milieu du gué : trop nombreux, tous armés de
+harpons. Acculé, il court vers la jungle et la montagne en hurlant :
+ONODA
+Je vous tuerai tous ! JE VOUS TUERAI, JE VOUS TUERAI,
+JE VOUS TUERAI !!!
+Il court… court… comme on court dans les rêves.
+97. EXT. SOUCHE et RIVIERE KOZUKA - SOIR
+Onoda est contre une souche, ses vêtements sont secs et son regard est voilé. Le
+soleil a disparu, la lumière est à peine rosée. Il se lève et se met en route vers la
+rivière.
+Arrivé à la rivière, il n’y a plus rien. Ni Kozuka ni leurs habits. La berge est rouge
+sang.
+Onoda reste à regarder l’endroit vide, la rivière qui coule calmement. Il se dévêt de la
+veste de Kozuka et entreprend de creuser un trou profond sur la berge. Il se met à
+chanter d’une voix tremblante :
+ONODA
+« Vers Sado, vers Sado, même les feuilles des arbres et
+l’herbe sont soufflées par le vent. Sado n’est-il pas un endroit
+agréable à vivre ?
+Viens, viens me dis-tu, mais je ne peux te rejoindre
+facilement. Sado est si loin d’ici, au-delà des vagues de la
+mer. »
+Il finit le visage baigné de larmes. Une fois le trou suffisamment profond il enterre la
+veste de son ami.
+Il se relève et disparaît dans la forêt comme une ombre exténuée.
+98. EXT. ARBRE A NANGKAS (1) – MATIN (CF SEQ 1)
+Un espace dégagé dans la jungle. Onoda a cueilli un gros nangka jaune à un arbre,
+et l’a fendu en deux avec son couteau : au milieu, les pépins sombres. Onoda les
+regarde, comme hypnotisé. Quelque part, un bourdonnement se fait entendre, de
+plus en plus fort. Ça ressemble au moteur d’un hélicoptère qui se rapproche. Les
+échos d’une voix amplifiée sont dispersés par le vent :
+VOIX HELICOPTERE (OFF)
+… LA JUNGLE (….)… SERA FAIT (…)… SAN… (…)
+…TEZ DE LA (…) … AL NE VOUS …
+ONODA - V10 du 22 nov. 2018 79
+Dans les yeux d’Onoda une tension imperceptible, comme une attente. Voix et
+moteur s’éloignent. Il prend les pépins du fruit avec ses doigts, les approche de son
+nez, de sa bouche. Immergé dans l’ombre verte de la jungle, il est de la même
+couleur qu’elle. Il met les pépins dans sa bouche, et avale. Puis il s’assoit contre le
+tronc de l’arbre, les jambes allongées devant lui. Il ferme les yeux, sans force.
+Un long temps de quiétude, Onoda ne bouge plus du tout.
+Au bout d’un moment il se plie en deux comme au ralenti et ouvre la bouche, comme
+si un poing invisible venait de le frapper lentement au ventre. On dirait qu’il va
+régurgiter mais rien ne sort. Il met alors sa main dans sa bouche, sans violence, et
+se fait vomir. Un bruit d’entrailles sourd, les pépins noirs ressortent, Onoda les
+crache comme malgré lui. Il reste ainsi, plié en deux devant l’arbre, son regard
+revenant peu à peu au présent, entre résignation et angoisse.
+99. EXT. JUNGLE – JOUR
+La jungle. Les restes de la hutte de mousson, tombée en ruine d’elle-même.
+Ailleurs. Enormes feuilles, troncs entrelacés, insectes indiscernables dans le vert.
+Un morceau de tissu verdâtre, inerte. Un mouvement : le tissu glisse, c’est un bras,
+une main apparaît et avance lentement jusqu’à cueillir une fleur violette. C’est la
+main d’Onoda, recouvert de feuilles en guise de camouflage, qui semble un élément
+parmi d’autres de la nature de l’île.
+100. EXT. CLAIRIERE SHIMADA – JOUR (CF SEQ 3)
+Onoda arrive dans une petite clairière, havre inattendu au milieu de la jungle. Il
+s’arrête et regarde l’endroit, puis avance vers un arbre au large tronc lisse,
+s’accroupit, tâte de ses deux mains la base du tronc. Ses doigts trouvent enfin
+l’entaille très profonde faite il y a si longtemps. Il sourit fugitivement, se retourne et
+regarde vers le sol. Il sort d’une de ses poches des fleurs enveloppées dans un tissu,
+des lianes tressées et séchées (évoquant des bâtons d’encens) et une bougie. Il les
+dépose dans cet ordre de gauche à droite, délicatement. Il s’incline en position de
+prière, ferme les yeux et se met à parler, dans un débit posé.
+ONODA
+Shimada… pardon de n’être jamais revenu ici. Nous n’avons
+pas pu t’incinérer… mais ce n’était pas par irrespect. Nous
+avons essayé de faire au mieux, comme ta vraie famille
+l’aurait fait.
+Il rouvre les yeux et regarde le sol avec une grande tristesse.
+ONODA
+Je reviendrai vite.
+ONODA - V10 du 22 nov. 2018 80
+Il se relève, hésite un temps, finit par s’éloigner.
+101. EXT. ARBRE A NANGKAS (2) DES DESERTEURS – JOUR (CF SEQ 5)
+Onoda, toujours camouflé de feuillages, est face à un autre grand arbre à nangkas.
+Les fruits sont encore plus nombreux que sur le premier arbre. Il le regarde de haut
+en bas, puis touche de sa paume à plat le sol terreux à sa base. A nouveau, il
+dépose fleurs, lianes-encens et bougie au sol, les allume puis prie.
+ONODA
+Ça fait longtemps… je crois que c’est ici… (Il s’agenouille et
+s’éclaircit la gorge :) Oshima, Sakamoto, Sato, « les
+Triplés »… ces fruits vous ont enlevé la vie, vous dormez
+sous cet arbre, je crois. Pardon de ne vous avoir pas
+incinérés, ni mis en terre. Vous êtes avec moi ici, vous n’êtes
+pas oubliés.
+102. EXT. TOMBE INIEZ – SOIR (CF SEQ 7)
+A la tombée du soir, d’autres fleurs, lianes-encens et bougie. Onoda craque une
+allumette, l’encens et la bougie brulent. Allongé près des fleurs, il sourit doucement.
+ONODA (murmurant)
+On ne voulait pas te faire de mal, Iniez, mais on n’a pas eu le
+choix… Peux-tu nous pardonner ? Maintenant tu es avec
+nous, peut-être que c’est ce que tu voulais ? C’est toi qui es
+venue nous trouver, tu aurais pu partir mais tu es revenue,
+sous la pluie… Kinshichi ne t’a pas oubliée… et moi je
+n’oublie aucun de vous. Je sais où vous êtes, chacun à son
+endroit… tous avec moi ici...
+Allongé, Onoda regarde la flamme de la bougie doucement agitée par le vent, dans
+le soir qui s’épaissit. Ses yeux fatigués ne sont plus que deux fines fentes. On
+entend à nouveau sa voix murmurer, mais ses lèvres ne bougent pas.
+ONODA (OFF)
+Je n’oublie aucun de vous… je n’oublie rien… je n’oublie
+rien…
+Ses yeux se ferment. Un long moment en silence.
+Soudain Onoda se réveille et frissonne, l’air perdu.
+ONODA (murmurant)
+Où est-ce que vous êtes… ?
+ONODA - V10 du 22 nov. 2018 81
+Son regard est empli d’une détresse, d’un désespoir saisissants. Il se lève, se raidit,
+en position martiale.
+ONODA
+Je veux entendre vos voix ! QUI EST AVEC MOI ??!!
+Aucune réponse. Ses yeux mangés par l’ombre paniquent.
+ONODA
+Je n’abandonne aucun de vous ! Lubang est à nous. Nous la
+tenons ! (il ferme les yeux, cherchant à se souvenir. Il récite
+en hurlant :) « IL VOUS EST ABSOLUMENT INTERDIT DE
+VOUS DONNER LA MORT ! ÇA POURRA PRENDRE 3
+ANS, OU 5 ANS, MAIS QUOI QU’IL ARRIVE NOUS
+REVIENDRONS POUR VOUS ! JUSQUE LÀ, TANT QUE
+VOUS AVEZ UN SOLDAT, VOUS DEVEZ CONTINUER A
+LE DIRIGER ! VOUS AUREZ PEUT-ETRE A VIVRE DE
+NOIX DE COCO ! SI C’EST LE CAS, VIVEZ DE NOIX DE
+COCO !! MANGEZ DES RACINES, MANGEZ DE LA
+TERRE !!! »
+Un temps. Il garde les yeux violemment scellés, tremblant de concentration intense.
+ONODA
+QUI EST AVEC MOI ?!
+Il attend. Puis les voix arrivent, toutes proches, vivantes.
+KOZUKA (OFF)
+Je suis avec toi.
+SHIMADA (OFF)
+Je suis avec toi.
+D’AUTRES VOIX (OFF, une à une, et se superposant)
+Je suis avec toi…
+Onoda, fusil le long du corps, rouvre les yeux et regarde la nuit.
+Un vent se lève et fait frémir les feuilles, l’herbe, les cheveux d’Onoda. Une flamme
+confiante brille dans ses yeux.
+Fondu au noir.
+103. SÉQUENCE SUPPRIMÉE
+104. SÉQUENCE SUPPRIMÉE
+105. SÉQUENCE SUPPRIMÉE
+ONODA - V10 du 22 nov. 2018 82
+106. EXT. BATEAU 70’S: POV SUR ÎLE - JOUR
+Un jeune homme de 23 ans aux yeux pétillants, les cheveux mi longs, fume sur le
+pont d’un petit bateau, en pleine mer. C’est SUZUKI Norio.
+Devant lui approche l’île de Lubang. Il la regarde en fumant sa cigarette.
+107. EXT. PORT + ECHOPES LUBANG - JOUR
+Suzuki débarque sur le petit quai du port de Lubang, traverse une large route
+bitumée. Il porte un sac à dos plein à craquer, muni d’une tente. Il approche d’une
+échoppe à ciel ouvert, où quelques hommes jouent au billard.
+Depuis l’extérieur, on le voit s’adresser au barman. Il sort très vite une photo, des
+clients s’approchent. Une discussion s’engage rapidement. Suzuki sort une carte
+qu’il étale sur le billard, tous se penchent dessus… L’un des clients dit quelque
+chose et va pour traverser la rue...
+108. EXT. ECHOPE LUBANG - JOUR
+Suzuki regarde le philippin traverser la rue et entrer dans une autre échoppe. Suzuki
+attend, impatient. L’homme ressort vite accompagné d’un autre homme qu’il ramène
+au billard. Suzuki lui montre la photo : c’est un tirage argentique en couleur
+représentant un paysage à la végétation sauvage, abondante, quelques maisons de
+village, et un champ qui brûle. Dans un coin de la photo on peut distinguer une
+silhouette sombre et mal définie, presque mangée par l’ombre des arbres.
+HOMME RESTAURANT (désignant la silhouette)
+Devil from the mountain.
+SUZUKI
+Yes! You know where it is? This rice field? You can show me on
+the map?
+L’homme désigne sur la carte une zone au centre de l’île, près d’une rivière, Il pointe
+un village.
+HOMME RESTAURANT (anglais approximatif)
+In this village, 2 months ago, the family of my wife, the cousin
+of my wife, he told me the field of a friend was in fire…
+Suzuki regarde intensément le point sur la carte. Il remercie en serrant
+chaleureusement les mains de tous les clients et va pour partir. Le tenancier lui fait
+comprendre en tagalog qu’il n’a ni bu ni payé son Coca… Suzuki s’excuse avec son
+éternel sourire pétillant, laisse un billet et, levant sa bouteille à la santé de
+ONODA - V10 du 22 nov. 2018 83
+l’assemblée, la vide d’une interminable gorgée qui lui fait venir les larmes aux yeux.
+SUZUKI (toussant)
+Very fresh!! Very good, thank you, thank you!
+Il salue à la japonaise, part. Les clients le regardent s’éloigner. Au-delà de la route et
+du port, les reliefs reconnaissables des montagnes de Lubang.
+109. EXT. RIZIERE - JOUR
+Suzuki est à l’arrière d’un pick-up roulant sur une route rectiligne.
+Il se fait déposer devant un champ, le pick-up repart, Suzuki salue le conducteur et
+reprend sa marche : on reconnaît la rizière incendiée 30 ans plus tôt par Onoda. Au-
+delà de la rizière, des montagnes.
+110. EXT. MARAIS SALANTS - CREPUSCULE
+Suzuki marche le long de marais salants, dans une plaine, au crépuscule. Il
+demande son chemin à un paysan. Sur la carte de Suzuki, l’homme, bientôt rejoint
+par d’autres, lui indique l’endroit où ils se trouvent, et non loin de là une rivière qui
+serpente dans la montagne. Suzuki se fait confirmer l’endroit qu’il marque d’une
+croix.
+LE PAYSAN
+Don’t go. No good, no safe. Nobody go there. Dangerous.
+Suzuki remercie en souriant et se remet en marche. Nous découvrons la montagne
+vers laquelle il se dirige : on reconnaît la colline du Dromadaire au crépuscule.
+111. EXT. RIVIERE KOZUKA - SOIR
+Un peu avant la tombée du soir, Suzuki arrive sur la berge où Kozuka est mort.
+Peu après. Le soir est tombé. Suzuki a monté sa tente sur la berge où Kozuka est
+mort. Il étudie avec précaution la topographie du lieu, et choisit un endroit pour
+planter un drapeau japonais, bien en vue. Un vent doux souffle.
+Il a disposé des pierres et du bois pour faire un feu. Il attend de toute évidence,
+tentant de maîtriser son impatience et son excitation, et une peur qui le fait parfois se
+retourner brusquement vers la jungle.
+Il dispose autour du feu un paquet de cigarettes, un appareil photo et une bouteille
+de gin, cherchant avec hésitation une disposition optimale - une vraie scénographie.
+ONODA - V10 du 22 nov. 2018 84
+Les bruits autour de lui l’inquiètent à nouveau. Tremblant, il gâche beaucoup
+d’allumettes avant d’arriver à en allumer une, mais un coup de vent l’éteint,
+ébouriffant ses cheveux et faisant frémir la végétation autour de lui.
+Son corps, son regard se figent totalement. Il se retourne très lentement, yeux
+écarquillés : à quelques mètres, sur la berge opposée, Onoda le tient en joue. Ses
+cheveux et son bouc ont poussé, grisonnants, désordonnés. Il a encore vieilli,
+comme fossilisé. Avec ses feuilles fichées dans son uniforme rapiécé, on dirait un
+fantôme de la forêt, mi soldat, mi être de légende. Il semble remarquer alors le vent
+qui agite les cheveux de Suzuki.
+ONODA (murmurant)
+« Le vent du Sud souffle… »
+Une immense surprise au fond de ses yeux fixes, il approche prudemment,
+traversant la rivière basse avec son fusil pointé, tend la main et touche la poitrine de
+Suzuki, comme s’il n’arrivait pas à décider s’il est une réalité ou un rêve. Suzuki
+retient son souffle.
+Les yeux d’Onoda le détaillent : cheveux dans le cou, T-shirt et pantalon, sandales
+de caoutchouc sur des chaussettes. Le regard d’Onoda bloque sur les chaussettes.
+Le moment s’étire. Les mains et les genoux de Suzuki tremblent, il a entièrement
+perdu sa morgue d’aventurier dandy. Sa peur et sa stupeur transpirent de lui.
+Mais lorsqu’Onoda relève les yeux vers son visage, c’est le soldat qui semble
+profondément troublé par l’évidence de la réalité de cet étranger. Une panique
+traverse son regard, il se raidit comme pour retrouver son port militaire. Suzuki finit
+par saluer, une fois puis deux.
+SUZUKI (avec difficulté)
+…suis japonais… Je suis japonais.
+Onoda décrit un arc de cercle autour de lui, se retournant vivement pour s’assurer
+qu’il n’est pas tombé dans un piège. Il semble chercher ses mots un instant.
+ONODA (montrant son propre fusil)
+Le cran de sûreté est enlevé. (Suzuki acquiesce) Vous êtes
+envoyé par le gouvernement japonais ?
+SUZUKI
+Non.
+ONODA
+Vous… êtes de la Société de Coopération Etrangère de la
+Jeunesse ?
+SUZUKI
+N-non.
+ONODA
+Qui vous a envoyé ?
+ONODA - V10 du 22 nov. 2018 85
+SUZUKI
+Je suis juste un touriste. Êtes-vous Onoda-san ?
+Onoda prend un temps, puis acquiesce. Suzuki s’incline profondément.
+SUZUKI (avec un sourire tremblant)
+Je sais que vous avez vécu… quelque chose de long et
+difficile. La guerre est finie. Vous ne… voudriez pas rentrer
+au Japon avec moi ?
+Onoda le regarde intensément. Il ne bouge pas d’un poil. Il regarde à nouveau ses
+chaussettes. Suzuki le remarque et les regarde à son tour. Il sourit, se fait plus hardi.
+SUZUKI (expliquant)
+Je ne voulais pas attraper de piqûres. Onoda-san, que
+comptez-vous faire ? Mourir ici ?
+ONODA
+Vous venez vraiment du Japon ? D’où ?
+SUZUKI
+De Tokyo. Je vais me pencher pour prendre les cigarettes.
+Vous fumez, n’est-ce pas ?
+Sous le fusil d’Onoda, Suzuki ramasse le paquet de Marlboro et lui offre une
+cigarette. Onoda le regarde, refuse.
+SUZUKI
+J’aimerais parler avec vous.
+ONODA (regardant autour de lui)
+Je ne peux pas rester ici.
+Suzuki va pour attraper quelque chose, Onoda le braque de son fusil, Suzuki montre
+l’appareil photo et la bouteille de gin. Onoda l’autorise à les prendre. Suzuki en tête,
+ils traversent la rivière et entrent dans la forêt.
+112. EXT. JUNGLE PROCHE RIVIERE - NUIT
+Ils marchent dans la végétation dense, Onoda amène Suzuki dans sa jungle.
+SUZUKI
+Personne ne me croira. Vous me laisserez prendre une
+photo comme preuve ? (montrant le flash) Ça fera de la
+lumière.
+ONODA
+Non. Je sais, c’est une ampoule de flash.
+ONODA - V10 du 22 nov. 2018 86
+SUZUKI
+Ah ! Vous connaissez les flashs ?
+Ils continuent à marcher.
+Un instant plus tard. Ils sont assis dans la jungle. Il fait nuit.
+SUZUKI
+Onoda-san, l’empereur et le peuple japonais s’inquiètent
+pour vous.
+ONODA
+Vous avez amené des ordres pour moi ?
+SUZUKI
+Non…
+ONODA
+Alors ils vont devoir continuer à s’inquiéter.
+Suzuki a un sourire nerveux. Un temps.
+SUZUKI
+La guerre est finie depuis 1945. C’est vrai. Le Japon est en
+paix depuis longtemps.
+Onoda se tait. Il paraît lointain, dans un autre monde, une autre réalité que Suzuki.
+SUZUKI
+Laissez-moi vous photographier. Qu’est-ce que vous
+risquez ? Vous braquerez votre fusil sur moi.
+Onoda refuse.
+ONODA
+Vous ne m’avez pas dit votre nom.
+SUZUKI
+Je m’appelle Suzuki Norio.
+ONODA (inquisiteur)
+Vous l’écrivez avec le caractère dans « règle » ?
+SUZUKI
+Non, avec le caractère « ki », comme dans « annales ».
+ONODA
+Le « ki » de la Péninsule Kii ?
+SUZUKI
+Oui.
+ONODA - V10 du 22 nov. 2018 87
+Suzuki allume une cigarette et en offre à nouveau une à Onoda, qui l’accepte. Ils
+fument. Le moment est étrangement calme, on sent que chacun cherche la
+prochaine étape, sans savoir.
+SUZUKI
+Vous croyez que je suis japonais ? (Onoda acquiesce). Et le
+reste, est-ce que vous me croyez ? Que la guerre est
+finie ?…
+ONODA
+Non.
+SUZUKI
+Alors pourquoi rester avec moi ? Si je mens, pourquoi ne pas
+me tuer tout de suite ?
+ONODA
+Je ne suis pas encore sûr.
+SUZUKI
+« Pas encore sûr » ? De quoi, que je mens ? Donc pour
+l’instant, vous ne pensez pas non plus je ne suis pas un
+ennemi, c’est ça ?
+Onoda, de plus en plus dérouté, le regarde fixement. Suzuki sourit et montre
+prudemment la bouteille de gin. Onoda ne bouge pas. Suzuki pousse l’audace, et
+prend la bouteille.
+SUZUKI
+Buvons.
+ONODA
+Il y a 30 ans j’ai fait le vœu de ne plus boire.
+Suzuki sort alors de sa poche une boite de conserve.
+SUZUKI
+Haricots rouges sucrés.
+Onoda refuse d’un signe de tête.
+SUZUKI (insistant)
+Moi non plus je n’en ai pas vraiment envie, mais c’est la
+situation qui le réclame. Il faut boire et manger, c’est les
+règles de la convivialité. Nous sommes japonais tous les
+deux, hein ? Mais ça ne suffit pas, c’est ça que vous vous
+dites, n’est-ce pas ? Moi je vis en paix, vous en guerre, nos
+deux positions ne sont pas compatibles. Pour résoudre cette
+contradiction, pourquoi pas essayer l’ivresse. Peut-être que
+ça va nous inspirer la solution.
+ONODA - V10 du 22 nov. 2018 88
+ONODA
+Je ne peux pas, pour trois raisons : (il compte sur ses doigts)
+Un : j’ai fait un vœu ; deux : je ne peux pas m’enivrer devant
+toi ; et trois : c’est du gin américain. Tu peux pas me
+convaincre avec ça.
+Suzuki semble frappé par le tutoiement.
+SUZUKI
+Mais vous avez accepté une cigarette Marlboro !
+Onoda la jette aussitôt sans ciller. Suzuki a l’air profondément déçu. Onoda le fixe.
+ONODA (montrant les haricots rouges)
+Je peux en manger après que tu en auras pris. J’aime les
+douceurs.
+Suzuki ouvre aussitôt la boite et en mange une cuillerée. Onoda l’imite, et on dirait
+que quelque chose se réveille en lui. Son plaisir est intense, il savoure, il a presque
+les larmes aux yeux, sa langue, sa bouche entière semblent fondre.
+ONODA (murmurant)
+C’est bon…
+Suzuki, enjoué, se verse un verre de gin qu’il boit seul. Puis il propose à Onoda, qui
+refuse. Suzuki vide un, deux, trois, quatre, cinq verres, en proposant chaque fois un
+à Onoda, qui refuse. Ce dernier le regarde, sa rigidité distante a fait place à une
+curiosité évidente, éveillée.
+SUZUKI (se resservant en chancelant)
+Vous avez pas honte de me laisser boire comme ça ? !
+Sept, huit, neuf, dixième verre de gin, et même rituel de la proposition. Plus il
+s’enivre, plus il semble enfantin et intrépide.
+SUZUKI
+Vous avez tué combien de personnes ?
+ONODA (murmurant, presque inaudible)
+100…
+SUZUKI (estomaqué)
+100 ??!!
+Onoda semble troublé, presque perdu.
+ONODA
+…Je ne sais pas… 20… Je suis… un soldat.
+SUZUKI
+Comment vous avez fait pour ne pas mourir ? Les gens de
+ONODA - V10 du 22 nov. 2018 89
+l’île ils sont armés, vous avez jamais été blessé ?
+Onoda va pour répondre, mais s’arrête et regarde sa propre main : il caresse son
+petit doigt blessé il y a si longtemps. Il lève les yeux vers Suzuki et fait non de la tête.
+Suzuki lui offre à nouveau un verre. Onoda, ébranlé, finit par accepter. Il boit.
+SUZUKI
+J’ai beaucoup voyagé, moi. J’ai vu 50 pays. Et vous ?
+ONODA
+Le Japon et un peu la Chine, c’est tout.
+SUZUKI
+Et ici ! Cette île. Et pas qu’un peu, hein ?!
+Onoda acquiesce en silence.
+SUZUKI
+Qu’est-ce que vous connaissez le mieux, le Japon ou ici ?
+Onoda ne répond pas, regardant dans le vide.
+SUZUKI (reprenant des haricots)
+Je me suis juré que je trouverais trois choses : un panda
+sauvage, le Lieutenant Onoda, et le Yéti. Dans cet ordre.
+Mais quand même, je pensais pas qu’un jour je serais
+vraiment assis avec vous à manger dans le même plat. Je
+suis honoré.
+Il s’incline, complètement ivre. Onoda se reverse à boire, son ivresse à lui n’est que
+légère, il est en contrôle. Suzuki pique du nez, s’affaisse, s’endort.
+Onoda se lève, tanguant un peu. Son fusil en mains, il fait quelques pas, regardant
+alternativement Suzuki et la forêt. On dirait un fantôme tourmenté. Il agite la tête
+comme pour secouer son ivresse. Il remarque alors qu’il a gardé son camouflage de
+feuilles sur lui, les enlève. Il regarde encore Suzuki endormi, n’en revenant pas.
+Suzuki se réveille en sursaut, prend la bouteille de gin : vide.
+SUZUKI
+Il faut chanter. Chantons, Onoda-san ! Chantez avec moi…
+Quelle chanson on pourrait chanter ?
+Onoda le considère, tout son être se tend, d’un coup les larmes lui viennent aux
+yeux. Il secoue violemment la tête, submergé par le flot. Il se raidit, on dirait qu’il fait
+littéralement rentrer son émotion en lui. Suzuki le fixe, saisi, luttant contre son
+ivresse.
+SUZUKI
+Onoda-san, est-ce que vous n’avez pas envie de revoir les
+cerisiers ? Vous n’avez pas envie de revoir le Mont Fuji ?
+ONODA - V10 du 22 nov. 2018 90
+Onoda ferme les yeux au moment où ses larmes reviennent.
+SUZUKI (secouant la tête, découragé)
+Je ne sais plus…
+Onoda rouvre les yeux, regardant au-delà de Suzuki. Il prend un temps, puis plonge
+ses yeux dans ceux du jeune homme.
+ONODA
+Trouvez mon supérieur direct, le Major Taniguchi, il saura
+quoi faire. Trouvez-le et ramenez-le ici. Taniguchi Yoshimi.
+SUZUKI
+S’il vous dit de partir d’ici, vous rentrerez au Japon,
+vraiment ?!
+ONODA
+Oui, si ce sont ses ordres.
+SUZUKI (éberlué)
+Mais c’est… pourquoi vous… pourquoi vous avez pas dit ça
+avant si ça tient qu’à ça ?!
+Troublé, Onoda prend un temps avant de répondre.
+ONODA
+Ma mission est secrète, et elle n’était pas terminée. Mes
+ordres tiennent toujours.
+SUZUKI
+Quels sont vos ordres ?
+Onoda ne répond pas. Suzuki écarte les bras, il semble dégrisé.
+SUZUKI
+Onoda-san, regardez-moi : je suis venu jusqu’ici désarmé.
+Quels sont vos ordres ?
+ONODA
+Tenir cette île, jusqu’au retour de l’armée japonaise.
+Suzuki se passe la main dans les cheveux et sur le visage.
+SUZUKI
+Et le Major, il a quel âge ?
+ONODA
+La cinquantaine… en 1944.
+SUZUKI
+Et s’il ne peut pas venir, s’il est mort ? Il y a beaucoup de
+chances qu’il soit mort !
+ONODA - V10 du 22 nov. 2018 91
+Onoda acquiesce. Suzuki se lève en proie à l’agitation, secouant la tête.
+SUZUKI
+Il faut qu’il soit vivant. Il faut qu’il soit vivant.
+Suzuki regarde alors autour de lui : l’aube pointe. Il ramasse son appareil photo.
+113. EXT. RIVIERE KOZUKA - AUBE
+Près de la rivière, Suzuki prend des photos d’Onoda tenant son fusil. Le sac de
+Suzuki est là, la tente a été repliée.
+SUZUKI
+Si on ne pose pas ensemble, personne n’y croira.
+Onoda acquiesce. Suzuki prépare l’appareil.
+SUZUKI (sûr de lui)
+Je vais tenir le fusil, d’accord ? J’ai fait un pari en venant sur
+cette île, maintenant c’est à votre tour, hein ?
+Onoda le jauge, lui passe son fusil. Suzuki déclenche, Ils attendent… « KKLIIIIII-K ».
+SUZUKI
+Dans deux semaines exactement, je serai de retour. Si la
+chance est avec nous, le Major Taniguchi sera avec moi… (il
+sort sa carte de l’île) Où est-ce que vous voulez qu’on se
+donne rendez-vous ?
+ONODA (pointant un endroit au centre de Lubang)
+Là.
+SUZUKI (marquant l’endroit d’une croix)
+Comment ça s’appelle ?
+ONODA
+La Plaine Wakayama.
+SUZUKI (acquiesçant et montrant la berge)
+Et là où on est, comment il s’appelle ?
+ONODA
+La Berge Kozuka.
+Suzuki acquiesce, regardant la berge. On reconnaît l’endroit où Onoda a enterré la
+veste de Kozuka. Tous deux sont troublés. Suzuki enfile son sac à dos, ils se saluent
+en silence. Suzuki se met en marche, se retournant au bout d’une dizaine de mètres.
+ONODA - V10 du 22 nov. 2018 92
+SUZUKI
+Vous sortirez vraiment de la forêt, n’est-ce pas ? Vous
+viendrez pour de vrai, hein ?
+ONODA
+Oui, je le promets.
+Suzuki lui sourit largement, puis s’éloigne. Bientôt il n’y a plus qu’Onoda. Immobile, il
+regarde dans la direction où Suzuki a disparu.
+114. EXT. VILLAGE JAPONAIS – JOUR
+Suzuki, muni du même sac à dos, débarque dans un village. On dirait qu’il vient de
+quitter Onoda. Mais le paysage a changé, on met un moment à comprendre –
+végétation, aménagement, enseignes - qu’on est au Japon. Suzuki demande son
+chemin à trois enfants qui jouent au ballon. Ils lui indiquent une direction. Il marche,
+et finit par pousser une porte, entre dans une maison.
+115. INT. LIBRAIRIE VILLAGE JAPONAIS – JOUR (à confirmer)
+Suzuki avance parmi des rayonnages : c’est une petite librairie, il est le seul client.
+Suzuki regarde les rayonnages, portant l’empreinte d’une personnalité raffinée,
+tournée vers le passé. Le libraire est au comptoir, plongé dans l’ombre.
+LIBRAIRE
+Jeune homme, puis-je vous aider ? Un livre en particulier ?
+SUZUKI (regardant autour de lui)
+Bonjour, oui, je…
+LIBRAIRE
+Comme vous voyez je n’ai que des livres anciens.
+SUZUKI
+Ah justement, c’est quelque chose d’ancien que je cherche.
+Auriez-vous…
+Le libraire avance vers Suzuki, sortant de l’ombre : c’est Taniguchi, mais il est
+tellement plus vieux et changé qu’il est difficile d’en être sûr : lunettes, rides, calvitie,
+chandail épais… Il n’y a plus trace du militaire chez lui.
+SUZUKI
+… quelque chose sur la campagne des Philippines ?
+Taniguchi pose un doigt sur ses lèvres, réfléchissant.
+SUZUKI
+La campagne militaire je veux dire. Sur la Guerre dans le
+Pacifique.
+ONODA - V10 du 22 nov. 2018 93
+TANIGUCHI
+Nous n’avons aucun livre militaire. Je suis navré.
+SUZUKI (avec aplomb)
+Avez-vous combattu ?
+Taniguchi le regarde, imperturbable. Un ange passe, Suzuki finit par sourire pour
+dissiper la gêne.
+SUZUKI
+Je ne cherche pas de livre, en fait… j’ai besoin de vous pour
+autre chose, Taniguchi-san.
+Le vieillard continue à le regarder sans bouger.
+Quelques instants plus tard. Taniguchi et Suzuki sont installés à une table. On
+comprend qu’ils se sont parlés, et que Suzuki attend que Taniguchi prenne la parole.
+Taniguchi fume.
+TANIGUCHI (très doux)
+Je vais devoir… m’excuser, jeune homme. Je n’ai plus de
+lien avec mes activités militaires passées. J’étais jeune,
+n’est-ce pas, l’époque utilisait toutes les forces vives du
+Japon, j’ai joué ce rôle d’instructeur – sans jamais tuer
+personne, notez-le, je n’ai jamais été en armes – et tout cela
+est depuis longtemps derrière moi.
+Suzuki va pour parler, Taniguchi l’arrête d’un doigt levé.
+TANIGUCHI
+Ma seule consolation, c’est que je leur apprenais à rester en
+vie, plutôt que de se sacrifier. J’ai servi un régime que je
+réprouve profondément. Je ne suis plus l’homme que j’ai été
+à ce moment là, tout simplement je n’ai plus de
+responsabilités.
+Suzuki cherche dans son sac et en ressort une pochette.
+SUZUKI
+Est-ce que vous vous souvenez d’Onoda Hiroo ?
+TANIGUCHI
+Pas précisément. Non.
+SUZUKI
+Mais vous avez forcément entendu parler de lui, et de
+Lubang.
+Taniguchi secoue la tête de manière ambiguë.
+ONODA - V10 du 22 nov. 2018 94
+SUZUKI (souriant, incrédule)
+Tout le monde le connaît, c’est le dernier soldat de la guerre !
+TANIGUCHI
+Je ne lis pas les journaux. Et je suis désolé de vous décevoir,
+mais il y a bien d’autres soldats, partout. Les guerres, ce
+n’est pas ce qui manque.
+SUZUKI
+Vous savez très bien ce que je voulais dire. De cette guerre,
+il n’y en a pas d’autres.
+TANIGUCHI
+Je vous répète que je ne lis pas les journaux. Je ne lis que
+des livres.
+Suzuki sort de la pochette une photo et la montre à Taniguchi : elle représente
+Onoda à 20 ans, en uniforme. Taniguchi met ses lunettes et la regarde,
+imperturbable.
+SUZUKI
+Il ne sortira pas de cette jungle seul. Il a besoin qu’on l’y
+autorise.
+TANIGUCHI (cordial)
+Je m’excuse à nouveau, mais je n’ai aucune autorisation à
+donner, n’ayant plus aucun lien avec l’armée. Adressez-vous
+à l’armée.
+SUZUKI
+Onoda n’acceptera ses ordres que de vous.
+TANIGUCHI (se levant)
+C’est absurde, je ne le connais pas. Je ne connais ni cet
+homme, ni cette île.
+Il reste debout, pour signifier que l’entretien est terminé. Suzuki sourit, détendu.
+SUZUKI
+Vous m’aviez proposé du thé… Je crois que je vais en
+prendre.
+Taniguchi le regarde, puis s’éloigne dans le fond sombre de la librairie, disparaît
+derrière un rideau. Suzuki sort alors de la même pochette sa carte de Lubang et à
+côté de la croix marquant l’emplacement où Kozuka est mort, il note rapidement
+quelque chose. Il attend, laissant la carte étalée sur la table à côté de la photo
+d’Onoda. Taniguchi revient avec un plateau de thé. Suzuki déplace la carte pour lui
+permettre de poser le plateau.
+SUZUKI (montrant la carte)
+C’est l’île. C’est là qu’il est.
+ONODA - V10 du 22 nov. 2018 95
+Le doigt de Suzuki, immobile, est posé précisément près de la croix. Taniguchi
+baisse les yeux et regarde l’endroit où Suzuki vient d’inscrire « BERGE
+TANIGUCHI ». Le libraire semble saisi.
+SUZUKI
+Il a donné des noms aux lieux. Après tout, c’est chez lui,
+c’est là qu’il vit depuis 30 ans.
+Taniguchi s’assoit et regarde la photo d’Onoda. On le sent complètement
+chamboulé.
+TANIGUCHI
+Je ne vois pas pourquoi j’aurais donné cet ordre absurde…
+Ils ont tous fini par rentrer. Si je lui ai confié une mission, ça
+devait être un objectif précis, limité, l’aérodrome, ça oui, mais
+on savait que c’était la fin. Je n’ai pas pu lui dire de rester
+jusqu’à…
+Il ne finit pas sa phrase. Suzuki sort de la pochette une autre photo, la glisse devant
+Taniguchi : c’est une photo d’Onoda âgé de 50 ans, faite à Lubang par Suzuki.
+116. EXT. BIVOUAC SEUL - AUBE
+Onoda se réveille d’un coup à l’aube, allongé dans la jungle. La gorge sèche, il se
+tourne aussitôt vers la droite.
+ONODA
+Kinshichi, j’ai rêvé que--
+Il n’y a personne à côté de lui. Longuement il fixe le vide à sa droite.
+Ses yeux remontent vers l’ombre qui recouvre la jungle. Il prend son carnet et met à
+jour son calendrier. Il compte 15 jours en arrière jusqu’à un chiffre entouré suivi de la
+mention « Suzuki Norio ».
+Il efface les traces de son bivouac et se met en route dans la jungle.
+117. SÉQUENCE SUPPRIMÉE
+118. EXT. PLAINE WAKAYAMA – SOIR
+Onoda est à plat ventre, caché dans la végétation. Devant lui, la Plaine Wakayama
+plongée dans l’ombre dense du soir. A distance, quelque chose de vaguement jaune.
+Le regard s’habitue : on discerne bientôt une tente. Rien ne bouge pendant un
+temps, puis un bruit, quelqu’un approche de la tente, s’agenouille : c’est Suzuki. Il
+ONODA - V10 du 22 nov. 2018 96
+dispose du bois et allume un feu. On dirait qu’il parle, mais si loin ses mots sont
+inaudibles.
+Onoda regarde le ciel rougeoyant, et sort à découvert, son fusil en avant. Il traverse
+la clairière vers la tente. Suzuki se tourne et le voit.
+SUZUKI
+Onoda-san ! (il se tourne vers la tente :) Ça y est il est là !
+Une ombre bouge dans la tente, Onoda avance toujours. Suzuki lui saisit les mains,
+souriant, les yeux excités. Onoda a baissé son fusil.
+TANIGUCHI (OFF, depuis la tente)
+J’arrive.
+Suzuki se penche dans la tente et en ressort un appareil photo. Onoda aperçoit
+fugacement le torse nu d’un vieillard à l’intérieur.
+TANIGUCHI (OFF)
+Je me change… j’arrive.
+Onoda retient son souffle. Le vieil homme sort de la tente et finit d’enfiler une
+chemise kaki. Onoda est frappé par les rides et le corps fatigué de son mentor. Il ne
+ressemble plus à l’instructeur charismatique d’avant, juste à un vieil homme.
+Taniguchi regarde Onoda en finissant de boutonner sa chemise de travers. Ils
+s’observent en silence, comme deux apparitions.
+ONODA (murmurant lentement)
+Lieutenant Onoda, au rapport pour les ordres.
+Taniguchi cherche dans ses poches, en sort un papier. Suzuki commence à prendre
+des photos. D’une voix basse mais assurée, Taniguchi lit, sans regarder Onoda :
+TANIGUCHI
+« Ordre de l’Etat Major, 19 septembre 1945, 19 :00,
+Bekabak.
+1. En accord avec le commandement Impérial, la 14e
+Armée a cessé le combat.
+2. En accord avec le commandement du QG militaire
+N° 2003, l’Escadron Spécial au QG du Chef d’équipe est
+relevé de tout devoir militaire.
+3. Les unités et les individus…»
+A mesure qu’il lit sa voix se fragilise, il se trouble, peine à continuer. Il finit par relever
+la tête vers Onoda. Immobile, ses yeux assoiffés sont rivés à ceux de son « chef ».
+Taniguchi est tétanisé par le regard d’Onoda sur lui. Sa bouche entrouverte tremble.
+Une seule de ses jambes fait un pas de côté, ses genoux se plient bizarrement, il
+baisse la tête avec un gémissement étouffé, le papier dans sa main pendante.
+Onoda s’approche de Taniguchi, lui soutient le bras. Suzuki est halluciné par la
+scène.
+ONODA - V10 du 22 nov. 2018 97
+ONODA (très doux)
+Il faut continuer. J‘ai attendu tout ce temps. S’il vous plait,
+donnez-moi mes ordres Major.
+TANIGUCHI (la voix brisée)
+Ne m’appelez pas comme ça, ça fait très longtemps qu’on ne
+m’appelle plus comme ça…
+Taniguchi fuit le regard ébranlé du soldat et se force à lire, toujours soutenu du bras
+par Onoda. Avec le feu brûlant à leurs pieds, au milieu de la clairière, on dirait un
+rituel qui s’improvise.
+Taniguchi se force à lire, toujours soutenu du bras par Onoda :
+TANIGUCHI (fébrile)
+« 3. Les unités et les individus sous commandement de
+l’Escadron Spécial doivent cesser les activités et les
+opérations militaires immédiatement et se placer sous le
+commandement de l’officier supérieur le plus proche. A
+défaut, ils doivent communiquer avec les forces Américaines
+ou Philippines et suivre leurs directives.
+Escadron Spécial, QG du chef d’Equipe, 14e Armée –
+Général Yamashita. »
+Moment de silence. Suzuki sort de sa poche un petit appareil, le pose au sol devant
+eux et appuie sur un bouton. Une voix grésillante se fait entendre, surgie du passé,
+résonnant dans la clairière et dans le crépuscule :
+EMPEREUR HIROHITO (OFF)
+« A Nos bons et loyaux sujets. Après avoir mûrement réfléchi
+aux tendances générales prévalant dans le monde et aux
+conditions existant aujourd'hui dans Notre Empire, Nous
+avons décidé de régler la situation actuelle par mesure
+d'exception. Nous avons ordonné à Notre Gouvernement de
+faire savoir aux Gouvernements des Etats-Unis, de Grande-
+Bretagne, de Chine et d'Union Soviétique que Notre Empire
+accepte les termes de leur Déclaration commune. »
+Suzuki appuie sur le bouton, la diffusion de l’enregistrement s’arrête. Taniguchi
+regarde Onoda, qui regarde au-delà de lui, dans le vide. Puis son regard revient sur
+Taniguchi. Une panique soudaine passe dans la physionomie d’Onoda, il serre plus
+fort le bras du vieil homme, cherche dans ses yeux quelque chose qu’il ne trouve
+pas… On dirait un instant qu’il veut fuir. Mais il lâche simplement le bras de
+Taniguchi, pose lentement son sac aux pieds de son supérieur, puis sort une à une
+toutes les balles de son fusil, qu’il dépose enfin sur son sac.
+TANIGUCHI
+Ça a dû être difficile. Maintenant vous allez vous reposer…
+Il doit s’asseoir, chancelant. Onoda l’aide, on a l’impression frappante que c’est lui le
+ONODA - V10 du 22 nov. 2018 98
+père, le sage. Presque instantanément, son attitude a perdu toute trace de fébrilité.
+Suzuki, immobile, a cessé de les photographier.
+119. EXT. PLAINE WAKAYAMA – NUIT
+Près d’un réchaud des restes de repas, une bouteille de saké. Suzuki boit, son
+sourire fier et facétieux aux lèvres. Onoda fait face à ses deux compatriotes. Il
+commence son rapport.
+ONODA
+La dernière fois qu’on s’est vus c’était--
+TANIGUCHI (l’interrompant)
+Je suis fatigué… Je crois que nous sommes tous fatigués !
+Les excès sont mauvais pour un vieillard comme moi, j’ai
+l’habitude de me coucher très tôt ! (il rit)
+Onoda le regarde calmement. Taniguchi baille.
+TANIGUCHI
+Allez, dormons, vos yeux se ferment, il est très tard.
+ONODA (posément)
+Non.
+Ebranlé, Taniguchi regarde Onoda comme si ce « non » l’avait giflé, réussissant à le
+réveiller.
+ONODA
+La dernière fois qu’on s’est vus c’était dans la cour de l’école
+à Futamata. Deux heures plus tard on s’est envolés pour les
+Philippines. L’avion a atterri à Manille à la nuit tombante, on
+s’est tous dit au-revoir et bonne chance, et vers 21h j’ai
+chargé la dynamite sur le « Seifuku Maru » et je suis parti.
+On a navigué toute la nuit, on est arrivé à Lubang à l’aube, et
+la première chose que je me dis en voyant les reliefs des
+montagnes, c’est que ça allait être difficile de mener une
+guérilla ici.
+Le visage de Suzuki, puis celui de Taniguchi, forcés d’écouter. Onoda ferme les
+yeux.
+Depuis le bateau, nous revoyons Lubang approcher, surgie de la mer et de la brume.
+ONODA - V10 du 22 nov. 2018 99
+120. EXT. PLAGE : RIVE SUD - JOUR
+Les trois hommes, Onoda en tête, marchent dans la jungle. Ils sont escortés par des
+militaires philippins, des policiers, des officiels. Le terrain a été défriché en amont.
+Ils sortent des arbres, déboulent sur la Rive Sud. Des journalistes les prennent en
+photo. Autour d’eux, les attendant massés le long du chemin, des autochtones,
+paysans et pêcheurs, femmes et enfants de Lubang.
+Onoda les regarde : nulle trace d’animosité, uniquement de la curiosité. Onoda
+s’arrête et regarde le sable soulevé par le vent… C’est le vent que font les hélices
+d’un hélicoptère, qui les attend sur la plage.
+Des militaires serrent les mains d’Onoda, Taniguchi et Suzuki. Ces deux derniers
+montent dans l’hélicoptère. Dernier regard d’Onoda: le ciel, les montagnes, les
+arbres, les gens, le sable, enfin ses pieds. Ils se détachent du sol, montent dans
+l’hélicoptère.
+121. INT/EXT. HELICOPTERE – JOUR
+L’hélicoptère décolle, Onoda regarde les visages s’éloigner. Ils prennent de la
+hauteur.
+Il regarde son terrain de bataille, son île, de haut. Les gens lui font au revoir de la
+main… Un à un, Onoda revoit alors mentalement les trois camarades qui ont partagé
+sa vie à Lubang, tel qu’il les a vus la toute première fois : Akatsu ; Shimada ; enfin
+Kozuka. Leur jeunesse est d’autant plus frappante qu’ils sourient avec douceur en
+regardant droit vers l’objectif, comme nimbés dans un passé idéalisé et
+définitivement enfui.
+Retour dans l’hélicoptère, Onoda se tourne vers l’intérieur et regarde ses camarades
+dans l’habitacle : un vieillard fatigué, ridé et un jeune homme au physique juvénile et
+enjoué. Tous trois se dévisagent.
+Depuis l’hélicoptère, alors que Lubang n’est plus qu’une tache de plus en plus petite
+sur l’océan, s’affiche sur l’écran :
+« Onoda Hiroo reçut le pardon du Président philippin Ferdinando
+Marcos pour la trentaine de philippins qu’il avait tués à Lubang.
+Accueilli comme un héros au Japon, mais rapidement contesté par
+certains quant à son « héroïsme », il s’installa en 1975 au Mato
+Grosso do Sul, au Brésil, où il devint éleveur et se maria en 1976.
+En 1984, il rentra au Japon où il fonda « L’Ecole de la nature
+Onoda », camp d’apprentissage de la survie pour les jeunes. Il est
+mort le 16 janvier 2014 au Japon, de mort naturelle.
+Suzuki Norio prétendit avoir repéré un yéti en 1975 sur le
+Dhaulagiri, un sommet de l’Himalaya. Il se maria en 1976 mais
+n’abandonna pas sa quête. Il mourut en novembre 1986 dans une
+ONODA - V10 du 22 nov. 2018 100
+avalanche alors qu’il cherchait encore le yéti. Ses restes furent
+découverts un an après et rendus à sa famille au Japon. »
+Dans l’hélicoptère, Onoda fixe Suzuki. Ce dernier regarde dehors, sourire rêveur aux
+lèvres, puis tourne lentement la tête vers Onoda.
+122. SÉQUENCE SUPPRIMÉE
