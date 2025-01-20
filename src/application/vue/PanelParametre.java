@@ -3,10 +3,10 @@ package application.vue;
 import javax.swing.JPanel;
 
 /** Frame d'accueil
-  * @author : Plein de gens
-  * @version : 1.0.0 - 06/01/2025
-  * @since : 06/01/2025
-  */
+ * @author : Plein de gens
+* @version : 1.0.0 - 06/01/2025
+* @since : 06/01/2025
+*/
 
 @SuppressWarnings("serial")
 public class PanelParametre extends JPanel
@@ -17,7 +17,7 @@ public class PanelParametre extends JPanel
   
 	@SuppressWarnings("unused")
 	private FrameAccueil frameAccueil;
-  
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */

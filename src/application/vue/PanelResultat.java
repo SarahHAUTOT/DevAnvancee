@@ -1,15 +1,15 @@
 package application.vue;
 
+import javax.swing.BorderFactory;
 import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
-import javax.swing.JTextPane;
-import javax.swing.text.BadLocationException;
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
+import javax.swing.JTextArea;
+import javax.swing.border.Border;
+import javax.swing.text.DefaultHighlighter;
+import javax.swing.text.Highlighter;
+import javax.swing.text.Highlighter.HighlightPainter;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -18,108 +18,161 @@ import java.awt.GridLayout;
 import java.awt.event.*;
 import java.util.List;
 
-/** Frame d'accueil
-  * @author : Plein de gens
-  * @version : 1.0.0 - 06/01/2025
-  * @since : 06/01/2025
-  */
+import application.metier.Correspondance;
+import application.metier.PlageDeMots;
 
+/**
+ * Frame d'accueil
+ * @author : Plein de gens
+ * @version : 1.0.0 - 06/01/2025
+ * @since : 06/01/2025
+ */
 @SuppressWarnings("serial")
 public class PanelResultat extends JPanel implements ActionListener
 {
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
-  
+
 	private FrameAccueil frameAccueil;
 	private JButton      btnRetour;
 
-	private List<String> lstText;
-	@SuppressWarnings("unused")
-	private String       comaprant;
-	private List<String> lstPlagiatDetecte;
-  
+	private String       comparant;
+	private List<Correspondance> lstPlagiatDetecte;
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
-	
-	public PanelResultat ( FrameAccueil frame )
-	{
-		this.frameAccueil = frame;
 
+		public PanelResultat ( FrameAccueil frame ) { this.frameAccueil = frame; }
+
+
+	public void genererAffichage ( )
+	{
+		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
+		this.comparant         = this.frameAccueil.getCompare().getTextOriginal();
 
 
 		/*     PANEL NORD     */
-		JPanel panelNorth = new JPanel(new GridLayout(2, 1,0,50));
-		panelNorth.add(new JLabel("Aucune similitude détecté "));
-		panelNorth.add(new JLabel("Nous n'avons pas réussi à détecter de similarité selon les données fournis. "));
+		JPanel panelNorth = new JPanel(new GridLayout(2, 1,0,10));
+
+
+		int nbPlag = this.lstPlagiatDetecte.size();
+		if (nbPlag > 0)
+		{
+			panelNorth.add(this.frameAccueil.panelTitre("Oh oh ! Il semblerait que ces textes se ressemblent..."));
+			panelNorth.add(this.frameAccueil.panelSousTitre("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 1 ? "s " : " ") + "de similitude, correspondant à calculer % du text."));
+		}
+		else
+		{
+			panelNorth.add(this.frameAccueil.panelTitre("Aucune similitude détecté "));
+			panelNorth.add(this.frameAccueil.panelSousTitre("Nous n'avons pas réussi à détecter de similarité selon les données fournis. "));
+		}
 		
 		
 
 		/*     PANEL CENTRE     */
-		this.lstText           = this.frameAccueil.getLstText();
-		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
-		JPanel panelCenter = new JPanel(new GridLayout(this.lstText.size(), this.lstPlagiatDetecte.size() > 0 ? 2 : 1 , 50, 0));
 
+		JScrollPane sp = new JScrollPane();
+		this.configureScrollPaneSensitivity(sp);
+		
+				
+		Border border = BorderFactory.createLineBorder(FrameAccueil.COULEUR_PRIMAIRE);
+		border        = BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-		for (String texte : this.lstText) 
+		if (nbPlag == 0)
 		{
-			JTextPane textPane = new JTextPane();
-			textPane.setEditable(false);
-
-			StyledDocument doc = textPane.getStyledDocument();
-			SimpleAttributeSet defaultAttr = new SimpleAttributeSet();
-			SimpleAttributeSet highlightAttr = new SimpleAttributeSet();
+			JTextArea text = new JTextArea(this.comparant);
+			text.setEditable(false);
+			text.setLineWrap(true);
+   			text.setWrapStyleWord(true);
 			
-			StyleConstants.setBackground(highlightAttr, Color.YELLOW);
+    		text.setBorder(border);
 
-			try 
+			sp.setViewportView(text);
+			sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+    		sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		} else {
+			
+			JPanel panelGrid = new JPanel(new GridLayout(nbPlag, 2, 0, 10));
+
+			for (Correspondance correspondance : this.lstPlagiatDetecte)
 			{
-				doc.remove(0, doc.getLength());
-				doc.insertString(0, texte, defaultAttr);
+				/*       */
+				/* TEXTE */
+				/*       */
 
-				for (String plagiat : this.lstPlagiatDetecte) {
-					int index = texte.indexOf(plagiat);
-					while (index >= 0) 
-					{
-						// int startContext = Math.max(0, index - 20);
-						// int endContext = Math.min(texte.length(), index + plagiat.length() + 20);
-						doc.setCharacterAttributes(index, plagiat.length(), highlightAttr, false);
-						index = texte.indexOf(plagiat, index + plagiat.length());
-					}
+				PlageDeMots pmSus = correspondance.getComparedRange();
+				PlageDeMots pmRef = correspondance.getReferenceRange();
+
+				String sSus = this.comparant.substring(pmSus.getStart(), pmSus.getEnd());	
+				String sRef = correspondance.getTexteComparant().getTextOriginal().substring(pmRef.getStart(), pmRef.getEnd());	
+
+
+			
+				/*          */
+				/* COUPABLE */
+				/*          */
+
+				// JScrollPane du coupable
+				JScrollPane spSus = new JScrollPane();
+				this.configureScrollPaneSensitivity(spSus);
+
+				// JTextArea coupable
+				JTextArea textSus = new JTextArea(sSus);
+				textSus.setEditable(false);
+				textSus.setLineWrap(true);
+				textSus.setWrapStyleWord(true);
+				textSus.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+
+				// Surligner une portion spécifique dans le texte suspect
+				Highlighter highlighterSus = textSus.getHighlighter();
+				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(Color.YELLOW);
+				try {
+					highlighterSus.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterSus);
+				} catch (Exception e) {
+					e.printStackTrace();
 				}
-			} catch (BadLocationException e) {
-				e.printStackTrace();
+
+				// Ajout
+				spSus.setViewportView(textSus);
+
+
+
+				
+			
+				/*           */
+				/* REFERENCE */
+				/*           */
+
+				// Panel de la référence
+				JScrollPane spRef = new JScrollPane();
+				this.configureScrollPaneSensitivity(spRef);
+
+				JTextArea textRef = new JTextArea(sRef);
+				textRef.setEditable(false);
+				textRef.setLineWrap(true);
+				textRef.setWrapStyleWord(true);
+
+				// Surligner une portion spécifique dans le texte suspect
+				Highlighter      highlighterRef = textRef.getHighlighter();
+				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(Color.ORANGE);
+				try {
+					highlighterRef.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterRef);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				spRef.setViewportView(textRef);
+				textRef.setBorder(border);
+
+
+				panelGrid.add(spSus);
+				panelGrid.add(spRef);
 			}
 
-			panelCenter.add(new JScrollPane(textPane));
-
-			if (!this.lstPlagiatDetecte.isEmpty()) 
-			{
-				JTextPane contextPane = new JTextPane();
-				contextPane.setEditable(false);
-				StringBuilder contextText = new StringBuilder();
-
-				for (String plagiat : this.lstPlagiatDetecte) 
-				{
-					if (texte.contains(plagiat)) {
-						int index = texte.indexOf(plagiat);
-						while (index >= 0) 
-						{
-							int startContext = Math.max(0, index - 20);
-							int endContext = Math.min(texte.length(), index + plagiat.length() + 20);
-							contextText.append("... ")
-								.append(texte.substring(startContext, endContext))
-								.append(" ...\n");
-							index = texte.indexOf(plagiat, index + plagiat.length());
-						}
-					}
-				}
-				contextPane.setText(contextText.toString());
-				panelCenter.add(new JScrollPane(contextPane));
-			}
+			sp.setViewportView(panelGrid);
 		}
-
 
 
 		/*     PANEL SUD     */
@@ -132,7 +185,7 @@ public class PanelResultat extends JPanel implements ActionListener
 		/*     AJOUT DES PANELS     */
 		this.setLayout(new BorderLayout(10,10));
 		this.add(panelNorth , BorderLayout.NORTH );
-		this.add(panelCenter, BorderLayout.CENTER);
+		this.add(sp         , BorderLayout.CENTER);
 		this.add(panelSouth , BorderLayout.SOUTH );
 
 		this.btnRetour.addActionListener(this);
@@ -142,20 +195,22 @@ public class PanelResultat extends JPanel implements ActionListener
 	@Override
 	public void actionPerformed(ActionEvent e) 
 	{
-		if (e.getSource() == this.btnRetour);
+		if (e.getSource() == this.btnRetour) 
+			System.out.println("Retour");
 			// TODO : Changer pour retourner au panel principal
 	}
 	
-
-
-
-
 	
 
-	public static void main(String[] args) {
-		JFrame frame = new JFrame();
-		frame.add(new PanelResultat(new FrameAccueil()));
-		frame.pack();
-		frame.setVisible(true);
+	private void configureScrollPaneSensitivity(JScrollPane scrollPane)
+	{
+		JScrollBar verticalScrollBar = scrollPane.getVerticalScrollBar();
+		JScrollBar horizontalScrollBar = scrollPane.getHorizontalScrollBar();
+
+		verticalScrollBar  .setUnitIncrement(16);  
+		horizontalScrollBar.setUnitIncrement(16);
+
+		verticalScrollBar  .setBlockIncrement(100);   
+		horizontalScrollBar.setBlockIncrement(100); 
 	}
 }
