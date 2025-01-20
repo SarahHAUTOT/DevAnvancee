@@ -33,24 +33,34 @@ public class FrameAccueil extends JFrame
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
 
+	// Pages et Etapes de l'application
+	public static final int PAGE_ACCUEIL     = 0;
+	public static final int PAGE_COMPARAISON = 1;
+	public static final int PAGE_RESULTAT    = 3;
+
+
 	// Définition de la taille de la fenêtre
 	public static final int DEFAULT_WIDTH  = (int) (Toolkit.getDefaultToolkit().getScreenSize().getWidth () * 0.8);
 	public static final int DEFAULT_HEIGHT = (int) (Toolkit.getDefaultToolkit().getScreenSize().getHeight() * 0.85);
 	
+	// Police de l'application
 	public static final String POLICE_TEXTE = "Montserrat";
 
+	// Couleurs de l'application
 	public static final Color COULEUR_SECONDAIRE = Color.decode("#0E8088");
 	public static final Color COULEUR_PRIMAIRE   = Color.decode("#B0E3E6");
 	public static final Color COULEUR_FOND       = Color.decode("#FBFBFB");
 
-	private PanelParametre panelParametre;
-	private PanelSuspect   panelSuspect;
-	private PanelResultat  panelResultat;
+	private PanelParametre   panelParametre;
+	private PanelSuspect     panelSuspect;
+	private PanelComparaison panelComparaison;
+	private PanelResultat    panelResultat;
 
 	private JPanel[] panels;
 	private int      idPanel;
 
-	private ArrayList<File> fichiers;
+	private File            fichierSuspect;
+	private ArrayList<File> comparants;
 
 	private BarreNav	barreNav;
 	private Controleur		ctrl;
@@ -65,21 +75,21 @@ public class FrameAccueil extends JFrame
 	{
 		/* Création des composants */
 		this.ctrl = ctrl;
-		this.panelParametre = new PanelParametre( this );
-		this.panelSuspect   = new PanelSuspect  ( this );
-		this.panelResultat  = new PanelResultat ( this );
-		this.fichiers       = new ArrayList<File>();
-		this.panels         = new JPanel[4];
+		this.panelParametre   = new PanelParametre( this );
+		this.panelSuspect     = new PanelSuspect  ( this );
+		this.panelComparaison = new PanelComparaison ( this );
+		this.panelResultat    = new PanelResultat ( this );
+		this.comparants       = new ArrayList<File>();
+		this.panels           = new JPanel[4];
 
 		this.panels[0] = this.panelSuspect;
-		this.panels[1] = new JPanel(); // TODO : this.panelComparaison
+		this.panels[1] = this.panelComparaison;
 		this.panels[2] = new JPanel(); // TODO : this.panelChargement
 		this.panels[3] = this.panelResultat;
 		this.idPanel = 0;
 
 		/* Configuration de la frame */
-		
-		this.barreNav = new BarreNav(this.ctrl);
+		this.barreNav = new BarreNav(this);
 		this.setLayout(new BorderLayout());
 		this.setSize(FrameAccueil.DEFAULT_WIDTH, FrameAccueil.DEFAULT_HEIGHT);
 		this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -101,14 +111,33 @@ public class FrameAccueil extends JFrame
 	/*                                               Accesseur                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-	public ArrayList<File> getFichiers()
+	public ArrayList<File> getComparants()
 	{
-		return this.fichiers;
+		return this.comparants;
+	}
+	
+	public File getFichierSuspect()
+	{
+		return this.fichierSuspect;
+	}
+
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                              Modificateur                                              */
+	/* ------------------------------------------------------------------------------------------------------ */
+
+	public void setFichierSuspect(File f)
+	{
+		this.fichierSuspect = f;
 	}
 
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
+
+	public void ajoutComparant(File fichier)
+	{
+		this.comparants.add(fichier);
+	}
 
 	public void pageSuivante()
 	{
@@ -124,6 +153,21 @@ public class FrameAccueil extends JFrame
 		this.majPanel();
 	}
 
+	public void afficherPage(int page)
+	{
+		this.remove(this.panels[this.idPanel]);
+		this.idPanel = page;
+		this.majPanel();
+	}
+
+	public void afficherPageParametre()
+	{
+		this.remove(this.panels[this.idPanel]);
+		this.add(this.panelParametre, BorderLayout.CENTER);
+		this.validate();
+		this.repaint();
+	}
+
 	private void majPanel()
 	{
 		this.add(this.panels[this.idPanel], BorderLayout.CENTER);
@@ -137,7 +181,7 @@ public class FrameAccueil extends JFrame
 		btn.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
 	}
 
-	public void ouvrirFichier(File repertoire)
+	public File ouvrirFichier(File repertoire)
 	{
 		File fichier = this.selectionnerFichier("Sélectionner un texte à ouvrir", repertoire);
 
@@ -148,11 +192,13 @@ public class FrameAccueil extends JFrame
 			{
 				JOptionPane.showMessageDialog(this, "Uniquement les fichier .txt sont pris en charge.");
 				this.ouvrirFichier(fichier);
-				return;
+				return null;
 			}
 
-			this.fichiers.add(fichier);
+			return fichier;
 		}
+
+		return null;
 	}
 
 	/**
@@ -204,15 +250,19 @@ public class FrameAccueil extends JFrame
 
 		selectionFichier.setDialogTitle(dialogue);
 		selectionFichier.setApproveButtonText("Sélectionner");
-		selectionFichier.setApproveButtonToolTipText("Annuler");
+		selectionFichier.setApproveButtonToolTipText("Sélectionner un fichier");
 		selectionFichier.setFileFilter(new FileNameExtensionFilter("Fichier Texte", "txt"));
 		selectionFichier.setFileSelectionMode(JFileChooser.FILES_ONLY);
 		
-		if (selectionFichier.showOpenDialog(this) == JFileChooser.APPROVE_OPTION)
+		int resultat = selectionFichier.showOpenDialog(this);
+		if ( resultat == JFileChooser.APPROVE_OPTION)
 		{
 			return selectionFichier.getSelectedFile();
 		}
-		else { return null; }
+		else
+		{
+			return null;
+		}
 	}
 
 	/* ------------------------------------------------------------------------------------------------------ */

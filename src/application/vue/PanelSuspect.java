@@ -9,6 +9,7 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -157,14 +158,17 @@ public class PanelSuspect extends JPanel implements ActionListener
 	{
 		if (e.getSource() == this.btnImporter)
 		{
-			this.frameAccueil.ouvrirFichier(null);
+			File fichier = this.frameAccueil.ouvrirFichier(null);
+			this.frameAccueil.setFichierSuspect(fichier);
 		}
 
 		if (e.getSource() == this.btnSuivant)
 		{
-			if (this.frameAccueil.getFichiers().isEmpty())
+			if (this.frameAccueil.getFichierSuspect() == null)
 			{
-				this.frameAccueil.ouvrirFichier(null);
+				File fichier = this.frameAccueil.ouvrirFichier(null);
+				if (fichier == null) return;
+
 				this.frameAccueil.pageSuivante();
 			}
 			else

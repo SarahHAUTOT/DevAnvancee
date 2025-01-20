@@ -15,9 +15,10 @@ import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
 
-public class BarreNav extends JToolBar implements ActionListener{
+public class BarreNav extends JToolBar implements ActionListener
+{
 
-	private Controleur		ctrl;
+	private FrameAccueil	frameAccueil;
 	private JPanel			panel;
 	private JButton			btnLogo;
 	private JButton			btnPageArriere;
@@ -28,9 +29,10 @@ public class BarreNav extends JToolBar implements ActionListener{
 	private JButton			btnParametreAnalyse;
 	private JButton			btnAnalyse;
 
-	public BarreNav(Controleur ctrl) {
+	public BarreNav(FrameAccueil frameAccueil)
+	{
 
-		this.ctrl = ctrl;
+		this.frameAccueil = frameAccueil;
 		this.setBackground(new Color(200, 200, 200));
 		this.setFocusable(false);
 		this.setBackground(FrameAccueil.COULEUR_SECONDAIRE);
@@ -84,13 +86,13 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.panel = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		this.panel.setBackground(FrameAccueil.COULEUR_SECONDAIRE);
 
-		//this.panel.add( this.btnLogo );				// on à pas de page d'accueil et de logo
+		//this.panel.add( this.btnLogo ); // TODO
 		this.panel.add( this.btnPageArriere );
 		this.panel.add( this.btnPageAvant );
 		this.panel.add( this.btnTexte1 );
 		this.panel.add( this.btnTexte2 );
 		this.panel.add( this.btnParametreAnalyse );
-		this.panel.add( this.btnAnalyse );
+		// this.panel.add( this.btnAnalyse );
 
 		this.add(panel, BorderLayout.CENTER);
 
@@ -105,21 +107,35 @@ public class BarreNav extends JToolBar implements ActionListener{
 		this.btnTexte1				.addActionListener(this);
 		this.btnTexte2				.addActionListener(this);
 		this.btnParametreAnalyse	.addActionListener(this);
-		this.btnAnalyse				.addActionListener(this);
+		// this.btnAnalyse				.addActionListener(this);
 	}
 
 	@Override
 	public void actionPerformed ( ActionEvent e)
 	{
-		switch (e.getActionCommand()) {
-			case "logo"	-> { }
-			case "pageArriere"	-> { }
-			case "pageAvant"	-> { }
-			case "compare"	-> { }
-			case "comaprants"	-> { }
-			case "parametreAna"	-> { }
-			case "analyse"	-> { }
-		}
-		this.updateUI();
+
+		/*                   */
+		/* Navigation rapide */
+		/*                   */
+		if (this.btnPageArriere      == e.getSource()) this.frameAccueil.pagePrecedente();
+		if (this.btnPageAvant        == e.getSource()) this.frameAccueil.pageSuivante  ();
+
+
+		/*                               */
+		/* Redirige vers une page direct */
+		/*                               */
+		
+		// Redirection a la première page
+		if (this.btnLogo == e.getSource() || this.btnTexte1 == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_ACCUEIL);
+
+		// Redirection a la deuxième page
+		if (this.btnParametreAnalyse == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_COMPARAISON);
+
+		// Paramètres
+		if (this.btnParametreAnalyse == e.getSource()) this.frameAccueil.afficherPageParametre();
+
+		// Analyse : Pas possible, faut les textes 
+		// if (this.btnAnalyse == e.getSource()) this.frameAccueil.pageSuivante();
+
 	}
 }
