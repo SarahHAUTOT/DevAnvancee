@@ -28,11 +28,11 @@ public class FrameParametre extends JFrame implements ActionListener
     
     /* Valeur des paramètres */
 
-    private int    nbMinMots;
-    private int    nbMaxMots;
+    private static int    nbMinMots;
+    private static int    nbMaxMots;
 
-    private Color  couleur1;
-    private Color  couleur2;
+    private static Color  couleur1;
+    private static Color  couleur2;
 
     /* Composants à écouter et à modifier */
 
@@ -75,10 +75,10 @@ public class FrameParametre extends JFrame implements ActionListener
 	/*                                               Accesseur                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-    public int   getNbMinMots ( ) { return nbMinMots; }
-    public int   getNbMaxMots ( ) { return nbMaxMots; }
-    public Color getCouleur1  ( ) { return couleur1 ; }
-    public Color getCouleur2  ( ) { return couleur2 ; }
+    public static int   getNbMinMots ( ) { return FrameParametre.nbMinMots; }
+    public static int   getNbMaxMots ( ) { return FrameParametre.nbMaxMots; }
+    public static Color getCouleur1  ( ) { return FrameParametre.couleur1 ; }
+    public static Color getCouleur2  ( ) { return FrameParametre.couleur2 ; }
 	
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Modificateur                                              */

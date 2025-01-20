@@ -300,4 +300,13 @@ public class FrameAccueil extends JFrame
 
 	public List<TextComparant> getComparants() { return this.ctrl.getComparants(); }
 
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                       Liaison Paramètres-Panel                                         */
+	/* ------------------------------------------------------------------------------------------------------ */
+
+	public int   getNbMinMots ( ) { return FrameParametre.getNbMinMots(); }
+    public int   getNbMaxMots ( ) { return FrameParametre.getNbMaxMots(); }
+    public Color getCouleur1  ( ) { return FrameParametre.getCouleur1 (); }
+    public Color getCouleur2  ( ) { return FrameParametre.getCouleur2 (); }
+
 }

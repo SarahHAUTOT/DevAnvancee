@@ -126,7 +126,7 @@ public class PanelResultat extends JPanel implements ActionListener
 
 				// Surligner une portion spécifique dans le texte suspect
 				Highlighter highlighterSus = textSus.getHighlighter();
-				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(Color.YELLOW);
+				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur1());
 				try {
 					highlighterSus.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterSus);
 				} catch (Exception e) {
@@ -155,7 +155,7 @@ public class PanelResultat extends JPanel implements ActionListener
 
 				// Surligner une portion spécifique dans le texte suspect
 				Highlighter      highlighterRef = textRef.getHighlighter();
-				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(Color.ORANGE);
+				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur2());
 				try {
 					highlighterRef.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterRef);
 				} catch (Exception e) {
