@@ -139,7 +139,7 @@ public class FrameAccueil extends JFrame
 
 	public void afficherPageParametre()
 	{
-		new FrameParametre();
+		new FrameParametre(this.ctrl);
 	}
 
 	private void majPanel()
@@ -306,7 +306,7 @@ public class FrameAccueil extends JFrame
 
 	public static int   getNbMinMots ( ) { return FrameParametre.getNbMinMots(); }
     public static int   getNbMaxMots ( ) { return FrameParametre.getNbMaxMots(); }
-	
+
     public Color getCouleur1  ( ) { return FrameParametre.getCouleur1 (); }
     public Color getCouleur2  ( ) { return FrameParametre.getCouleur2 (); }
 

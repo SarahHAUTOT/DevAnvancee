@@ -111,6 +111,8 @@ public class Controleur
 	public int   getNbMinMots ( ) { return FrameAccueil.getNbMinMots(); }
     public int   getNbMaxMots ( ) { return FrameAccueil.getNbMaxMots(); }
 
+	public boolean majNombre (int min, int max ) { return (this.metier.setMaxGram(max) && this.metier.setMinGram(min)); }
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                                 Main                                                   */
 	/* ------------------------------------------------------------------------------------------------------ */

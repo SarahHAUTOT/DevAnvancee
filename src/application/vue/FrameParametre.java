@@ -26,7 +26,8 @@ public class FrameParametre extends JFrame implements ActionListener
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-	private JPanel panelParametre;
+	private JPanel     panelParametre;
+    private Controleur ctrl;
     
     /* Valeur des paramètres */
 
@@ -51,8 +52,10 @@ public class FrameParametre extends JFrame implements ActionListener
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-    public FrameParametre ( ) 
+    public FrameParametre ( Controleur ctrl ) 
 	{
+        this.ctrl = ctrl;
+
         /* Initialisation du panel */
 		initialiserPanel();
 		
@@ -113,7 +116,7 @@ public class FrameParametre extends JFrame implements ActionListener
 
         gbc.gridx = 1;
         this.txtNBMin = new JTextField(5);
-        this.txtNBMin.setText("" + this.nbMinMots);
+        this.txtNBMin.setText("" + FrameParametre.nbMinMots);
         this.panelParametre.add(this.txtNBMin, gbc);
 
 		/* 2ème Ligne : Nombre maximum de mots */
@@ -125,7 +128,7 @@ public class FrameParametre extends JFrame implements ActionListener
 
         gbc.gridx = 1;
         this.txtNBMax = new JTextField(5);
-        this.txtNBMax.setText("" + this.nbMaxMots);
+        this.txtNBMax.setText("" + FrameParametre.nbMaxMots);
         this.panelParametre.add(this.txtNBMax, gbc);
 
         /* 3ème Ligne : Couleur de surlignage 1 */
@@ -136,7 +139,7 @@ public class FrameParametre extends JFrame implements ActionListener
 
         gbc.gridx = 1;
         this.btnCouleur1 = new JButton();
-        this.btnCouleur1.setBackground(this.couleur1);
+        this.btnCouleur1.setBackground(FrameParametre.couleur1);
         this.btnCouleur1.setPreferredSize(new Dimension(60, 20));
         this.panelParametre.add(this.btnCouleur1, gbc);
 
@@ -148,7 +151,7 @@ public class FrameParametre extends JFrame implements ActionListener
 
         gbc.gridx = 1;
         this.btnCouleur2 = new JButton();
-        this.btnCouleur2.setBackground(this.couleur2);
+        this.btnCouleur2.setBackground(FrameParametre.couleur2);
         this.btnCouleur2.setPreferredSize(new Dimension(60, 20));
         this.panelParametre.add(this.btnCouleur2, gbc);
 
@@ -206,19 +209,21 @@ public class FrameParametre extends JFrame implements ActionListener
         /* Boutons de modifications */
         if (e.getSource() == this.btnAnnuler)
         {
-            this.txtNBMin.setText("" + this.nbMinMots);
-            this.txtNBMax.setText("" + this.nbMaxMots);
+            this.txtNBMin.setText("" + FrameParametre.nbMinMots);
+            this.txtNBMax.setText("" + FrameParametre.nbMaxMots);
 
-            this.btnCouleur1.setBackground(this.couleur1);
-            this.btnCouleur2.setBackground(this.couleur2);
+            this.btnCouleur1.setBackground(FrameParametre.couleur1);
+            this.btnCouleur2.setBackground(FrameParametre.couleur2);
         }
         if (e.getSource() == this.btnEnregistrer)
         {
-            this.nbMaxMots = Integer.parseInt(this.txtNBMax.getText());
-            this.nbMinMots = Integer.parseInt(this.txtNBMin.getText());
+            FrameParametre.nbMaxMots = Integer.parseInt(this.txtNBMax.getText());
+            FrameParametre.nbMinMots = Integer.parseInt(this.txtNBMin.getText());
 
-            this.couleur1 = this.btnCouleur1.getBackground();
-            this.couleur2 = this.btnCouleur2.getBackground();
+            FrameParametre.couleur1 = this.btnCouleur1.getBackground();
+            FrameParametre.couleur2 = this.btnCouleur2.getBackground();
+
+            this.ctrl.majNombre(FrameParametre.nbMinMots, FrameParametre.nbMaxMots);
         }
     }
 }
