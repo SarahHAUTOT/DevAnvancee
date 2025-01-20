@@ -78,13 +78,13 @@ public class FrameAccueil extends JFrame
 		this.panelParametre   = new PanelParametre( this );
 		this.panelSuspect     = new PanelSuspect  ( this );
 		this.panelComparaison = new PanelComparaison ( this );
-		this.panelResultat    = new PanelResultat ( this );
+		this.panelResultat    = null;
 		this.panels           = new JPanel[4];
 
 		this.panels[0] = this.panelSuspect;
 		this.panels[1] = this.panelComparaison;
-		this.panels[2] = new JPanel(); // TODO : this.panelChargement
-		this.panels[3] = this.panelResultat;
+		// this.panels[2] = new JPanel(); // TODO : this.panelChargement
+		this.panels[2] = this.panelResultat;
 		this.idPanel = 0;
 
 		/* Configuration de la frame */
@@ -117,6 +117,10 @@ public class FrameAccueil extends JFrame
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
+	public void initPanelResultat()
+	{
+		this.panelResultat = new PanelResultat ( this );
+	}
 
 	public void pageSuivante()
 	{
@@ -300,7 +304,7 @@ public class FrameAccueil extends JFrame
 
 	public List<Correspondance> getLstPlagiatDetecte()
 	{
-		return this.ctrl.getLstPlagiatDetecte(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
+		return this.ctrl.getLstPlagiatDetecte(); 
 	}
 
 	public List<TextComparant> getComparants() { return this.ctrl.getComparants(); }

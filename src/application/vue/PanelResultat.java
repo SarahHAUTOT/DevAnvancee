@@ -58,7 +58,7 @@ public class PanelResultat extends JPanel implements ActionListener
 
 		int nbPlag = this.lstPlagiatDetecte.size();
 		if (nbPlag > 0)
-			panelNorth.add(frame.panelSousTitre("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 0 ? "s " : " ") + "de similitude, correspondant à calculer % du text."));
+			panelNorth.add(frame.panelSousTitre("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 1 ? "s " : " ") + "de similitude, correspondant à calculer % du text."));
 		else
 			panelNorth.add(frame.panelSousTitre("Nous n'avons pas réussi à détecter de similarité selon les données fournis. "));
 		

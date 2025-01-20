@@ -48,6 +48,8 @@ public class Metier {
 	/*------------------------------------------------------------------------------------------------------*/
 
 	public List<Correspondance> compare() {
+
+		System.out.println(this.lstComparant.size());
 		List<Correspondance> correspondances = new ArrayList<Correspondance>();
 		for (TextComparant comparant : lstComparant) {
 			System.out.println("comparaison de " + comparant.nom);
