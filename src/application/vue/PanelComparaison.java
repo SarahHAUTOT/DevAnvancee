@@ -158,12 +158,14 @@ public class PanelComparaison extends JPanel implements ActionListener
 		if (e.getSource() == this.btnImporterTexte)
 		{
 			// Ajout d'un nouveau texte dans le panel
+			int endIndex = (this.saisieTexte.getText().length() < 12) ? this.saisieTexte.getText().length() : 12; 
 			String titre = 
-			this.saisieTexte.getText().substring(0, 5) + "... " +
+			this.saisieTexte.getText().substring(0, endIndex) + "... " +
 				"(" + this.saisieTexte.getText().length() +" caractères)";
 
 			JCheckBox checkBox = new JCheckBox(titre);
 			checkBox.setBackground(FrameAccueil.COULEUR_FOND);
+			this.frameAccueil.ajouterTexte(this.saisieTexte.getText(), titre);
 			
 			this.panelListeTexte.add(checkBox, BorderLayout.CENTER);
 			this.panelListeTexte.setBorder(
@@ -174,7 +176,6 @@ public class PanelComparaison extends JPanel implements ActionListener
 			this.validate();
 			this.repaint(); // Rafraichissement de la liste de texte
 
-			this.frameAccueil.ajouterTexte(this.saisieTexte.getText(), titre);
 		}
 
 		if (e.getSource() == this.btnAnalyser)

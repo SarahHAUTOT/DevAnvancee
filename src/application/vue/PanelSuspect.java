@@ -164,7 +164,7 @@ public class PanelSuspect extends JPanel implements ActionListener
 
 		if (e.getSource() == this.btnSuivant)
 		{
-			if (this.frameAccueil.getCompare() == null || this.saisieTexte.getText().equals("Saisir un texte...") )
+			if (this.frameAccueil.getCompare() == null && this.saisieTexte.getText().equals("Saisir un texte...") )
 			{
 				File fichier = this.frameAccueil.ouvrirFichier(null);
 				if (fichier == null) return;
