@@ -17,8 +17,8 @@ import application.metier.*;
 
 public class Controleur
 {
-	public static final int BASE_NB_MIN_MOTS = 5;
-	public static final int BASE_NB_MAX_MOTS = 55;
+	public static final int BASE_NB_MIN_MOTS = 10;
+	public static final int BASE_NB_MAX_MOTS = 60;
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */

@@ -16,7 +16,7 @@ public class Correspondance {
 
     @Override
     public String toString() {
-        return String.format("Segment: '%s', comparé: [%s], %s: [%s]", "text", positionCompare, this.textRef.nom,
+        return String.format("Segment: '%s', comparé: [%s], %s: [%s]", text, positionCompare, this.textRef.nom,
                 positionComparant);
     }
 

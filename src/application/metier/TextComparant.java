@@ -47,7 +47,6 @@ public class TextComparant {
                 // Normaliser le mot (enlever les caractères non alphanumériques)
                 String word = text.substring(start, end).toLowerCase()
                         .replaceAll("[^a-z0-9]", "");
-                System.out.print(word + "|");
     
                 // Ajouter à la liste si le mot est non vide
                 if (!word.isEmpty()) {
