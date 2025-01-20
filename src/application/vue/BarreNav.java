@@ -129,7 +129,7 @@ public class BarreNav extends JToolBar implements ActionListener
 		if (this.btnLogo == e.getSource() || this.btnTexte1 == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_ACCUEIL);
 
 		// Redirection a la deuxième page
-		if (this.btnParametreAnalyse == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_COMPARAISON);
+		if (this.btnTexte2 == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_COMPARAISON);
 
 		// Paramètres
 		if (this.btnParametreAnalyse == e.getSource()) this.frameAccueil.afficherPageParametre();
