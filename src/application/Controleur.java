@@ -14,7 +14,8 @@ public class Controleur
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
   
-	  private FrameAccueil frameAccueil;
+	@SuppressWarnings("unused")
+	private FrameAccueil frameAccueil;
   
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */

@@ -24,6 +24,7 @@ import java.util.List;
   * @since : 06/01/2025
   */
 
+@SuppressWarnings("serial")
 public class PanelResultat extends JPanel implements ActionListener
 {
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -34,6 +35,7 @@ public class PanelResultat extends JPanel implements ActionListener
 	private JButton      btnRetour;
 
 	private List<String> lstText;
+	@SuppressWarnings("unused")
 	private String       comaprant;
 	private List<String> lstPlagiatDetecte;
   
@@ -137,9 +139,10 @@ public class PanelResultat extends JPanel implements ActionListener
 	}
 
 
+	@Override
 	public void actionPerformed(ActionEvent e) 
 	{
-		if (e.getSource() == this.btnRetour) 
+		if (e.getSource() == this.btnRetour);
 			// TODO : Changer pour retourner au panel principal
 	}
 	

@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
 
 /** Frame d'accueil
   * @author : Plein de gens
@@ -13,6 +11,7 @@ import javax.swing.JPanel;
   * @since : 06/01/2025
   */
 
+@SuppressWarnings("serial")
 public class FrameAccueil extends JFrame
 {
 	/* ------------------------------------------------------------------------------------------------------ */
