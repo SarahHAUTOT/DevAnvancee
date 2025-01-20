@@ -54,7 +54,6 @@ public class FrameAccueil extends JFrame
 	public static final Color COULEUR_PRIMAIRE   = Color.decode("#B0E3E6");
 	public static final Color COULEUR_FOND       = Color.decode("#FBFBFB");
 
-	private PanelParametre   panelParametre;
 	private PanelSuspect     panelSuspect;
 	private PanelComparaison panelComparaison;
 	private PanelResultat    panelResultat;
@@ -75,7 +74,6 @@ public class FrameAccueil extends JFrame
 	{
 		/* Création des composants */
 		this.ctrl = ctrl;
-		this.panelParametre   = new PanelParametre( this );
 		this.panelSuspect     = new PanelSuspect  ( this );
 		this.panelResultat    = new PanelResultat ( this );
 		this.panelComparaison = new PanelComparaison ( this, this.panelResultat );
@@ -141,7 +139,7 @@ public class FrameAccueil extends JFrame
 
 	public void afficherPageParametre()
 	{
-		// TODO Alizéa
+		new FrameParametre();
 	}
 
 	private void majPanel()
