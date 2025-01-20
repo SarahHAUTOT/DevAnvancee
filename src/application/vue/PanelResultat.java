@@ -7,12 +7,19 @@ import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.border.Border;
+import javax.swing.text.DefaultHighlighter;
+import javax.swing.text.Highlighter;
+import javax.swing.text.Highlighter.HighlightPainter;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.*;
 import java.util.List;
+
+import application.metier.Correspondance;
+import application.metier.PlageDeMots;
 
 /** Frame d'accueil
  * @author : Plein de gens
@@ -29,9 +36,8 @@ public class PanelResultat extends JPanel implements ActionListener
 	private FrameAccueil frameAccueil;
 	private JButton      btnRetour;
 
-	private List<String> lstText;
 	private String       comparant;
-	private List<String> lstPlagiatDetecte;
+	private List<Correspondance> lstPlagiatDetecte;
 
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
@@ -40,7 +46,6 @@ public class PanelResultat extends JPanel implements ActionListener
 	public PanelResultat ( FrameAccueil frame )
 	{
 		this.frameAccueil = frame;
-		this.lstText           = this.frameAccueil.getLstText();
 		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
 		this.comparant         = this.frameAccueil.getComparant();
 
@@ -63,6 +68,10 @@ public class PanelResultat extends JPanel implements ActionListener
 
 		JScrollPane sp = new JScrollPane();
 		this.configureScrollPaneSensitivity(sp);
+		
+				
+		Border border = BorderFactory.createLineBorder(FrameAccueil.COULEUR_PRIMAIRE);
+		border        = BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
 		if (nbPlag == 0)
 		{
@@ -71,21 +80,89 @@ public class PanelResultat extends JPanel implements ActionListener
 			text.setLineWrap(true);
    			text.setWrapStyleWord(true);
 			
-			Border border = BorderFactory.createLineBorder(FrameAccueil.COULEUR_PRIMAIRE);
-    		text.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+    		text.setBorder(border);
 
-			
-			
 			sp.setViewportView(text);
 			sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
     		sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
 		} else {
 			
-			// TODO : crée le panel central (dans sp) selon comment le truc fonctionnera 
+			JPanel panelGrid = new JPanel(new GridLayout(nbPlag, 2, 0, 10));
 
-			/*
-			 * 
-			 */
+			for (Correspondance correspondance : this.lstPlagiatDetecte)
+			{
+				/*       */
+				/* TEXTE */
+				/*       */
+
+				PlageDeMots pmSus = correspondance.getComparedRange();
+				PlageDeMots pmRef = correspondance.getReferenceRange();
+
+				String sSus = this.comparant.substring(pmSus.getStart(), pmSus.getEnd());	
+				String sRef = correspondance.getTexteComparant().getTextOriginal().substring(pmRef.getStart(), pmRef.getEnd());	
+
+
+			
+				/*          */
+				/* COUPABLE */
+				/*          */
+
+				// JScrollPane du coupable
+				JScrollPane spSus = new JScrollPane();
+				this.configureScrollPaneSensitivity(spSus);
+
+				// JTextArea coupable
+				JTextArea textSus = new JTextArea(sSus);
+				textSus.setEditable(false);
+				textSus.setLineWrap(true);
+				textSus.setWrapStyleWord(true);
+				textSus.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+
+				// Surligner une portion spécifique dans le texte suspect
+				Highlighter highlighterSus = textSus.getHighlighter();
+				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(Color.YELLOW);
+				try {
+					highlighterSus.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterSus);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				// Ajout
+				spSus.setViewportView(textSus);
+
+
+
+				
+			
+				/*           */
+				/* REFERENCE */
+				/*           */
+
+				// Panel de la référence
+				JScrollPane spRef = new JScrollPane();
+				this.configureScrollPaneSensitivity(spRef);
+
+				JTextArea textRef = new JTextArea(sRef);
+				textRef.setEditable(false);
+				textRef.setLineWrap(true);
+				textRef.setWrapStyleWord(true);
+
+				// Surligner une portion spécifique dans le texte suspect
+				Highlighter      highlighterRef = textSus.getHighlighter();
+				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(Color.ORANGE);
+				try {
+					highlighterRef.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterRef);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+
+				spRef.setViewportView(textRef);
+				textRef.setBorder(border);
+
+
+				panelGrid.add(spSus);
+				panelGrid.add(spRef);
+			}
 		}
 
 

@@ -159,12 +159,12 @@ public class PanelSuspect extends JPanel implements ActionListener
 		if (e.getSource() == this.btnImporter)
 		{
 			File fichier = this.frameAccueil.ouvrirFichier(null);
-			this.frameAccueil.setFichierSuspect(fichier);
+			this.frameAccueil.setCompareFic(fichier);
 		}
 
 		if (e.getSource() == this.btnSuivant)
 		{
-			if (this.frameAccueil.getFichierSuspect() == null)
+			if (this.frameAccueil.getCompare() == null || this.saisieTexte.getText().equals("Saisir un texte...") )
 			{
 				File fichier = this.frameAccueil.ouvrirFichier(null);
 				if (fichier == null) return;
@@ -173,6 +173,8 @@ public class PanelSuspect extends JPanel implements ActionListener
 			}
 			else
 			{
+				if (this.frameAccueil.getCompare() == null)
+					this.frameAccueil.setCompareTexte(this.saisieTexte.getText());
 				this.frameAccueil.pageSuivante();
 			}
 		}

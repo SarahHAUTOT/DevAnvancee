@@ -135,14 +135,11 @@ public class PanelComparaison extends JPanel implements ActionListener
 	{
 		if (e.getSource() == this.btnImporter)
 		{
-			int  lengthFichiers = this.frameAccueil.getComparants().size();
-			File dernierFichier = this.frameAccueil.getComparants().isEmpty() ? null : this.frameAccueil.getComparants().get(lengthFichiers -1);
-			File fichier = this.frameAccueil.ouvrirFichier(dernierFichier);
-
+			File fichier = this.frameAccueil.ouvrirFichier(null);
 			if (fichier == null) return;
 
 			// Ajout du fichier dans la liste de la frame accueil
-			this.frameAccueil.ajoutComparant(fichier);
+			this.frameAccueil.ajouterFichier(fichier, fichier.getName());
 
 			// Ajout d'un nouveau texte dans le panel
 			JCheckBox checkBox = new JCheckBox(fichier.getName());
@@ -160,41 +157,24 @@ public class PanelComparaison extends JPanel implements ActionListener
 
 		if (e.getSource() == this.btnImporterTexte)
 		{
-			// Création d'une nouveau fichier > Add dans lst fichiers interface
-			File fichier = new File("./tmp_" + System.currentTimeMillis() + ".txt");
-			FileWriter ecritureFichier;
+			// Ajout d'un nouveau texte dans le panel
+			String titre = 
+			this.saisieTexte.getText().substring(0, 5) + "... " +
+				"(" + this.saisieTexte.getText().length() +" caractères)";
 
-			try
-			{
-				ecritureFichier = new FileWriter(fichier);
-				ecritureFichier.write(this.saisieTexte.getText());
-
-				// Ajout du fichier dans la liste de la frame accueil
-				this.frameAccueil.ajoutComparant(fichier);
-
-				// Ajout d'un nouveau texte dans le panel
-				JCheckBox checkBox = new JCheckBox(
-					fichier.getName() + "... " +
-					"(" + this.saisieTexte.getText().length() +" caractères)");
-				checkBox.setBackground(FrameAccueil.COULEUR_FOND);
-				
-				this.panelListeTexte.add(checkBox, BorderLayout.CENTER);
-				this.panelListeTexte.setBorder(
-					BorderFactory.createTitledBorder(
-						BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10),
-						"Textes importés ("+ this.frameAccueil.getComparants().size() +" importés)")));
-
-				this.validate();
-				this.repaint(); // Rafraichissement de la liste de texte
-
-				ecritureFichier.close();
-			}
-			catch (IOException e1)
-			{
-				e1.printStackTrace();
-			}
+			JCheckBox checkBox = new JCheckBox(titre);
+			checkBox.setBackground(FrameAccueil.COULEUR_FOND);
 			
-			// TODO : Création d'un nouveau texte partie métier
+			this.panelListeTexte.add(checkBox, BorderLayout.CENTER);
+			this.panelListeTexte.setBorder(
+				BorderFactory.createTitledBorder(
+					BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10),
+					"Textes importés ("+ this.frameAccueil.getComparants().size() +" importés)")));
+
+			this.validate();
+			this.repaint(); // Rafraichissement de la liste de texte
+
+			this.frameAccueil.ajouterTexte(this.saisieTexte.getText(), titre);
 		}
 
 		if (e.getSource() == this.btnAnalyser)

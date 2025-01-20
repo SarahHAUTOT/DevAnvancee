@@ -24,6 +24,8 @@ public class Metier {
 	/*------------------------------------------------------------------------------------------------------*/
 
 	public Metier(int minGram, int maxGram) {
+		this.compare = null;
+
 		if (minGram < maxGram) {
 			this.minGram = minGram;
 			this.maxGram = maxGram;
@@ -37,6 +39,9 @@ public class Metier {
 	/*------------------------------------------------------------------------------------------------------*/
 	/*-----------------------------------------------Accesseur----------------------------------------------*/
 	/*------------------------------------------------------------------------------------------------------*/
+
+	public TextCompare getCompare() { return this.compare; }
+	public List<TextComparant> getComparants() { return this.lstComparant; }
 
 	/*------------------------------------------------------------------------------------------------------*/
 	/*------------------------------------------------Méthode-----------------------------------------------*/
@@ -168,10 +173,10 @@ public class Metier {
 	/**
 	 * Ajoute un texte a la liste des textes a comparer
 	 * 
-	 * @param nomFic
+	 * @param fichier
 	 */
-	public void ajouterFichier(String nomFic, String nom) {
-		this.lstComparant.add(new TextComparant(Metier.recupTexteFichier(nomFic), nom));
+	public void ajouterFichier(File fichier, String nom) {
+		this.lstComparant.add(new TextComparant(Metier.recupTexteFichier(fichier), nom));
 	}
 
 	/**
@@ -196,22 +201,22 @@ public class Metier {
 	/**
 	 * Set le texte a compare par un fichier
 	 * 
-	 * @param nomFic
+	 * @param fichier
 	 */
-	public void setCompareFic(String nomFic) {
-		this.compare = new TextCompare(Metier.recupTexteFichier(nomFic), minGram, maxGram);
+	public void setCompareFic(File fichier) {
+		this.compare = new TextCompare(Metier.recupTexteFichier(fichier), minGram, maxGram);
 	}
 
 	/**
 	 * Récupère le texte a comparer
 	 * 
-	 * @param nomFic
+	 * @param fichier
 	 * @return
 	 */
-	private static String recupTexteFichier(String nomFic) {
+	private static String recupTexteFichier(File fichier) {
 		String texte = "";
 		try {
-			Scanner sc = new Scanner(new File(nomFic), "UTF-8");
+			Scanner sc = new Scanner(fichier, "UTF-8");
 			while (sc.hasNextLine()) {
 				texte += sc.nextLine();
 			}
@@ -220,20 +225,5 @@ public class Metier {
 			System.out.println("Erreur lors de la lecture du fichier");
 		}
 		return texte;
-	}
-
-	/*------------------------------------------------------------------------------------------------------*/
-	/*-----------------------------------------------MAIN---------------------------------------------------*/
-	/*------------------------------------------------------------------------------------------------------*/
-	public static void main(String[] args) {
-		Metier m = new Metier(10, 60);
-		int nbFic = 5;
-		for (int i = 1; i < nbFic + 1; i++) {
-			m.ajouterFichier("src/application/metier/fichier" + i + ".txt", "texte" + i);
-			System.out.println("fichier lu");
-		}
-		m.setCompareFic("src/application/metier/fichierCompa.txt");
-		System.out.println("fichier compar lu");
-		m.compare();
 	}
 }

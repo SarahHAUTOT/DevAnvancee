@@ -12,6 +12,9 @@ import javax.swing.JPanel;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 import application.Controleur;
+import application.metier.Correspondance;
+import application.metier.TextComparant;
+import application.metier.TextCompare;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -59,9 +62,6 @@ public class FrameAccueil extends JFrame
 	private JPanel[] panels;
 	private int      idPanel;
 
-	private File            fichierSuspect;
-	private ArrayList<File> comparants;
-
 	private BarreNav	barreNav;
 	private Controleur		ctrl;
 
@@ -79,7 +79,6 @@ public class FrameAccueil extends JFrame
 		this.panelSuspect     = new PanelSuspect  ( this );
 		this.panelComparaison = new PanelComparaison ( this );
 		this.panelResultat    = new PanelResultat ( this );
-		this.comparants       = new ArrayList<File>();
 		this.panels           = new JPanel[4];
 
 		this.panels[0] = this.panelSuspect;
@@ -111,33 +110,13 @@ public class FrameAccueil extends JFrame
 	/*                                               Accesseur                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-	public ArrayList<File> getComparants()
-	{
-		return this.comparants;
-	}
-	
-	public File getFichierSuspect()
-	{
-		return this.fichierSuspect;
-	}
-
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Modificateur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-	public void setFichierSuspect(File f)
-	{
-		this.fichierSuspect = f;
-	}
-
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
-
-	public void ajoutComparant(File fichier)
-	{
-		this.comparants.add(fichier);
-	}
 
 	public void pageSuivante()
 	{
@@ -272,12 +251,59 @@ public class FrameAccueil extends JFrame
 	public List<String> getLstText()
 	{
 		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES COMAPRE
+	}
+
+	public TextCompare getCompare()
+	{
+		return this.ctrl.getCompare();
+	}
+
+	/**
+	 * Ajoute un texte a la liste des textes a comparer
+	 * 
+	 * @param fichier
+	 */
+	public void ajouterFichier(File fichier, String nom)
+	{
+		this.ctrl.ajouterFichier(fichier, nom);
+	}
+
+	/**
+	 * Ajoute un texte a la liste des textes a comparer
+	 * 
+	 * @param texte
+	 */
+	public void ajouterTexte(String texte, String nom)
+	{
+		this.ctrl.ajouterTexte(texte, nom);
+	}
+
+	/**
+	 * Set le texte a compare par un texte
+	 * 
+	 * @param texte
+	 */
+	public void setCompareTexte(String texte)
+	{
+		this.ctrl.setCompareTexte(texte);
+	}
+
+	/**
+	 * Set le texte a compare par un fichier
+	 * 
+	 * @param fichier
+	 */
+	public void setCompareFic(File fichier)
+	{
+		this.ctrl.setCompareFic(fichier);
 	}	
 
-	public List<String> getLstPlagiatDetecte()
+	public List<Correspondance> getLstPlagiatDetecte()
 	{
-		return new ArrayList<>(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
+		return this.ctrl.getLstPlagiatDetecte(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
 	}
+
+	public List<TextComparant> getComparants() { return this.ctrl.getComparants(); }
 
 	public String getComparant()
 	{
