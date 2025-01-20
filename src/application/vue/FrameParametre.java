@@ -18,6 +18,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
+import application.Controleur;
+
 public class FrameParametre extends JFrame implements ActionListener
 {
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -28,8 +30,8 @@ public class FrameParametre extends JFrame implements ActionListener
     
     /* Valeur des paramètres */
 
-    private static int    nbMinMots = 5;
-    private static int    nbMaxMots = 50;
+    private static int    nbMinMots = Controleur.BASE_NB_MIN_MOTS;
+    private static int    nbMaxMots = Controleur.BASE_NB_MAX_MOTS;
 
     private static Color  couleur1  = Color.GREEN;
     private static Color  couleur2  = Color.RED;
@@ -51,13 +53,6 @@ public class FrameParametre extends JFrame implements ActionListener
 
     public FrameParametre ( ) 
 	{
-        /* Initialisation des paramètres par défaut */
-        this.nbMinMots = 5;
-        this.nbMaxMots = 50;
-
-        this.couleur1  = Color.RED;
-        this.couleur2  = Color.GREEN;
-
         /* Initialisation du panel */
 		initialiserPanel();
 		

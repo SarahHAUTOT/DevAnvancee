@@ -32,8 +32,8 @@ public class Metier {
 			this.minGram = minGram;
 			this.maxGram = maxGram;
 		} else {
-			this.minGram = Controleur.getNbMinMots();
-			this.maxGram = Controleur.getNbMaxMots();
+			this.minGram = 5;
+			this.maxGram = 55;
 		}
 		this.lstComparant = new ArrayList<TextComparant>();
 	}

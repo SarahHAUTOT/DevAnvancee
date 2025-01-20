@@ -17,6 +17,8 @@ import application.metier.*;
 
 public class Controleur
 {
+	public static final int BASE_NB_MIN_MOTS = 5;
+	public static final int BASE_NB_MAX_MOTS = 55;
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -30,7 +32,7 @@ public class Controleur
 	
 	public Controleur()
 	{
-		this.metier = new Metier(5,5);
+		this.metier = new Metier(Controleur.BASE_NB_MIN_MOTS,Controleur.BASE_NB_MAX_MOTS);
 		this.frameAccueil = new FrameAccueil(this);
 	}
 	
@@ -106,8 +108,8 @@ public class Controleur
 	/*                                       Liaison Paramètres-Métier                                        */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-	public static int   getNbMinMots ( ) { return FrameAccueil.getNbMinMots(); }
-    public static int   getNbMaxMots ( ) { return FrameAccueil.getNbMaxMots(); }
+	public int   getNbMinMots ( ) { return FrameAccueil.getNbMinMots(); }
+    public int   getNbMaxMots ( ) { return FrameAccueil.getNbMaxMots(); }
 
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                                 Main                                                   */
