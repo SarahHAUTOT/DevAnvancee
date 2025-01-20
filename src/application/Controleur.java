@@ -1,5 +1,7 @@
 package application;
 
+import application.vue.FrameAccueil;
+
 /** Classe Controleur
   * @author : Plein de gens
   * @version : 1.0.0 - 06/01/2025
@@ -12,7 +14,7 @@ public class Controleur
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
   
-	  
+	  private FrameAccueil frameAccueil;
   
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
@@ -20,7 +22,7 @@ public class Controleur
 	
 	public Controleur()
 	{
-		
+		this.frameAccueil = new FrameAccueil(this);
 	}
 	
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -30,6 +32,8 @@ public class Controleur
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Modificateur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
+
+	public FrameAccueil getFrameAccueil(){ return this.frameAccueil;}
 	
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                                Méthode                                                 */
