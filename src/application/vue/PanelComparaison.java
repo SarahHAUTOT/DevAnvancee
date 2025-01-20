@@ -21,7 +21,8 @@ public class PanelComparaison extends JPanel implements ActionListener
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-	private FrameAccueil frameAccueil;
+	private FrameAccueil  frameAccueil;
+	private PanelResultat panelResultat;
 	private JPanel panelListeTexte;
 
 	private ArrayList<JCheckBox> listeCheckbox;
@@ -36,8 +37,10 @@ public class PanelComparaison extends JPanel implements ActionListener
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 	
-	public PanelComparaison ( FrameAccueil frame )
+	public PanelComparaison ( FrameAccueil frame, PanelResultat panelResultat )
 	{
+		this.panelResultat = panelResultat;
+
 		/* Création des composants */
 		this.btnAnalyser = new JButton("Analyser");
 		this.btnImporter = new JButton("Importer un .txt");
@@ -181,6 +184,7 @@ public class PanelComparaison extends JPanel implements ActionListener
 		if (e.getSource() == this.btnAnalyser)
 		{
 			// TODO Algo partie métier
+			panelResultat.genererAffichage();
 			this.frameAccueil.pageSuivante(); // Page de chargement
 		}
 	}

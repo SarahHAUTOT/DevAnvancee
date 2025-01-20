@@ -77,8 +77,8 @@ public class FrameAccueil extends JFrame
 		this.ctrl = ctrl;
 		this.panelParametre   = new PanelParametre( this );
 		this.panelSuspect     = new PanelSuspect  ( this );
-		this.panelComparaison = new PanelComparaison ( this );
-		this.panelResultat    = null;
+		this.panelResultat    = new PanelResultat ( this );
+		this.panelComparaison = new PanelComparaison ( this, this.panelResultat );
 		this.panels           = new JPanel[4];
 
 		this.panels[0] = this.panelSuspect;
@@ -117,10 +117,6 @@ public class FrameAccueil extends JFrame
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
-	public void initPanelResultat()
-	{
-		this.panelResultat = new PanelResultat ( this );
-	}
 
 	public void pageSuivante()
 	{
@@ -145,10 +141,7 @@ public class FrameAccueil extends JFrame
 
 	public void afficherPageParametre()
 	{
-		this.remove(this.panels[this.idPanel]);
-		this.add(this.panelParametre, BorderLayout.CENTER);
-		this.validate();
-		this.repaint();
+		// TODO Alizéa
 	}
 
 	private void majPanel()
@@ -304,13 +297,9 @@ public class FrameAccueil extends JFrame
 
 	public List<Correspondance> getLstPlagiatDetecte()
 	{
-		return this.ctrl.getLstPlagiatDetecte(); 
+		return this.ctrl.getLstPlagiatDetecte(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
 	}
 
 	public List<TextComparant> getComparants() { return this.ctrl.getComparants(); }
 
-	public String getComparant()
-	{
-		return "Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful sort, which could only be broken by Love's first kiss. She was locked away in a castle guarded by a terrible fire breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but none prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. Like that's ever going to happen. What a loony. Shrek Beware Stay out I think he's in here. All right. Lets get it! Hold on. Do you know what that thing can do to you? Yeah. He'll groan into your bones for his brains. Well actually that would be a giant. Now Ogres, huh, they are much worse. They'll make a soup from your freshly peeled skin. They'll chew your livers, squeeze the jelly from your eyes. Actually, it's quite good on toast. Back, back beast, back! I warned you! Right. This is the part, where you run away. Yeah! And stay out. Wanted. Fairytale creatures. Right, this one is full. Take it away. Give me that. Your fine days are over. -25 pieces of silver for the witch. Next. -Come on. Sit down there! And be quiet! This cage is so small.";
-	}
 }

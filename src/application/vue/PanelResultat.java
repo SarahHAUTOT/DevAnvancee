@@ -42,25 +42,31 @@ public class PanelResultat extends JPanel implements ActionListener
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
-	
-	public PanelResultat ( FrameAccueil frame )
-	{
-		this.frameAccueil = frame;
-		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
-		this.comparant         = this.frameAccueil.getComparant();
 
+		public PanelResultat ( FrameAccueil frame ) { this.frameAccueil = frame; }
+
+
+	public void genererAffichage ( )
+	{
+		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
+		this.comparant         = this.frameAccueil.getCompare().getTextOriginal();
 
 
 		/*     PANEL NORD     */
 		JPanel panelNorth = new JPanel(new GridLayout(2, 1,0,10));
-		panelNorth.add(frame.panelTitre("Aucune similitude détecté "));
 
 
 		int nbPlag = this.lstPlagiatDetecte.size();
 		if (nbPlag > 0)
-			panelNorth.add(frame.panelSousTitre("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 1 ? "s " : " ") + "de similitude, correspondant à calculer % du text."));
+		{
+			panelNorth.add(this.frameAccueil.panelTitre("Oh oh ! Il semblerait que ces textes se ressemblent..."));
+			panelNorth.add(this.frameAccueil.panelSousTitre("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 1 ? "s " : " ") + "de similitude, correspondant à calculer % du text."));
+		}
 		else
-			panelNorth.add(frame.panelSousTitre("Nous n'avons pas réussi à détecter de similarité selon les données fournis. "));
+		{
+			panelNorth.add(this.frameAccueil.panelTitre("Aucune similitude détecté "));
+			panelNorth.add(this.frameAccueil.panelSousTitre("Nous n'avons pas réussi à détecter de similarité selon les données fournis. "));
+		}
 		
 		
 
@@ -148,7 +154,7 @@ public class PanelResultat extends JPanel implements ActionListener
 				textRef.setWrapStyleWord(true);
 
 				// Surligner une portion spécifique dans le texte suspect
-				Highlighter      highlighterRef = textSus.getHighlighter();
+				Highlighter      highlighterRef = textRef.getHighlighter();
 				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(Color.ORANGE);
 				try {
 					highlighterRef.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterRef);
@@ -163,6 +169,8 @@ public class PanelResultat extends JPanel implements ActionListener
 				panelGrid.add(spSus);
 				panelGrid.add(spRef);
 			}
+
+			sp.setViewportView(panelGrid);
 		}
 
 
