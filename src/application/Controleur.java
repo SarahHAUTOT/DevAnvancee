@@ -1,7 +1,9 @@
 package application;
 
 import application.vue.FrameAccueil;
+import application.vue.FrameParametre;
 
+import java.awt.Color;
 import java.io.File;
 import java.util.List;
 
@@ -99,6 +101,17 @@ public class Controleur
 	{
 		return this.metier.compare();
 	}
+
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                       Liaison Paramètres-Métier                                        */
+	/* ------------------------------------------------------------------------------------------------------ */
+
+	public static int   getNbMinMots ( ) { return FrameAccueil.getNbMinMots(); }
+    public static int   getNbMaxMots ( ) { return FrameAccueil.getNbMaxMots(); }
+
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                                 Main                                                   */
+	/* ------------------------------------------------------------------------------------------------------ */
 
 	public static void main(String[] args) 
 	{

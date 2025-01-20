@@ -6,6 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
+import application.Controleur;
+
 public class Metier {
 	/*------------------------------------------------------------------------------------------------------*/
 	/*-----------------------------------------------Attributs----------------------------------------------*/
@@ -30,8 +32,8 @@ public class Metier {
 			this.minGram = minGram;
 			this.maxGram = maxGram;
 		} else {
-			this.minGram = 1;
-			this.maxGram = 51;
+			this.minGram = Controleur.getNbMinMots();
+			this.maxGram = Controleur.getNbMaxMots();
 		}
 		this.lstComparant = new ArrayList<TextComparant>();
 	}

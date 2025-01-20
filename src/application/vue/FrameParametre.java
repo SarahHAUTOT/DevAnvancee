@@ -28,11 +28,11 @@ public class FrameParametre extends JFrame implements ActionListener
     
     /* Valeur des paramètres */
 
-    private static int    nbMinMots;
-    private static int    nbMaxMots;
+    private static int    nbMinMots = 5;
+    private static int    nbMaxMots = 50;
 
-    private static Color  couleur1;
-    private static Color  couleur2;
+    private static Color  couleur1  = Color.GREEN;
+    private static Color  couleur2  = Color.RED;
 
     /* Composants à écouter et à modifier */
 
