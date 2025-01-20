@@ -220,7 +220,7 @@ public class Metier {
 		try {
 			Scanner sc = new Scanner(fichier, "UTF-8");
 			while (sc.hasNextLine()) {
-				texte += sc.nextLine();
+				texte += '\n'+sc.nextLine();
 			}
 			sc.close();
 		} catch (Exception e) {
