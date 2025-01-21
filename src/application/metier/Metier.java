@@ -175,6 +175,22 @@ public class Metier {
 	}
 
 	/**
+	 * Nettoyer la liste des textes comparants
+	 * 
+	 */
+	public void nettoyerComparants() {
+		this.lstComparant.removeAll(this.lstComparant);
+	}
+
+	/**
+	 * Nettoyer le texte comparé
+	 * 
+	 */
+	public void nettoyerCompare() {
+		this.compare = null;
+	}
+
+	/**
 	 * Ajoute un texte a la liste des textes a comparer
 	 * 
 	 * @param fichier

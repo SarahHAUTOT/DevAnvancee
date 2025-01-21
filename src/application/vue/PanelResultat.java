@@ -34,7 +34,7 @@ public class PanelResultat extends JPanel implements ActionListener
 	/* ------------------------------------------------------------------------------------------------------ */
 
 	private FrameAccueil frameAccueil;
-	private JButton      btnRetour;
+	private JButton      btnAccueil;
 
 	private String       comparant;
 	private List<Correspondance> lstPlagiatDetecte;
@@ -176,8 +176,8 @@ public class PanelResultat extends JPanel implements ActionListener
 
 		/*     PANEL SUD     */
 		JPanel panelSouth = new JPanel(new FlowLayout(FlowLayout.CENTER));
-		this.btnRetour = new JButton("Faire une nouvelle analyse");
-		panelSouth.add(this.btnRetour);
+		this.btnAccueil = new JButton("Faire une nouvelle analyse");
+		panelSouth.add(this.btnAccueil);
 
 
 
@@ -187,15 +187,17 @@ public class PanelResultat extends JPanel implements ActionListener
 		this.add(sp         , BorderLayout.CENTER);
 		this.add(panelSouth , BorderLayout.SOUTH );
 
-		this.btnRetour.addActionListener(this);
+		this.btnAccueil.addActionListener(this);
 	}
 
 
 	public void actionPerformed(ActionEvent e) 
 	{
-		if (e.getSource() == this.btnRetour) 
-			System.out.println("Retour");
-			// TODO : Changer pour retourner au panel principal
+		if (e.getSource() == this.btnAccueil)
+		{
+			this.frameAccueil.afficherPage(FrameAccueil.PAGE_ACCUEIL);
+			this.frameAccueil.reinitialiserMetier();
+		}
 	}
 	
 	

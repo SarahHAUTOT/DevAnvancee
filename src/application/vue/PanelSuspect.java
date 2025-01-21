@@ -160,6 +160,7 @@ public class PanelSuspect extends JPanel implements ActionListener
 		{
 			File fichier = this.frameAccueil.ouvrirFichier(null);
 			this.frameAccueil.setCompareFic(fichier);
+			this.frameAccueil.pageSuivante();
 		}
 
 		if (e.getSource() == this.btnSuivant)
