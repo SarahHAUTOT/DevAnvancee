@@ -57,6 +57,7 @@ public class FrameAccueil extends JFrame
 	private PanelSuspect     panelSuspect;
 	private PanelComparaison panelComparaison;
 	private PanelResultat    panelResultat;
+	private FrameParametre   frameParametre;
 
 	private JPanel[] panels;
 	private int      idPanel;
@@ -76,6 +77,7 @@ public class FrameAccueil extends JFrame
 		this.ctrl = ctrl;
 		this.panelSuspect     = new PanelSuspect  ( this );
 		this.panelResultat    = new PanelResultat ( this );
+		this.frameParametre   = null;
 		this.panelComparaison = new PanelComparaison ( this, this.panelResultat );
 		this.panels           = new JPanel[4];
 
@@ -116,6 +118,21 @@ public class FrameAccueil extends JFrame
 	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
 
+	public void reinitialiserMetier()
+	{
+		System.out.println("Reinit");
+		this.ctrl.nettoyerComparants();
+		this.ctrl.nettoyerCompare();
+		this.panelComparaison.nettoyerListeLabel();
+
+		for (TextComparant txt : this.ctrl.getComparants())
+			System.out.println(txt);
+		
+		System.out.println(this.ctrl.getCompare());
+
+		this.repaint();
+	}
+
 	public void pageSuivante()
 	{
 		this.remove(this.panels[this.idPanel]);
@@ -139,7 +156,15 @@ public class FrameAccueil extends JFrame
 
 	public void afficherPageParametre()
 	{
-		new FrameParametre(this.ctrl);
+		this.frameParametre = new FrameParametre(this.ctrl);
+	}
+
+	@Override
+	public void dispose()
+	{
+		if (this.frameParametre != null)
+			this.frameParametre.dispose();
+		super.dispose();
 	}
 
 	private void majPanel()
