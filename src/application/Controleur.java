@@ -54,6 +54,15 @@ public class Controleur
 
 	public List<TextComparant> getComparants() { return this.metier.getComparants(); }
 
+	public void nettoyerComparants()
+	{
+		this.metier.nettoyerComparants();
+	}
+	public void nettoyerCompare()
+	{
+		this.metier.nettoyerCompare();
+	}
+
 	/**
 	 * Ajoute un texte a la liste des textes a comparer
 	 * 

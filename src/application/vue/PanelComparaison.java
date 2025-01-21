@@ -5,8 +5,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 
 /** Frame d'accueil
@@ -25,7 +23,7 @@ public class PanelComparaison extends JPanel implements ActionListener
 	private PanelResultat panelResultat;
 	private JPanel panelListeTexte;
 
-	private ArrayList<JCheckBox> listeCheckbox;
+	private ArrayList<JLabel> listeLabel;
 
 	private JButton btnAnalyser;
 	private JButton btnImporter;
@@ -46,7 +44,7 @@ public class PanelComparaison extends JPanel implements ActionListener
 		this.btnImporter = new JButton("Importer un .txt");
 		this.btnImporterTexte = new JButton("Importer le texte entré");
 		this.saisieTexte = new JTextArea("Saisir un texte...");
-		this.listeCheckbox = new ArrayList<JCheckBox>();
+		this.listeLabel = new ArrayList<JLabel>();
 
 		this.frameAccueil = frame;
 		this.frameAccueil.styliserBouton(this.btnAnalyser);
@@ -129,7 +127,16 @@ public class PanelComparaison extends JPanel implements ActionListener
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Modificateur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
-	
+
+	public void nettoyerListeLabel()
+	{
+		this.listeLabel.removeAll(this.listeLabel);
+		this.panelListeTexte.removeAll();
+		this.panelListeTexte.validate();
+		this.repaint();
+	}
+
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                    Méthode Ecouteur Bouton                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -145,10 +152,10 @@ public class PanelComparaison extends JPanel implements ActionListener
 			this.frameAccueil.ajouterFichier(fichier, fichier.getName());
 
 			// Ajout d'un nouveau texte dans le panel
-			JCheckBox checkBox = new JCheckBox(fichier.getName());
-			this.listeCheckbox.add(checkBox);
-			checkBox.setBackground(FrameAccueil.COULEUR_FOND);
-			this.panelListeTexte.add(checkBox, BorderLayout.CENTER);
+			JLabel label = new JLabel(fichier.getName());
+			this.listeLabel.add(label);
+			label.setBackground(FrameAccueil.COULEUR_FOND);
+			this.panelListeTexte.add(label, BorderLayout.CENTER);
 			this.panelListeTexte.setBorder(
 				BorderFactory.createTitledBorder(
 					BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10),
@@ -166,11 +173,11 @@ public class PanelComparaison extends JPanel implements ActionListener
 			this.saisieTexte.getText().substring(0, endIndex) + "... " +
 				"(" + this.saisieTexte.getText().length() +" caractères)";
 
-			JCheckBox checkBox = new JCheckBox(titre);
-			checkBox.setBackground(FrameAccueil.COULEUR_FOND);
+			JLabel label = new JLabel(titre);
+			label.setBackground(FrameAccueil.COULEUR_FOND);
 			this.frameAccueil.ajouterTexte(this.saisieTexte.getText(), titre);
 			
-			this.panelListeTexte.add(checkBox, BorderLayout.CENTER);
+			this.panelListeTexte.add(label, BorderLayout.CENTER);
 			this.panelListeTexte.setBorder(
 				BorderFactory.createTitledBorder(
 					BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10),
@@ -183,9 +190,11 @@ public class PanelComparaison extends JPanel implements ActionListener
 
 		if (e.getSource() == this.btnAnalyser)
 		{
-			// TODO Algo partie métier
-			panelResultat.genererAffichage();
-			this.frameAccueil.pageSuivante(); // Page de chargement
+			if (!this.frameAccueil.getComparants().isEmpty())
+			{
+				panelResultat.genererAffichage();
+				this.frameAccueil.pageSuivante(); // Page de chargement
+			}
 		}
 	}
 }

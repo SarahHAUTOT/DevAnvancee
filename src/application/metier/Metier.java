@@ -155,6 +155,9 @@ public class Metier {
 	public boolean setMinGram(int min) {
 		if (min < maxGram) {
 			this.minGram = min;
+			if (this.compare!=null) {
+				this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			}
 			return true;
 		}
 		return false;
@@ -163,9 +166,28 @@ public class Metier {
 	public boolean setMaxGram(int max) {
 		if (this.minGram < max) {
 			this.maxGram = max;
+			if (this.compare!=null) {
+				this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			}
 			return true;
 		}
 		return false;
+	}
+
+	/**
+	 * Nettoyer la liste des textes comparants
+	 * 
+	 */
+	public void nettoyerComparants() {
+		this.lstComparant.removeAll(this.lstComparant);
+	}
+
+	/**
+	 * Nettoyer le texte comparé
+	 * 
+	 */
+	public void nettoyerCompare() {
+		this.compare = null;
 	}
 
 	/**
@@ -192,7 +214,7 @@ public class Metier {
 	 * @param texte
 	 */
 	public void setCompareTexte(String texte) {
-		this.compare = new TextCompare(texte, minGram, maxGram);
+		this.compare = new TextCompare(texte, this.minGram, this.maxGram);
 	}
 
 	/**
@@ -201,7 +223,7 @@ public class Metier {
 	 * @param fichier
 	 */
 	public void setCompareFic(File fichier) {
-		this.compare = new TextCompare(Metier.recupTexteFichier(fichier), minGram, maxGram);
+		this.compare = new TextCompare(Metier.recupTexteFichier(fichier), this.minGram, this.maxGram);
 	}
 
 	/**
