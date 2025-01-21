@@ -155,7 +155,9 @@ public class Metier {
 	public boolean setMinGram(int min) {
 		if (min < maxGram) {
 			this.minGram = min;
-			this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			if (this.compare!=null) {
+				this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			}
 			return true;
 		}
 		return false;
@@ -164,7 +166,9 @@ public class Metier {
 	public boolean setMaxGram(int max) {
 		if (this.minGram < max) {
 			this.maxGram = max;
-			this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			if (this.compare!=null) {
+				this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			}
 			return true;
 		}
 		return false;
