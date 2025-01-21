@@ -51,15 +51,9 @@ public class Metier {
 
 	public List<Correspondance> compare() {
 
-		System.out.println(this.lstComparant.size());
 		List<Correspondance> correspondances = new ArrayList<Correspondance>();
 		for (TextComparant comparant : lstComparant) {
-			System.out.println("comparaison de " + comparant.nom);
 			correspondances.addAll(detecterPlagiat(comparant));
-		}
-
-		for (Correspondance correspondance : correspondances) {
-			System.out.println(correspondance);
 		}
 
 		return correspondances;
@@ -82,13 +76,13 @@ public class Metier {
 
 					if (this.compare.getNGrams().containsKey(nGramCandidate)) {
 						// Correspondance trouvée
-						PlageDeMots comparedRange = new PlageDeMots(
+						PlageDeMots comparantRange = new PlageDeMots(
 								comparant.getMotsNormalises().get(i).start,
 								comparant.getMotsNormalises().get(i + taille - 1).end);
-						PlageDeMots referenceRange = this.compare.getNGrams().get(nGramCandidate);
+						PlageDeMots compareRange = this.compare.getNGrams().get(nGramCandidate);
 
 						correspondances
-								.add(new Correspondance(nGramCandidate, comparedRange, referenceRange, comparant));
+								.add(new Correspondance(nGramCandidate, compareRange, comparantRange, comparant));
 
 						// Si un n-gramme de taille maxGram est trouvé, vérifier après lui avec minGram
 						if (taille == maxGram && i + taille < n) {
@@ -120,7 +114,7 @@ public class Metier {
 		}
 
 		// Trier les correspondances par plage de mots comparée (début croissant)
-		correspondances.sort(Comparator.comparingInt(c -> c.getComparedRange().debut));
+		correspondances.sort(Comparator.comparingInt(c -> c.getCompareRange().debut));
 
 		List<Correspondance> fusionnees = new ArrayList<>();
 		Correspondance actuelle = correspondances.get(0);
@@ -129,21 +123,21 @@ public class Metier {
 			Correspondance suivante = correspondances.get(i);
 
 			// Vérifier si les plages de mots se chevauchent ou se touchent
-			if (actuelle.getComparedRange().fin >= suivante.getComparedRange().debut - 1) {
+			if (actuelle.getCompareRange().fin >= suivante.getCompareRange().debut - 1) {
 				// Fusionner les plages
-				PlageDeMots plageCompareeFusionnee = new PlageDeMots(
-						actuelle.getComparedRange().debut,
-						Math.max(actuelle.getComparedRange().fin, suivante.getComparedRange().fin));
+				PlageDeMots plageCompareFusionnee = new PlageDeMots(
+						Math.min(actuelle.getCompareRange().debut, suivante.getCompareRange().debut),
+						Math.max(actuelle.getCompareRange().fin  , suivante.getCompareRange().fin  ));
 
-				PlageDeMots plageReferenceFusionnee = new PlageDeMots(
-						actuelle.getReferenceRange().debut,
-						Math.max(actuelle.getReferenceRange().fin, suivante.getReferenceRange().fin));
+				PlageDeMots plageComparantFusionnee = new PlageDeMots(
+					Math.min(actuelle.getComparantRange().debut, suivante.getComparantRange().debut),
+					Math.max(actuelle.getComparantRange().fin  , suivante.getComparantRange().fin  ));
 
 				// Fusionner le texte (ajouter un espace entre deux n-grammes)
 				String texteFusionne = actuelle.getTexte() + " " + suivante.getTexte();
 
 				// Créer une nouvelle correspondance fusionnée
-				actuelle = new Correspondance(texteFusionne, plageCompareeFusionnee, plageReferenceFusionnee,
+				actuelle = new Correspondance(texteFusionne, plageCompareFusionnee, plageComparantFusionnee,
 						actuelle.getTexteComparant());
 			} else {
 				// Ajouter la correspondance actuelle à la liste et passer à la suivante
@@ -199,7 +193,6 @@ public class Metier {
 	 */
 	public void setCompareTexte(String texte) {
 		this.compare = new TextCompare(texte, minGram, maxGram);
-		;
 	}
 
 	/**
