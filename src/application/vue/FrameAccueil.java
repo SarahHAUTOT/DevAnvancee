@@ -1,8 +1,12 @@
 package application.vue;
 
 import java.io.File;
+import java.io.IOException;
+import java.net.URL;
 
+import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
@@ -20,7 +24,9 @@ import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.Font;
+import java.awt.Image;
 import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -102,6 +108,18 @@ public class FrameAccueil extends JFrame
 
 		this.setVisible(true);
 		// this.pack();
+
+		
+		try 
+		{
+			URL resource = getClass().getResource("images/logo.png");
+			BufferedImage img = ImageIO.read(resource);
+			java.awt.Image icon = img.getScaledInstance(50, 50, java.awt.Image.SCALE_SMOOTH);
+			this.setTitle("CopyWriter");
+			this.setIconImage(icon);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	/* ------------------------------------------------------------------------------------------------------ */
