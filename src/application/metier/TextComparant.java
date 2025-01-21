@@ -26,14 +26,7 @@ public class TextComparant {
     public static List<PositionMot> normaliser(String text) {
         List<PositionMot> result = new ArrayList<>();
         int index = 0;
-    
-        // Remplacer les sauts de ligne et les caractères similaires par un espace
-        text = text.replace("\n", " ").replace("\r", " ");
-    
-        // Convertir les caractères accentués en leurs équivalents non accentués
-        text = Normalizer.normalize(text, Normalizer.Form.NFD);
-        text = text.replaceAll("\\p{M}", ""); // Supprimer les marques diacritiques (accents)
-    
+
         while (index < text.length()) {
             char c = text.charAt(index);
     

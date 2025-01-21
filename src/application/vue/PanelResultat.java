@@ -36,7 +36,7 @@ public class PanelResultat extends JPanel implements ActionListener
 	private FrameAccueil frameAccueil;
 	private JButton      btnAccueil;
 
-	private String       comparant;
+	private String       compare;
 	private List<Correspondance> lstPlagiatDetecte;
 
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -49,7 +49,7 @@ public class PanelResultat extends JPanel implements ActionListener
 	public void genererAffichage ( )
 	{
 		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
-		this.comparant         = this.frameAccueil.getCompare().getTextOriginal();
+		this.compare         = this.frameAccueil.getCompare().getTextOriginal();
 
 
 		/*     PANEL NORD     */
@@ -81,7 +81,7 @@ public class PanelResultat extends JPanel implements ActionListener
 
 		if (nbPlag == 0)
 		{
-			JTextArea text = new JTextArea(this.comparant);
+			JTextArea text = new JTextArea(this.compare);
 			text.setEditable(false);
 			text.setLineWrap(true);
    			text.setWrapStyleWord(true);
@@ -101,11 +101,18 @@ public class PanelResultat extends JPanel implements ActionListener
 				/* TEXTE */
 				/*       */
 
-				PlageDeMots pmSus = correspondance.getComparedRange();
-				PlageDeMots pmRef = correspondance.getReferenceRange();
+				PlageDeMots pmCompare = correspondance.getCompareRange();
+				PlageDeMots pmComparant = correspondance.getComparantRange();
 
-				String sSus = this.comparant.substring(pmSus.getStart(), pmSus.getEnd());	
-				String sRef = correspondance.getTexteComparant().getTextOriginal().substring(pmRef.getStart(), pmRef.getEnd());	
+
+				System.out.println(this.compare + "|" + this.compare.length());
+				System.out.println(pmCompare.getStart() + "|" + pmCompare.getEnd());
+
+				System.out.println(correspondance.getTexteComparant().getTextOriginal() + "|" + correspondance.getTexteComparant().getTextOriginal().length());
+				System.out.println(pmComparant.getStart() + "|" + pmComparant.getEnd());
+
+				String sSus = this.compare.substring(pmCompare.getStart(), pmCompare.getEnd());
+				String sRef = correspondance.getTexteComparant().getTextOriginal().substring(pmComparant.getStart(), pmComparant.getEnd());	
 
 
 			
@@ -128,7 +135,7 @@ public class PanelResultat extends JPanel implements ActionListener
 				Highlighter highlighterSus = textSus.getHighlighter();
 				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur1());
 				try {
-					highlighterSus.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterSus);
+					highlighterSus.addHighlight(pmCompare.getStart(), pmCompare.getEnd(), painterSus);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -157,7 +164,7 @@ public class PanelResultat extends JPanel implements ActionListener
 				Highlighter      highlighterRef = textRef.getHighlighter();
 				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur2());
 				try {
-					highlighterRef.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterRef);
+					highlighterRef.addHighlight(pmCompare.getStart(), pmCompare.getEnd(), painterRef);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
