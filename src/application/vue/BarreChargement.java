@@ -19,7 +19,7 @@ public class BarreChargement extends JDialog {
 	@Serial
 	private static final long serialVersionUID = -8490159629252832349L;
 	
-	private final JProgressBar barreChargement;
+	public final JProgressBar barreChargement;
 	
 	public BarreChargement(int min, int max) {
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);

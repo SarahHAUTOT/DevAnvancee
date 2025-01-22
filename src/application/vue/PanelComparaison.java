@@ -145,7 +145,7 @@ public class PanelComparaison extends JPanel implements ActionListener
 		this.listeLabel.removeAll(this.listeLabel);
 		this.panelListeTexte.removeAll();
 		this.panelListeTexte.validate();
-//		this.saisieTexte.setText("");
+		this.saisieTexte.setText("");
 		this.repaint();
 	}
 

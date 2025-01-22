@@ -92,7 +92,7 @@ public class PanelSuspect extends JPanel implements ActionListener
 
 	public void reinitialiserPanel()
 	{
-//		this.saisieTexte.setText("");
+		this.saisieTexte.setText("");
 		this.repaint();
 	}
 
@@ -176,7 +176,7 @@ public class PanelSuspect extends JPanel implements ActionListener
 
 		if (e.getSource() == this.btnSuivant)
 		{
-			if (this.frameAccueil.getCompare() == null && this.saisieTexte.getText().equals("Saisir un texte...") )
+			if (this.frameAccueil.getCompare() == null && this.saisieTexte.getText().isEmpty() )
 			{
 				File fichier = this.frameAccueil.ouvrirFichier(null);
 				if (fichier == null) return;

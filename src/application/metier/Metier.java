@@ -6,6 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
+import javax.swing.SwingWorker;
+
 import application.vue.BarreChargement;
 import application.vue.BarreChargement.ChargementBarre;
 
@@ -36,7 +38,7 @@ public class Metier {
 			this.minGram = 5;
 			this.maxGram = 55;
 		}
-		this.lstComparant = new ArrayList<TextComparant>();
+		this.lstComparant = new ArrayList<>();
 	}
 
 	/*------------------------------------------------------------------------------------------------------*/
@@ -51,19 +53,39 @@ public class Metier {
 	/*------------------------------------------------------------------------------------------------------*/
 
 	public List<Correspondance> compare() {
-		BarreChargement bc = new BarreChargement(0, 100);
-		bc.setTitle("Recherche de plagiat");
-		bc.repaint();
-		bc.charger(new ChargementBarre(() -> this.getTauxCompletion() <= 100) {
-			@Override
-			public int chargement() {
-				return (int) Metier.this.getTauxCompletion();
-			}
-		}, null);
+		
+		
+		SwingWorker<Void, Void> worker = new SwingWorker<>() {
+			
+			BarreChargement bc;
+			
+            @Override
+            protected Void doInBackground() throws Exception {
+            	bc = new BarreChargement(0, 100);
+        		bc.setTitle("Recherche de plagiat");
+        		bc.barreChargement.setStringPainted(true);
+        		bc.setVisible(true);
+        		bc.repaint();
+        		bc.charger(new ChargementBarre(() -> Metier.this.getTauxCompletion() <= 100) {
+        			@Override
+        			public int chargement() {
+        				return (int) Metier.this.getTauxCompletion();
+        			}
+        		}, null);
+                return null;
+            }
+
+            @Override
+            protected void done() {
+            	bc.close();
+            }
+        };
+        worker.execute();
+		
 		Metier.totalComparaisons = this.compare.getMotsNormalises().size() * this.lstComparant.size();
 		Metier.comparaisonsEffectues = 0;
 		
-		bc.setVisible(true);
+		
 		
 		System.out.println(this.lstComparant.size());
 		List<Correspondance> correspondances = new ArrayList<>();
@@ -71,8 +93,6 @@ public class Metier {
 		for (TextComparant comparant : this.lstComparant) {
 			correspondances.addAll(detecterPlagiat(comparant));
 		}
-		
-		bc.close();
 
 		return correspondances;
 	}

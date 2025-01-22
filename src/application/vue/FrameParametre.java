@@ -2,12 +2,12 @@ package application.vue;
 
 import java.awt.Color;
 import java.awt.Dimension;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.Font;
 
 import javax.swing.JButton;
 import javax.swing.JColorChooser;
@@ -16,6 +16,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.SwingWorker;
 
 import application.Controleur;
 
@@ -222,9 +223,21 @@ public class FrameParametre extends JFrame implements ActionListener
 
             FrameParametre.couleur1 = this.btnCouleur1.getBackground();
             FrameParametre.couleur2 = this.btnCouleur2.getBackground();
+            
+            SwingWorker<Void, Void> worker = new SwingWorker<>() {
+                @Override
+                protected Void doInBackground() throws Exception {
+                	FrameParametre.this.ctrl.majNombre(FrameParametre.nbMinMots, FrameParametre.nbMaxMots);
+                    return null;
+                }
 
-            this.ctrl.majNombre(FrameParametre.nbMinMots, FrameParametre.nbMaxMots);
-
+                @Override
+                protected void done() {
+                    FrameParametre.this.ctrl.getFrameAccueil().repaint();
+                }
+            };
+            worker.execute();
+            
             this.dispose();
         }
     }
