@@ -1,5 +1,12 @@
 package application.vue;
 
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.List;
+
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JPanel;
@@ -10,13 +17,6 @@ import javax.swing.border.Border;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.Highlighter;
 import javax.swing.text.Highlighter.HighlightPainter;
-
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
-import java.awt.event.*;
-import java.util.List;
 
 import application.metier.Correspondance;
 import application.metier.PlageDeMots;
@@ -35,22 +35,26 @@ public class PanelResultat extends JPanel implements ActionListener
 	/* ------------------------------------------------------------------------------------------------------ */
 
 	private FrameAccueil frameAccueil;
-	private JButton      btnRetour;
+	private JButton      btnAccueil;
 
-	private String       comparant;
+	private String       compare;
 	private List<Correspondance> lstPlagiatDetecte;
+
+	private final static int NB_CARA = 15;
 
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-		public PanelResultat ( FrameAccueil frame ) { this.frameAccueil = frame; }
+	public PanelResultat ( FrameAccueil frame ) { this.frameAccueil = frame; }
 
 
 	public void genererAffichage ( )
 	{
+		this.removeAll();
+
 		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
-		this.comparant         = this.frameAccueil.getCompare().getTextOriginal();
+		this.compare         = this.frameAccueil.getCompare().getTextOriginal();
 
 
 		/*     PANEL NORD     */
@@ -61,7 +65,7 @@ public class PanelResultat extends JPanel implements ActionListener
 		if (nbPlag > 0)
 		{
 			panelNorth.add(this.frameAccueil.panelTitre("Oh oh ! Il semblerait que ces textes se ressemblent..."));
-			panelNorth.add(this.frameAccueil.panelSousTitre("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 1 ? "s " : " ") + "de similitude, correspondant à calculer % du text."));
+			panelNorth.add(this.frameAccueil.panelSousTitre("Nous avons détecté " + nbPlag + " instance"+ (nbPlag > 1 ? "s " : " ") + "de similitude."));
 		}
 		else
 		{
@@ -82,7 +86,7 @@ public class PanelResultat extends JPanel implements ActionListener
 
 		if (nbPlag == 0)
 		{
-			JTextArea text = new JTextArea(this.comparant);
+			JTextArea text = new JTextArea(this.compare);
 			text.setEditable(false);
 			text.setLineWrap(true);
    			text.setWrapStyleWord(true);
@@ -102,17 +106,31 @@ public class PanelResultat extends JPanel implements ActionListener
 				/* TEXTE */
 				/*       */
 
-				PlageDeMots pmSus = correspondance.getComparedRange();
-				PlageDeMots pmRef = correspondance.getReferenceRange();
-
-				String sSus = this.comparant.substring(pmSus.getStart(), pmSus.getEnd());	
-				String sRef = correspondance.getTexteComparant().getTextOriginal().substring(pmRef.getStart(), pmRef.getEnd());	
+				PlageDeMots pmCompare = correspondance.getCompareRange();
+				PlageDeMots pmComparant = correspondance.getComparantRange();
 
 
+				System.out.println(this.compare + "|" + this.compare.length());
+				System.out.println(pmCompare.getStart() + "|" + pmCompare.getEnd());
+
+				System.out.println(correspondance.getTexteComparant().getTextOriginal() + "|" + correspondance.getTexteComparant().getTextOriginal().length());
+				System.out.println(pmComparant.getStart() + "|" + pmComparant.getEnd());
+
+
+				int debSus = pmCompare.getStart()                       < PanelResultat.NB_CARA     ? 0                     : pmCompare.getStart()  - PanelResultat.NB_CARA;
+				int finSus = pmCompare.getEnd() + PanelResultat.NB_CARA > this.compare.length() - 1 ? this.compare.length() : pmCompare.getEnd()    +  PanelResultat.NB_CARA;
+				String sSus = this.compare.substring(debSus, finSus);
+
+
+				String ref = correspondance.getTexteComparant().getTextOriginal();	
+
+				int debRef = pmComparant.getStart()                       < PanelResultat.NB_CARA ? 0            : pmComparant.getStart() - PanelResultat.NB_CARA;
+				int finRef = pmComparant.getEnd() + PanelResultat.NB_CARA > ref.length() - 1      ? ref.length() : pmComparant.getEnd()   + PanelResultat.NB_CARA;
+				String sRef = ref.substring(debRef, finRef);
 			
 				/*          */
 				/* COUPABLE */
-				/*          */
+				/*          */ 
 
 				// JScrollPane du coupable
 				JScrollPane spSus = new JScrollPane();
@@ -123,13 +141,15 @@ public class PanelResultat extends JPanel implements ActionListener
 				textSus.setEditable(false);
 				textSus.setLineWrap(true);
 				textSus.setWrapStyleWord(true);
-				textSus.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+				textSus.setBorder(border);
 
 				// Surligner une portion spécifique dans le texte suspect
 				Highlighter highlighterSus = textSus.getHighlighter();
-				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(Color.YELLOW);
+				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur1());
 				try {
-					highlighterSus.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterSus);
+					// | 15 et que higlhit start a 20, faut calculer 5
+					// | commence à 15; finit à 30, finit à 25 debase 
+					highlighterSus.addHighlight(pmCompare.getStart() - debSus, pmCompare.getEnd() - debSus + 1, painterSus);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -154,11 +174,12 @@ public class PanelResultat extends JPanel implements ActionListener
 				textRef.setLineWrap(true);
 				textRef.setWrapStyleWord(true);
 
+
 				// Surligner une portion spécifique dans le texte suspect
 				Highlighter      highlighterRef = textRef.getHighlighter();
-				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(Color.ORANGE);
+				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur2());
 				try {
-					highlighterRef.addHighlight(pmSus.getStart(), pmSus.getEnd(), painterRef);
+					highlighterRef.addHighlight(pmComparant.getStart() - debRef	, pmComparant.getEnd() - debRef + 1, painterRef);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -177,8 +198,8 @@ public class PanelResultat extends JPanel implements ActionListener
 
 		/*     PANEL SUD     */
 		JPanel panelSouth = new JPanel(new FlowLayout(FlowLayout.CENTER));
-		this.btnRetour = new JButton("Faire une nouvelle analyse");
-		panelSouth.add(this.btnRetour);
+		this.btnAccueil = new JButton("Faire une nouvelle analyse");
+		panelSouth.add(this.btnAccueil);
 
 
 
@@ -188,16 +209,18 @@ public class PanelResultat extends JPanel implements ActionListener
 		this.add(sp         , BorderLayout.CENTER);
 		this.add(panelSouth , BorderLayout.SOUTH );
 
-		this.btnRetour.addActionListener(this);
+		this.btnAccueil.addActionListener(this);
 	}
 
 
 	@Override
 	public void actionPerformed(ActionEvent e) 
 	{
-		if (e.getSource() == this.btnRetour) 
-			System.out.println("Retour");
-			// TODO : Changer pour retourner au panel principal
+		if (e.getSource() == this.btnAccueil)
+		{
+			this.frameAccueil.afficherPage(FrameAccueil.PAGE_ACCUEIL);
+			this.frameAccueil.reinitialiserMetier();
+		}
 	}
 	
 	

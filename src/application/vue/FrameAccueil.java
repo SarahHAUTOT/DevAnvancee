@@ -1,7 +1,18 @@
 package application.vue;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
+import javax.imageio.ImageIO;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFileChooser;
@@ -15,14 +26,6 @@ import application.Controleur;
 import application.metier.Correspondance;
 import application.metier.TextComparant;
 import application.metier.TextCompare;
-
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.Font;
-import java.awt.Toolkit;
-import java.util.ArrayList;
-import java.util.List;
 
 /** Frame d'accueil
  * @author : Plein de gens
@@ -55,11 +58,10 @@ public class FrameAccueil extends JFrame
 	public static final Color COULEUR_PRIMAIRE   = Color.decode("#B0E3E6");
 	public static final Color COULEUR_FOND       = Color.decode("#FBFBFB");
 
-	@SuppressWarnings("unused")
-	private PanelParametre   panelParametre;
 	private PanelSuspect     panelSuspect;
 	private PanelComparaison panelComparaison;
 	private PanelResultat    panelResultat;
+	private FrameParametre   frameParametre;
 
 	private JPanel[] panels;
 	private int      idPanel;
@@ -77,9 +79,9 @@ public class FrameAccueil extends JFrame
 	{
 		/* Création des composants */
 		this.ctrl = ctrl;
-		this.panelParametre   = new PanelParametre( this );
 		this.panelSuspect     = new PanelSuspect  ( this );
 		this.panelResultat    = new PanelResultat ( this );
+		this.frameParametre   = null;
 		this.panelComparaison = new PanelComparaison ( this, this.panelResultat );
 		this.panels           = new JPanel[4];
 
@@ -106,6 +108,18 @@ public class FrameAccueil extends JFrame
 
 		this.setVisible(true);
 		// this.pack();
+
+		
+		try 
+		{
+			URL resource = getClass().getResource("images/logo.png");
+			BufferedImage img = ImageIO.read(resource);
+			java.awt.Image icon = img.getScaledInstance(50, 50, java.awt.Image.SCALE_SMOOTH);
+			this.setTitle("CopyWriter");
+			this.setIconImage(icon);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -119,6 +133,22 @@ public class FrameAccueil extends JFrame
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                       Méthode de la classe                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
+
+	public void reinitialiserMetier()
+	{
+		System.out.println("Reinit");
+		this.ctrl.nettoyerComparants();
+		this.ctrl.nettoyerCompare();
+		this.panelComparaison.reinitialiserPanel();
+		this.panelSuspect.reinitialiserPanel();
+
+		for (TextComparant txt : this.ctrl.getComparants())
+			System.out.println(txt);
+		
+		System.out.println(this.ctrl.getCompare());
+
+		this.repaint();
+	}
 
 	public void pageSuivante()
 	{
@@ -143,7 +173,15 @@ public class FrameAccueil extends JFrame
 
 	public void afficherPageParametre()
 	{
-		// TODO Alizéa
+		this.frameParametre = new FrameParametre(this.ctrl);
+	}
+
+	@Override
+	public void dispose()
+	{
+		if (this.frameParametre != null)
+			this.frameParametre.dispose();
+		super.dispose();
 	}
 
 	private void majPanel()
@@ -303,5 +341,15 @@ public class FrameAccueil extends JFrame
 	}
 
 	public List<TextComparant> getComparants() { return this.ctrl.getComparants(); }
+
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                       Liaison Paramètres-Panel                                         */
+	/* ------------------------------------------------------------------------------------------------------ */
+
+	public static int   getNbMinMots ( ) { return FrameParametre.getNbMinMots(); }
+    public static int   getNbMaxMots ( ) { return FrameParametre.getNbMaxMots(); }
+
+    public Color getCouleur1  ( ) { return FrameParametre.getCouleur1 (); }
+    public Color getCouleur2  ( ) { return FrameParametre.getCouleur2 (); }
 
 }

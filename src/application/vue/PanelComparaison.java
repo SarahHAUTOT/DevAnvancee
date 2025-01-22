@@ -13,7 +13,6 @@ import java.util.List;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
-import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -34,7 +33,7 @@ public class PanelComparaison extends JPanel implements ActionListener
 	private PanelResultat panelResultat;
 	private JPanel panelListeTexte;
 
-	private List<JCheckBox> listeCheckbox;
+	private List<JLabel> listeLabel;
 
 	private JButton btnAnalyser;
 	private JButton btnImporter;
@@ -54,9 +53,10 @@ public class PanelComparaison extends JPanel implements ActionListener
 		this.btnAnalyser = new JButton("Analyser");
 		this.btnImporter = new JButton("Importer un .txt");
 		this.btnImporterTexte = new JButton("Importer le texte entré");
+		
 		this.saisieTexte = new PlaceholderTextArea();
 		this.saisieTexte.setPlaceholder("Saisir un texte...");
-		this.listeCheckbox = new ArrayList<JCheckBox>();
+		this.listeLabel = new ArrayList<>();
 
 		this.frameAccueil = frame;
 		this.frameAccueil.styliserBouton(this.btnAnalyser);
@@ -111,9 +111,9 @@ public class PanelComparaison extends JPanel implements ActionListener
 		JPanel panelImportation = new JPanel();
 		JLabel lblOu = new JLabel("OU", JLabel.CENTER);
 		
-		panelImportation.add(this.btnImporter);
-		panelImportation.add(lblOu);
 		panelImportation.add(this.btnImporterTexte);
+		panelImportation.add(lblOu);
+		panelImportation.add(this.btnImporter);
 		panelImportation.setBackground(FrameAccueil.COULEUR_FOND);
 
 		importPanel.add(panelImportation);
@@ -139,7 +139,17 @@ public class PanelComparaison extends JPanel implements ActionListener
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Modificateur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
-	
+
+	public void reinitialiserPanel()
+	{
+		this.listeLabel.removeAll(this.listeLabel);
+		this.panelListeTexte.removeAll();
+		this.saisieTexte.setText("Saisir un texte...");
+		this.panelListeTexte.validate();
+		this.repaint();
+	}
+
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                    Méthode Ecouteur Bouton                                             */
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -155,10 +165,10 @@ public class PanelComparaison extends JPanel implements ActionListener
 			this.frameAccueil.ajouterFichier(fichier, fichier.getName());
 
 			// Ajout d'un nouveau texte dans le panel
-			JCheckBox checkBox = new JCheckBox(fichier.getName());
-			this.listeCheckbox.add(checkBox);
-			checkBox.setBackground(FrameAccueil.COULEUR_FOND);
-			this.panelListeTexte.add(checkBox, BorderLayout.CENTER);
+			JLabel label = new JLabel(fichier.getName());
+			this.listeLabel.add(label);
+			label.setBackground(FrameAccueil.COULEUR_FOND);
+			this.panelListeTexte.add(label, BorderLayout.CENTER);
 			this.panelListeTexte.setBorder(
 				BorderFactory.createTitledBorder(
 					BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10),
@@ -176,11 +186,11 @@ public class PanelComparaison extends JPanel implements ActionListener
 			this.saisieTexte.getText().substring(0, endIndex) + "... " +
 				"(" + this.saisieTexte.getText().length() +" caractères)";
 
-			JCheckBox checkBox = new JCheckBox(titre);
-			checkBox.setBackground(FrameAccueil.COULEUR_FOND);
+			JLabel label = new JLabel(titre);
+			label.setBackground(FrameAccueil.COULEUR_FOND);
 			this.frameAccueil.ajouterTexte(this.saisieTexte.getText(), titre);
 			
-			this.panelListeTexte.add(checkBox, BorderLayout.CENTER);
+			this.panelListeTexte.add(label, BorderLayout.CENTER);
 			this.panelListeTexte.setBorder(
 				BorderFactory.createTitledBorder(
 					BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10),
@@ -193,10 +203,11 @@ public class PanelComparaison extends JPanel implements ActionListener
 
 		if (e.getSource() == this.btnAnalyser)
 		{
-			// TODO Algo partie métier
-			panelResultat.genererAffichage();
-			// Page de chargement
-			this.frameAccueil.pageSuivante();
+			if (!this.frameAccueil.getComparants().isEmpty())
+			{
+				panelResultat.genererAffichage();
+				this.frameAccueil.pageSuivante();
+			}
 		}
 	}
 }

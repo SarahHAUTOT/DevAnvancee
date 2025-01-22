@@ -30,8 +30,8 @@ public class Metier {
 			this.minGram = minGram;
 			this.maxGram = maxGram;
 		} else {
-			this.minGram = 1;
-			this.maxGram = 51;
+			this.minGram = 5;
+			this.maxGram = 55;
 		}
 		this.lstComparant = new ArrayList<TextComparant>();
 	}
@@ -48,7 +48,6 @@ public class Metier {
 	/*------------------------------------------------------------------------------------------------------*/
 
 	public List<Correspondance> compare() {
-
 		System.out.println(this.lstComparant.size());
 		List<Correspondance> correspondances = new ArrayList<>();
 		
@@ -63,12 +62,7 @@ public class Metier {
 //		}, null);
 		
 		for (TextComparant comparant : lstComparant) {
-			System.out.println("comparaison de " + comparant.nom);
 			correspondances.addAll(detecterPlagiat(comparant));
-		}
-
-		for (Correspondance correspondance : correspondances) {
-			System.out.println(correspondance);
 		}
 
 		return correspondances;
@@ -91,13 +85,13 @@ public class Metier {
 
 					if (this.compare.getNGrams().containsKey(nGramCandidate)) {
 						// Correspondance trouvée
-						PlageDeMots comparedRange = new PlageDeMots(
+						PlageDeMots comparantRange = new PlageDeMots(
 								comparant.getMotsNormalises().get(i).start,
 								comparant.getMotsNormalises().get(i + taille - 1).end);
-						PlageDeMots referenceRange = this.compare.getNGrams().get(nGramCandidate);
+						PlageDeMots compareRange = this.compare.getNGrams().get(nGramCandidate);
 
 						correspondances
-								.add(new Correspondance(nGramCandidate, comparedRange, referenceRange, comparant));
+								.add(new Correspondance(nGramCandidate, compareRange, comparantRange, comparant));
 
 						// Si un n-gramme de taille maxGram est trouvé, vérifier après lui avec minGram
 						if (taille == maxGram && i + taille < n) {
@@ -129,7 +123,7 @@ public class Metier {
 		}
 
 		// Trier les correspondances par plage de mots comparée (début croissant)
-		correspondances.sort(Comparator.comparingInt(c -> c.getComparedRange().debut));
+		correspondances.sort(Comparator.comparingInt(c -> c.getCompareRange().debut));
 
 		List<Correspondance> fusionnees = new ArrayList<>();
 		Correspondance actuelle = correspondances.get(0);
@@ -138,21 +132,21 @@ public class Metier {
 			Correspondance suivante = correspondances.get(i);
 
 			// Vérifier si les plages de mots se chevauchent ou se touchent
-			if (actuelle.getComparedRange().fin >= suivante.getComparedRange().debut - 1) {
+			if (actuelle.getCompareRange().fin >= suivante.getCompareRange().debut - 1) {
 				// Fusionner les plages
-				PlageDeMots plageCompareeFusionnee = new PlageDeMots(
-						actuelle.getComparedRange().debut,
-						Math.max(actuelle.getComparedRange().fin, suivante.getComparedRange().fin));
+				PlageDeMots plageCompareFusionnee = new PlageDeMots(
+						Math.min(actuelle.getCompareRange().debut, suivante.getCompareRange().debut),
+						Math.max(actuelle.getCompareRange().fin  , suivante.getCompareRange().fin  ));
 
-				PlageDeMots plageReferenceFusionnee = new PlageDeMots(
-						actuelle.getReferenceRange().debut,
-						Math.max(actuelle.getReferenceRange().fin, suivante.getReferenceRange().fin));
+				PlageDeMots plageComparantFusionnee = new PlageDeMots(
+					Math.min(actuelle.getComparantRange().debut, suivante.getComparantRange().debut),
+					Math.max(actuelle.getComparantRange().fin  , suivante.getComparantRange().fin  ));
 
 				// Fusionner le texte (ajouter un espace entre deux n-grammes)
 				String texteFusionne = actuelle.getTexte() + " " + suivante.getTexte();
 
 				// Créer une nouvelle correspondance fusionnée
-				actuelle = new Correspondance(texteFusionne, plageCompareeFusionnee, plageReferenceFusionnee,
+				actuelle = new Correspondance(texteFusionne, plageCompareFusionnee, plageComparantFusionnee,
 						actuelle.getTexteComparant());
 			} else {
 				// Ajouter la correspondance actuelle à la liste et passer à la suivante
@@ -168,8 +162,12 @@ public class Metier {
 	}
 
 	public boolean setMinGram(int min) {
+		System.out.println("Min" + min + maxGram);
 		if (min < maxGram) {
 			this.minGram = min;
+			if (this.compare!=null) {
+				this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			}
 			return true;
 		}
 		return false;
@@ -178,9 +176,28 @@ public class Metier {
 	public boolean setMaxGram(int max) {
 		if (this.minGram < max) {
 			this.maxGram = max;
+			if (this.compare!=null) {
+				this.compare = new TextCompare(compare.getTextOriginal(), this.minGram, this.maxGram);
+			}
 			return true;
 		}
 		return false;
+	}
+
+	/**
+	 * Nettoyer la liste des textes comparants
+	 * 
+	 */
+	public void nettoyerComparants() {
+		this.lstComparant.removeAll(this.lstComparant);
+	}
+
+	/**
+	 * Nettoyer le texte comparé
+	 * 
+	 */
+	public void nettoyerCompare() {
+		this.compare = null;
 	}
 
 	/**
@@ -207,8 +224,7 @@ public class Metier {
 	 * @param texte
 	 */
 	public void setCompareTexte(String texte) {
-		this.compare = new TextCompare(texte, minGram, maxGram);
-		;
+		this.compare = new TextCompare(texte, this.minGram, this.maxGram);
 	}
 
 	/**
@@ -217,7 +233,7 @@ public class Metier {
 	 * @param fichier
 	 */
 	public void setCompareFic(File fichier) {
-		this.compare = new TextCompare(Metier.recupTexteFichier(fichier), minGram, maxGram);
+		this.compare = new TextCompare(Metier.recupTexteFichier(fichier), this.minGram, this.maxGram);
 	}
 
 	/**
@@ -231,7 +247,7 @@ public class Metier {
 		try {
 			Scanner sc = new Scanner(fichier, "UTF-8");
 			while (sc.hasNextLine()) {
-				texte += '\n'+sc.nextLine();
+				texte += sc.nextLine() + '\n';
 			}
 			sc.close();
 		} catch (Exception e) {

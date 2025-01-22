@@ -29,7 +29,6 @@ public class TextCompare extends TextComparant {
                 int start = words.get(i).start;
                 int end = words.get(i + size - 1).end;
                 nGrams.put(nGram, new PlageDeMots(start, end));
-                //System.out.print(nGram + "|");
             }
         }
         return nGrams;

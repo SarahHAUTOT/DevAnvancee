@@ -1,11 +1,14 @@
 package application.vue;
 
 
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.FlowLayout;
+import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.URL;
 
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
@@ -42,41 +45,41 @@ public class BarreNav extends JToolBar implements ActionListener
 		/*-------------------------------*/
 
 		
-		this.btnLogo = new JButton(new ImageIcon("images/Logo.png"));
+		this.btnLogo = new JButton(this.getIcon("images/logo.png"));
 		this.btnLogo.setToolTipText("Ecureuil");
 		this.btnLogo.setActionCommand("logo");
-		this.btnLogo.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		this.btnLogo.setBackground(FrameAccueil.COULEUR_FOND);
 		
 
-		this.btnPageArriere = new JButton(new ImageIcon("images/undo.png"));
+		this.btnPageArriere = new JButton(this.getIcon("images/undo.png"));
 		this.btnPageArriere.setToolTipText("Page arrière");
 		this.btnPageArriere.setActionCommand("pageArriere");
-		this.btnPageArriere.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		this.btnPageArriere.setBackground(FrameAccueil.COULEUR_FOND);
 		
-		this.btnPageAvant = new JButton(new ImageIcon("images/redo.png"));
+		this.btnPageAvant = new JButton(this.getIcon("images/redo.png"));
 		this.btnPageAvant.setToolTipText("Page Avant");
 		this.btnPageAvant.setActionCommand("pageAvant");
-		this.btnPageAvant.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		this.btnPageAvant.setBackground(FrameAccueil.COULEUR_FOND);
 
-		this.btnTexte1 = new JButton(new ImageIcon("images/texte.png"));
+		this.btnTexte1 = new JButton(this.getIcon("images/texte.png"));
 		this.btnTexte1.setToolTipText("Nouveau texte");
 		this.btnTexte1.setActionCommand("compare");
-		this.btnTexte1.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		this.btnTexte1.setBackground(FrameAccueil.COULEUR_FOND);
 
-		this.btnTexte2 = new JButton(new ImageIcon("images/textes.png"));
+		this.btnTexte2 = new JButton(this.getIcon("images/textes.png"));
 		this.btnTexte2.setToolTipText("Texte comparant");
 		this.btnTexte2.setActionCommand("comaprants");
-		this.btnTexte2.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		this.btnTexte2.setBackground(FrameAccueil.COULEUR_FOND);
 		
-		this.btnParametreAnalyse = new JButton(new ImageIcon("images/parametre.png"));
+		this.btnParametreAnalyse = new JButton(this.getIcon("images/parametre.png"));
 		this.btnParametreAnalyse.setToolTipText("Paramêtre de l'analyse");
 		this.btnParametreAnalyse.setActionCommand("parametreAna");
-		this.btnParametreAnalyse.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		this.btnParametreAnalyse.setBackground(FrameAccueil.COULEUR_FOND);
 
-		this.btnAnalyse = new JButton(new ImageIcon("images/analyse.png"));
+		this.btnAnalyse = new JButton(this.getIcon("images/analyse.png"));
 		this.btnAnalyse.setToolTipText("Analyse");
 		this.btnAnalyse.setActionCommand("analyse");
-		this.btnAnalyse.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		this.btnAnalyse.setBackground(FrameAccueil.COULEUR_FOND);
 
 		/*-------------------------------*/
 		/* Positionnement des composants */
@@ -128,7 +131,7 @@ public class BarreNav extends JToolBar implements ActionListener
 		if (this.btnLogo == e.getSource() || this.btnTexte1 == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_ACCUEIL);
 
 		// Redirection a la deuxième page
-		if (this.btnParametreAnalyse == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_COMPARAISON);
+		if (this.btnTexte2 == e.getSource()) this.frameAccueil.afficherPage(FrameAccueil.PAGE_COMPARAISON);
 
 		// Paramètres
 		if (this.btnParametreAnalyse == e.getSource()) this.frameAccueil.afficherPageParametre();
@@ -137,4 +140,20 @@ public class BarreNav extends JToolBar implements ActionListener
 		// if (this.btnAnalyse == e.getSource()) this.frameAccueil.pageSuivante();
 
 	}
+
+
+	
+	private ImageIcon getIcon(String resourcePath) 
+	{
+        URL resource = getClass().getResource(resourcePath);
+        if (resource == null) {
+			System.out.println("Pas trouvé : " + resourcePath);
+            return null;
+        }
+
+		Image img = new ImageIcon(resource).getImage();
+		img = img.getScaledInstance(20,20, java.awt.Image.SCALE_SMOOTH);
+
+       return new ImageIcon(img);
+    }
 }

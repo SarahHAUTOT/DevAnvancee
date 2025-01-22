@@ -6,8 +6,7 @@ public class Correspondance {
     PlageDeMots positionComparant;
     TextComparant textRef;
 
-    public Correspondance(String text, PlageDeMots positionCompare, PlageDeMots positionComparant,
-            TextComparant textRef) {
+    public Correspondance(String text, PlageDeMots positionCompare, PlageDeMots positionComparant, TextComparant textRef) {
         this.text = text;
         this.positionCompare = positionCompare;
         this.positionComparant = positionComparant;
@@ -16,15 +15,15 @@ public class Correspondance {
 
     @Override
     public String toString() {
-        return String.format("Segment: '%s', comparé: [%s], %s: [%s]", "text", positionCompare, this.textRef.nom,
+        return String.format("Segment: '%s', comparé: [%s], %s: [%s]", text, positionCompare, this.textRef.nom,
                 positionComparant);
     }
 
-    public PlageDeMots getComparedRange() {
+    public PlageDeMots getCompareRange() {
         return positionCompare;
     }
 
-    public PlageDeMots getReferenceRange() {
+    public PlageDeMots getComparantRange() {
         return positionComparant;
     }
 

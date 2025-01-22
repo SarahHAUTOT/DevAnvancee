@@ -1,11 +1,13 @@
 package application;
 
-import application.vue.FrameAccueil;
-
 import java.io.File;
 import java.util.List;
 
-import application.metier.*;
+import application.metier.Correspondance;
+import application.metier.Metier;
+import application.metier.TextComparant;
+import application.metier.TextCompare;
+import application.vue.FrameAccueil;
 
 /**
  * Classe Controleur
@@ -15,6 +17,8 @@ import application.metier.*;
  */
 public class Controleur
 {
+	public static final int BASE_NB_MIN_MOTS = 10;
+	public static final int BASE_NB_MAX_MOTS = 60;
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                               Attributs                                                */
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -28,7 +32,7 @@ public class Controleur
 	
 	public Controleur()
 	{
-		this.metier       = new Metier(5,5);
+		this.metier = new Metier(Controleur.BASE_NB_MIN_MOTS,Controleur.BASE_NB_MAX_MOTS);
 		this.frameAccueil = new FrameAccueil(this);
 	}
 	
@@ -49,6 +53,15 @@ public class Controleur
 	public TextCompare getCompare() { return this.metier.getCompare(); }
 
 	public List<TextComparant> getComparants() { return this.metier.getComparants(); }
+
+	public void nettoyerComparants()
+	{
+		this.metier.nettoyerComparants();
+	}
+	public void nettoyerCompare()
+	{
+		this.metier.nettoyerCompare();
+	}
 
 	/**
 	 * Ajoute un texte a la liste des textes a comparer
@@ -99,6 +112,19 @@ public class Controleur
 	{
 		return this.metier.compare();
 	}
+
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                       Liaison Paramètres-Métier                                        */
+	/* ------------------------------------------------------------------------------------------------------ */
+
+	public int   getNbMinMots ( ) { return FrameAccueil.getNbMinMots(); }
+    public int   getNbMaxMots ( ) { return FrameAccueil.getNbMaxMots(); }
+
+	public boolean majNombre (int min, int max ) { return (this.metier.setMaxGram(max) && this.metier.setMinGram(min)); }
+
+	/* ------------------------------------------------------------------------------------------------------ */
+	/*                                                 Main                                                   */
+	/* ------------------------------------------------------------------------------------------------------ */
 
 	public static void main(String[] args) 
 	{
