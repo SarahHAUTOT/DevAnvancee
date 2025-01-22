@@ -36,6 +36,8 @@ public class BarreChargement extends JDialog {
 		panel.add(this.barreChargement);
 		
 		this.add(panel, BorderLayout.CENTER);
+		
+//		this.setVisible(true);
 	}
 	
 	public void close() {

@@ -3,6 +3,8 @@ package application;
 import java.io.File;
 import java.util.List;
 
+import javax.swing.SwingUtilities;
+
 import application.metier.Correspondance;
 import application.metier.Metier;
 import application.metier.TextComparant;
@@ -128,7 +130,7 @@ public class Controleur
 
 	public static void main(String[] args) 
 	{
-		new Controleur();
+		SwingUtilities.invokeLater(Controleur::new);
 	}
   
 } 

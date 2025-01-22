@@ -92,7 +92,7 @@ public class PanelSuspect extends JPanel implements ActionListener
 
 	public void reinitialiserPanel()
 	{
-		this.saisieTexte.setText("Saisir un texte...");
+//		this.saisieTexte.setText("");
 		this.repaint();
 	}
 

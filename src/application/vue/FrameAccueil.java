@@ -87,7 +87,6 @@ public class FrameAccueil extends JFrame
 
 		this.panels[0] = this.panelSuspect;
 		this.panels[1] = this.panelComparaison;
-		// this.panels[2] = new JPanel(); // TODO : this.panelChargement
 		this.panels[2] = this.panelResultat;
 		this.idPanel = 0;
 
@@ -195,6 +194,7 @@ public class FrameAccueil extends JFrame
 	{
 		btn.setBorder(BorderFactory.createLineBorder(FrameAccueil.COULEUR_SECONDAIRE, 2));
 		btn.setBackground(FrameAccueil.COULEUR_PRIMAIRE);
+		btn.setFocusable(false);
 	}
 
 	public File ouvrirFichier(File repertoire)
@@ -337,7 +337,7 @@ public class FrameAccueil extends JFrame
 
 	public List<Correspondance> getLstPlagiatDetecte()
 	{
-		return this.ctrl.getLstPlagiatDetecte(); // TODO : RELIER AU CONTROLEUR POUR RECUPERER LES PHRASE QUI ONT ETAIT DETECTE COMME PLAGIE
+		return this.ctrl.getLstPlagiatDetecte();
 	}
 
 	public List<TextComparant> getComparants() { return this.ctrl.getComparants(); }
