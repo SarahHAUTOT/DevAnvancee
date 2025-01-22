@@ -39,6 +39,8 @@ public class PanelResultat extends JPanel implements ActionListener
 	private String       compare;
 	private List<Correspondance> lstPlagiatDetecte;
 
+	private final static int NB_CARA = 15;
+
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
@@ -49,7 +51,7 @@ public class PanelResultat extends JPanel implements ActionListener
 	public void genererAffichage ( )
 	{
 		this.removeAll();
-		
+
 		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
 		this.compare         = this.frameAccueil.getCompare().getTextOriginal();
 
@@ -113,14 +115,21 @@ public class PanelResultat extends JPanel implements ActionListener
 				System.out.println(correspondance.getTexteComparant().getTextOriginal() + "|" + correspondance.getTexteComparant().getTextOriginal().length());
 				System.out.println(pmComparant.getStart() + "|" + pmComparant.getEnd());
 
-				String sSus = this.compare.substring(pmCompare.getStart(), pmCompare.getEnd());
-				String sRef = correspondance.getTexteComparant().getTextOriginal().substring(pmComparant.getStart(), pmComparant.getEnd());	
+
+				int debSus = pmCompare.getStart()                       < PanelResultat.NB_CARA     ? 0                     : pmCompare.getStart()  - PanelResultat.NB_CARA;
+				int finSus = pmCompare.getEnd() + PanelResultat.NB_CARA > this.compare.length() - 1 ? this.compare.length() : pmCompare.getEnd()    +  PanelResultat.NB_CARA;
+				String sSus = this.compare.substring(debSus, finSus);
 
 
+				String ref = correspondance.getTexteComparant().getTextOriginal();	
+
+				int debRef = pmComparant.getStart()                       < PanelResultat.NB_CARA ? 0            : pmComparant.getStart() - PanelResultat.NB_CARA;
+				int finRef = pmComparant.getEnd() + PanelResultat.NB_CARA > ref.length() - 1      ? ref.length() : pmComparant.getEnd()   + PanelResultat.NB_CARA;
+				String sRef = ref.substring(debRef, finRef);
 			
 				/*          */
 				/* COUPABLE */
-				/*          */
+				/*          */ 
 
 				// JScrollPane du coupable
 				JScrollPane spSus = new JScrollPane();
@@ -137,7 +146,9 @@ public class PanelResultat extends JPanel implements ActionListener
 				Highlighter highlighterSus = textSus.getHighlighter();
 				HighlightPainter painterSus = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur1());
 				try {
-					highlighterSus.addHighlight(pmCompare.getStart(), pmCompare.getEnd(), painterSus);
+					// | 15 et que higlhit start a 20, faut calculer 5
+					// | commence à 15; finit à 30, finit à 25 debase 
+					highlighterSus.addHighlight(pmCompare.getStart() - debSus, pmCompare.getEnd() - debSus + 1, painterSus);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -167,7 +178,7 @@ public class PanelResultat extends JPanel implements ActionListener
 				Highlighter      highlighterRef = textRef.getHighlighter();
 				HighlightPainter painterRef     = new DefaultHighlighter.DefaultHighlightPainter(this.frameAccueil.getCouleur2());
 				try {
-					highlighterRef.addHighlight(pmCompare.getStart(), pmCompare.getEnd(), painterRef);
+					highlighterRef.addHighlight(pmComparant.getStart() - debRef	, pmComparant.getEnd() - debRef + 1, painterRef);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

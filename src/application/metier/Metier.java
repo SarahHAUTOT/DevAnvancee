@@ -153,6 +153,7 @@ public class Metier {
 	}
 
 	public boolean setMinGram(int min) {
+		System.out.println("Min" + min + maxGram);
 		if (min < maxGram) {
 			this.minGram = min;
 			if (this.compare!=null) {
