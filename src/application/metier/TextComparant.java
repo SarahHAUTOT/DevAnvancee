@@ -27,6 +27,8 @@ public class TextComparant {
         List<PositionMot> result = new ArrayList<>();
         int index = 0;
 
+        text = text.replace("\n", " ").replace("\r", " ");
+
         while (index < text.length()) {
             char c = text.charAt(index);
     
