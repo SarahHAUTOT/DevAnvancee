@@ -99,9 +99,9 @@ public class PanelComparaison extends JPanel implements ActionListener
 		JPanel panelImportation = new JPanel();
 		JLabel lblOu = new JLabel("OU", JLabel.CENTER);
 		
-		panelImportation.add(this.btnImporter);
-		panelImportation.add(lblOu);
 		panelImportation.add(this.btnImporterTexte);
+		panelImportation.add(lblOu);
+		panelImportation.add(this.btnImporter);
 		panelImportation.setBackground(FrameAccueil.COULEUR_FOND);
 
 		importPanel.add(panelImportation);
@@ -128,7 +128,7 @@ public class PanelComparaison extends JPanel implements ActionListener
 	/*                                              Modificateur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-	public void nettoyerListeLabel()
+	public void reinitialiserPanel()
 	{
 		this.listeLabel.removeAll(this.listeLabel);
 		this.panelListeTexte.removeAll();

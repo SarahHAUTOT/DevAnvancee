@@ -224,6 +224,8 @@ public class FrameParametre extends JFrame implements ActionListener
             FrameParametre.couleur2 = this.btnCouleur2.getBackground();
 
             this.ctrl.majNombre(FrameParametre.nbMinMots, FrameParametre.nbMaxMots);
+
+            this.dispose();
         }
     }
 }

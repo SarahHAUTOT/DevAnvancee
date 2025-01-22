@@ -43,11 +43,13 @@ public class PanelResultat extends JPanel implements ActionListener
 	/*                                              Constructeur                                              */
 	/* ------------------------------------------------------------------------------------------------------ */
 
-		public PanelResultat ( FrameAccueil frame ) { this.frameAccueil = frame; }
+	public PanelResultat ( FrameAccueil frame ) { this.frameAccueil = frame; }
 
 
 	public void genererAffichage ( )
 	{
+		this.removeAll();
+		
 		this.lstPlagiatDetecte = this.frameAccueil.getLstPlagiatDetecte();
 		this.compare         = this.frameAccueil.getCompare().getTextOriginal();
 
@@ -129,7 +131,7 @@ public class PanelResultat extends JPanel implements ActionListener
 				textSus.setEditable(false);
 				textSus.setLineWrap(true);
 				textSus.setWrapStyleWord(true);
-				textSus.setBorder(BorderFactory.createCompoundBorder(border, BorderFactory.createEmptyBorder(10, 10, 10, 10)));
+				textSus.setBorder(border);
 
 				// Surligner une portion spécifique dans le texte suspect
 				Highlighter highlighterSus = textSus.getHighlighter();
@@ -159,6 +161,7 @@ public class PanelResultat extends JPanel implements ActionListener
 				textRef.setEditable(false);
 				textRef.setLineWrap(true);
 				textRef.setWrapStyleWord(true);
+
 
 				// Surligner une portion spécifique dans le texte suspect
 				Highlighter      highlighterRef = textRef.getHighlighter();

@@ -89,6 +89,12 @@ public class PanelSuspect extends JPanel implements ActionListener
 	/*                                                Méthode                                                 */
 	/* ------------------------------------------------------------------------------------------------------ */
 
+	public void reinitialiserPanel()
+	{
+		this.saisieTexte.setText("Saisir un texte...");
+		this.repaint();
+	}
+
 	/**
 	 * Création du panel qui décrit l'étape
 	 * @param titre affiché sur le panel
@@ -159,8 +165,12 @@ public class PanelSuspect extends JPanel implements ActionListener
 		if (e.getSource() == this.btnImporter)
 		{
 			File fichier = this.frameAccueil.ouvrirFichier(null);
-			this.frameAccueil.setCompareFic(fichier);
-			this.frameAccueil.pageSuivante();
+
+			if (fichier != null)
+			{
+				this.frameAccueil.setCompareFic(fichier);
+				this.saisieTexte.setText(this.frameAccueil.getCompare().getTextOriginal());
+			}
 		}
 
 		if (e.getSource() == this.btnSuivant)

@@ -141,7 +141,8 @@ public class FrameAccueil extends JFrame
 		System.out.println("Reinit");
 		this.ctrl.nettoyerComparants();
 		this.ctrl.nettoyerCompare();
-		this.panelComparaison.nettoyerListeLabel();
+		this.panelComparaison.reinitialiserPanel();
+		this.panelSuspect.reinitialiserPanel();
 
 		for (TextComparant txt : this.ctrl.getComparants())
 			System.out.println(txt);
