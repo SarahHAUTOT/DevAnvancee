@@ -8,6 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -16,7 +17,6 @@ import javax.swing.JCheckBox;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
 
 /** Frame d'accueil
  * @author : Plein de gens
@@ -34,13 +34,13 @@ public class PanelComparaison extends JPanel implements ActionListener
 	private PanelResultat panelResultat;
 	private JPanel panelListeTexte;
 
-	private ArrayList<JCheckBox> listeCheckbox;
+	private List<JCheckBox> listeCheckbox;
 
 	private JButton btnAnalyser;
 	private JButton btnImporter;
 	private JButton btnImporterTexte;
 
-	private JTextArea saisieTexte;
+	private PlaceholderTextArea saisieTexte;
 
 	/* ------------------------------------------------------------------------------------------------------ */
 	/*                                              Constructeur                                              */
@@ -54,7 +54,8 @@ public class PanelComparaison extends JPanel implements ActionListener
 		this.btnAnalyser = new JButton("Analyser");
 		this.btnImporter = new JButton("Importer un .txt");
 		this.btnImporterTexte = new JButton("Importer le texte entré");
-		this.saisieTexte = new JTextArea("Saisir un texte...");
+		this.saisieTexte = new PlaceholderTextArea();
+		this.saisieTexte.setPlaceholder("Saisir un texte...");
 		this.listeCheckbox = new ArrayList<JCheckBox>();
 
 		this.frameAccueil = frame;
@@ -194,7 +195,8 @@ public class PanelComparaison extends JPanel implements ActionListener
 		{
 			// TODO Algo partie métier
 			panelResultat.genererAffichage();
-			this.frameAccueil.pageSuivante(); // Page de chargement
+			// Page de chargement
+			this.frameAccueil.pageSuivante();
 		}
 	}
 }

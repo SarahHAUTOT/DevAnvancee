@@ -50,7 +50,18 @@ public class Metier {
 	public List<Correspondance> compare() {
 
 		System.out.println(this.lstComparant.size());
-		List<Correspondance> correspondances = new ArrayList<Correspondance>();
+		List<Correspondance> correspondances = new ArrayList<>();
+		
+//		BarreChargement bc = new BarreChargement(0, 100);
+//		bc.charger(new ChargementBarre() {
+//			
+//			@Override
+//			public int chargement() {
+//				// TODO Auto-generated method stub
+//				return 0;
+//			}
+//		}, null);
+		
 		for (TextComparant comparant : lstComparant) {
 			System.out.println("comparaison de " + comparant.nom);
 			correspondances.addAll(detecterPlagiat(comparant));
