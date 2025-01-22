@@ -178,7 +178,7 @@ public class PanelComparaison extends JPanel implements ActionListener
 			this.repaint(); // Rafraichissement de la liste de texte
 		}
 
-		if (e.getSource() == this.btnImporterTexte)
+		if (e.getSource() == this.btnImporterTexte && this.saisieTexte.getText().length() > 0)
 		{
 			// Ajout d'un nouveau texte dans le panel
 			int endIndex = (this.saisieTexte.getText().length() < 12) ? this.saisieTexte.getText().length() : 12; 
@@ -195,6 +195,8 @@ public class PanelComparaison extends JPanel implements ActionListener
 				BorderFactory.createTitledBorder(
 					BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10),
 					"Textes importés ("+ this.frameAccueil.getComparants().size() +" importés)")));
+
+			this.saisieTexte.setText("");
 
 			this.validate();
 			this.repaint(); // Rafraichissement de la liste de texte

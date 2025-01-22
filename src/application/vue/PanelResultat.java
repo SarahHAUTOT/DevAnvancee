@@ -110,13 +110,6 @@ public class PanelResultat extends JPanel implements ActionListener
 				PlageDeMots pmComparant = correspondance.getComparantRange();
 
 
-				System.out.println(this.compare + "|" + this.compare.length());
-				System.out.println(pmCompare.getStart() + "|" + pmCompare.getEnd());
-
-				System.out.println(correspondance.getTexteComparant().getTextOriginal() + "|" + correspondance.getTexteComparant().getTextOriginal().length());
-				System.out.println(pmComparant.getStart() + "|" + pmComparant.getEnd());
-
-
 				int debSus = pmCompare.getStart()                       < PanelResultat.NB_CARA     ? 0                     : pmCompare.getStart()  - PanelResultat.NB_CARA;
 				int finSus = pmCompare.getEnd() + PanelResultat.NB_CARA > this.compare.length() - 1 ? this.compare.length() : pmCompare.getEnd()    +  PanelResultat.NB_CARA;
 				String sSus = this.compare.substring(debSus, finSus);

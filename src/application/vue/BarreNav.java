@@ -147,7 +147,6 @@ public class BarreNav extends JToolBar implements ActionListener
 	{
         URL resource = getClass().getResource(resourcePath);
         if (resource == null) {
-			System.out.println("Pas trouvé : " + resourcePath);
             return null;
         }
 
